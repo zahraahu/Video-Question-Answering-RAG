@@ -82,31 +82,6 @@ def extract_transcript(audio_path, output_path):
     save_json(chunks, output_path)
     return chunks
 
-def associate_keyframes_with_transcript(keyframes, transcript_chunks):
-    """
-    Associates each keyframe with the appropriate transcript chunk based on timestamp.
-    Returns a list of combined records.
-    """
-    associations = []
-
-    for frame in keyframes:
-        timestamp = frame["timestamp"]
-        associated_text = None
-        for chunk in transcript_chunks:
-            if chunk["start"] <= timestamp < chunk["end"]:
-                associated_text = chunk["text"]
-                break
-        
-        associations.append({
-            "timestamp": timestamp,
-            "frame_path": frame["frame_path"],
-            "associated_text": associated_text,
-            "start_time": chunk["start"] if associated_text else None,
-            "end_time": chunk["end"] if associated_text else None
-        })
-    
-    save_json(associations, PROCESSED_DATA_PATH)
-
 
 def process_video(url):
     """
@@ -122,16 +97,12 @@ def process_video(url):
 
     # Step 2: Extract keyframes
     print("Extracting keyframes...")
-    keyframes = extract_keyframes(VIDEO_PATH, KEYFRAMES_DIR, interval=5)
+    extract_keyframes(VIDEO_PATH, KEYFRAMES_DIR, interval=5)
 
     # Step 3: Extract audio and generate transcript
     print("Extracting audio and generating transcript...")
     extract_audio_from_video(VIDEO_PATH, AUDIO_PATH)
-    transcript_chunks = extract_transcript(AUDIO_PATH, TRANSCRIPT_PATH)
-
-    # Step 4: Associate keyframes with transcript chunks
-    print("Associating keyframes with transcript...")
-    associate_keyframes_with_transcript(keyframes, transcript_chunks)
+    extract_transcript(AUDIO_PATH, TRANSCRIPT_PATH)
 
 if __name__ == "__main__":
     video_url = "https://www.youtube.com/watch?v=dARr3lGKwk8"  

@@ -3,38 +3,10 @@ import numpy as np
 from utils.utils import faiss_retrieve, bm25_retrieve, tfidf_retrieve, load_json
 from utils.postgresql_utils import postgres_text_retrieve, postgres_image_retrieve
 from utils.paths import TRANSCRIPT_PATH, TEXT_FAISS_INDEX_PATH, IMAGE_FAISS_INDEX_PATH, IMAGE_EMBEDDINGS_JSON
-from embed import embed_texts
+from embed import embed_texts, embed_texts_clip
 
 SIMILARITY_THRESHOLD_TEXT = 0.5
 SIMILARITY_THRESHOLD_IMAGE = 0.2
-
-def image_retrieve(query_embedding, retrieval_method="faiss", index_type="ivfflat"):
-    """Retrieve the most relevant image based on the query embedding."""
-
-    # Load image metadata (filenames and timestamps)
-    image_data = load_json(IMAGE_EMBEDDINGS_JSON)
-    filenames = [entry["filename"] for entry in image_data]
-    timestamps = [float(entry["filename"].split('_')[-1].split('.')[0]) for entry in image_data]
-
-    # Normalize query embedding
-    if isinstance(query_embedding, np.ndarray):
-        query_embedding = query_embedding / np.linalg.norm(query_embedding)
-
-    if retrieval_method == "faiss":
-        similarity, index = faiss_retrieve(query_embedding, IMAGE_FAISS_INDEX_PATH)
-        result_filename = filenames[index]
-        result_timestamp = timestamps[index]
-    elif retrieval_method == "postgres":
-        result_filename, similarity = postgres_image_retrieve(query_embedding, index_type)
-        result_timestamp = float(result_filename.split('_')[-1].split('.')[0])
-    else:
-        raise ValueError("Invalid retrieval method specified for images.")
-
-    # Similarity check (reject bad matches)
-    if similarity < SIMILARITY_THRESHOLD_IMAGE:
-        return None, None, None
-
-    return result_filename, result_timestamp, similarity
 
 def text_retrieve(query, query_embedding, retrieval_method="faiss", index_type="ivfflat"):
     """Perform text-only retrieval and reject unanswerable queries."""
@@ -73,6 +45,35 @@ def text_retrieve(query, query_embedding, retrieval_method="faiss", index_type="
     
     return result_text, result_timestamp, similarity
 
+def image_retrieve(query_embedding, retrieval_method="faiss", index_type="ivfflat"):
+    """Retrieve the most relevant image based on the query embedding."""
+
+    # Load image metadata (filenames and timestamps)
+    image_data = load_json(IMAGE_EMBEDDINGS_JSON)
+    filenames = [entry["filename"] for entry in image_data]
+    timestamps = [float(entry["filename"].split('_')[-1].split('.')[0]) for entry in image_data]
+
+    # Normalize query embedding
+    if isinstance(query_embedding, np.ndarray):
+        query_embedding = query_embedding / np.linalg.norm(query_embedding)
+
+    if retrieval_method == "faiss":
+        similarity, index = faiss_retrieve(query_embedding, IMAGE_FAISS_INDEX_PATH)
+        result_filename = filenames[index]
+        result_timestamp = timestamps[index]
+    elif retrieval_method == "postgres":
+        result_filename, similarity = postgres_image_retrieve(query_embedding, index_type)
+        result_timestamp = float(result_filename.split('_')[-1].split('.')[0])
+    else:
+        raise ValueError("Invalid retrieval method specified for images.")
+
+    # Similarity check (reject bad matches)
+    if similarity < SIMILARITY_THRESHOLD_IMAGE:
+        return None, None, None
+
+    return result_filename, result_timestamp, similarity
+
+
 def main():
     parser = argparse.ArgumentParser(description="Retrieval Script")
     parser.add_argument("query", help="The text query for retrieval (can be dummy if image only).")
@@ -82,7 +83,10 @@ def main():
 
     args = parser.parse_args()
 
-    query_embedding = embed_texts(args.query)[0]
+    if args.modality == "text":
+        query_embedding = embed_texts(args.query)[0]
+    else:
+        query_embedding = embed_texts_clip(args.query)[0]
 
     # Choose retrieval based on modality
     if args.modality == "text":

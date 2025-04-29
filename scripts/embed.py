@@ -4,6 +4,11 @@ from transformers import CLIPProcessor, CLIPModel
 from PIL import Image
 import torch
 import numpy as np
+from sentence_transformers import SentenceTransformer
+
+# Load text model
+TEXT_MODEL_NAME = "Snowflake/snowflake-arctic-embed-m-v1.5"
+TEXT_MODEL = SentenceTransformer(TEXT_MODEL_NAME)
 
 # Load CLIP model
 MODEL_NAME = "openai/clip-vit-base-patch32"
@@ -11,8 +16,13 @@ processor = CLIPProcessor.from_pretrained(MODEL_NAME)
 model = CLIPModel.from_pretrained(MODEL_NAME)
 model.eval()
 
-
 def embed_texts(texts):
+    """Embed a list of texts into float32 numpy arrays."""
+    embeddings = TEXT_MODEL.encode(texts, convert_to_numpy=True)
+    return embeddings.astype(np.float32)
+
+
+def embed_texts_clip(texts):
     """Embed a list of texts into float32 numpy arrays using CLIP."""
     inputs = processor(text=texts, return_tensors="pt", padding=True, truncation=True)
     with torch.no_grad():

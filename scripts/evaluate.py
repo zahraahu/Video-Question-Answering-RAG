@@ -2,7 +2,7 @@ import time
 import csv
 import numpy as np
 from collections import defaultdict
-from embed import embed_texts
+from embed import embed_texts, embed_texts_clip
 from utils.utils import load_json, save_json
 from retrieve import text_retrieve, image_retrieve
 from utils.paths import GOLD_TEST_PATH, EVALUATION_RESULTS_PATH, EVALUATION_SUMMARY_CSV
@@ -27,9 +27,7 @@ def evaluate_retrieval_method(query, query_embedding, expected_timestamp, retrie
         latency.append(time.time() - start_time)
     
     print(f"Result Timestamp: {result_timestamp}, Expected Timestamp: {expected_timestamp}")
-    exp = float(expected_timestamp) if expected_timestamp else None
-    gen = float(result_timestamp) if result_timestamp else None
-    return gen, exp, np.mean(latency)
+    return result_timestamp, expected_timestamp, np.mean(latency)
 
 
 def summarize_results(all_results):
@@ -46,6 +44,7 @@ def summarize_results(all_results):
         correct = 0
         false_positives = 0
         total_latency = 0
+        unanswerable_total = 0
 
         for r in results:
             exp = r["expected_timestamp"]
@@ -53,16 +52,18 @@ def summarize_results(all_results):
             latency = r["latency"]
             total_latency += latency
 
-            if exp is None and gen is None:
+            if exp == "" and gen is None:
                 correct += 1  # Correctly rejected
-            elif exp is None and gen:
-                false_positives += 1  # Incorrectly returned something
-            elif exp and gen and abs(exp - gen) <= TOLERANCE:
+                unanswerable_total += 1
+            elif exp == "" and gen:
+                false_positives += 1
+                unanswerable_total += 1 # Incorrectly returned something
+            elif exp and gen and abs(float(exp) - float(gen)) <= TOLERANCE:
                 correct += 1
 
         total = len(results)
         accuracy = correct / total
-        rejection_quality = (total - false_positives) / total
+        rejection_quality = (unanswerable_total - false_positives) / unanswerable_total
         avg_latency = total_latency / total
 
         summary.append({
@@ -78,18 +79,18 @@ def summarize_results(all_results):
 
 
 def save_summary_to_csv(summary):
-    fields = ["retrieval_method", "modality", "index_type", "mean_accuracy", "mean_rejection_quality", "mean_avg_latency"]
+    fields = ["Retrieval Method", "Modality", "Index Type", "Accuracy", "Rejection Quality", "Latency"]
     with open(EVALUATION_SUMMARY_CSV, mode='w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         for row in summary:
             writer.writerow({
-                "retrieval_method": row["retrieval_method"],
-                "modality": row["modality"],
-                "index_type": row.get("index_type", ""),
-                "mean_accuracy": row["mean_accuracy"],
-                "mean_rejection_quality": row["mean_rejection_quality"],
-                "mean_avg_latency": row["mean_avg_latency"]
+                "Retrieval Method": row["retrieval_method"],
+                "Modality": row["modality"],
+                "Index Type": row.get("index_type", ""),
+                "Accuracy": row["mean_accuracy"],
+                "Rejection Quality": row["mean_rejection_quality"],
+                "Latency": row["mean_avg_latency"]
             })
     print(f"Summary saved to {EVALUATION_SUMMARY_CSV}")
 
@@ -101,13 +102,18 @@ def main():
 
     for query, expected_timestamp in gold_test.items():
         print(f"\n=== Query: {query} ===")
-        query_embedding = embed_texts([query])[0]
         query_results = []
 
         methods = ["faiss", "postgres-ivfflat", "postgres-hnsw", "tfidf", "bm25"]
         modalities = ["text", "image"]
 
         for modality in modalities:
+
+            if modality == "text":
+                query_embedding = embed_texts([query])[0]
+            elif modality == "image":
+                query_embedding = embed_texts_clip([query])[0]
+
             for method in methods:
                 if modality == "image" and method in ["tfidf", "bm25"]:
                     continue

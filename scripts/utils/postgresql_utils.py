@@ -32,8 +32,8 @@ def create_text_embeddings_table():
             id SERIAL PRIMARY KEY,
             text TEXT,
             timestamp TEXT, 
-            text_embedding_hnsw vector(512),
-            text_embedding_ivfflat vector(512)
+            text_embedding_hnsw vector(768),
+            text_embedding_ivfflat vector(768)
         );
     """)
     conn.commit()

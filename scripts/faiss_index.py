@@ -6,13 +6,10 @@ def main():
     # Load text and image embeddings from the intermediate JSON files
     print("Loading text embeddings from JSON...")
     text_data = load_json(TEXT_EMBEDDINGS_JSON)
-    texts = [entry["text"] for entry in text_data]
-    timestamps = [entry["timestamp"] for entry in text_data]
     text_embeddings = np.array([entry["embedding"] for entry in text_data], dtype=np.float32)
 
     print("Loading image embeddings from JSON...")
     image_data = load_json(IMAGE_EMBEDDINGS_JSON)
-    filenames = [entry["filename"] for entry in image_data]
     image_embeddings = np.array([entry["embedding"] for entry in image_data], dtype=np.float32)
 
     # Create FAISS indexes

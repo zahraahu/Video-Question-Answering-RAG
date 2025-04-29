@@ -5,61 +5,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": 116.4,
-        "latency": 0.002275371551513672
+        "latency": 0.0062579154968261715
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 193.12,
-        "generated_timestamp": 387.2,
-        "latency": 0.03604025840759277,
+        "expected_timestamp": "193.12",
+        "generated_timestamp": "116.4",
+        "latency": 0.043267345428466795,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 193.12,
-        "generated_timestamp": 116.4,
-        "latency": 0.036332225799560545,
+        "expected_timestamp": "193.12",
+        "generated_timestamp": "116.4",
+        "latency": 0.04674243927001953,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": null,
-        "latency": 0.0076121330261230465
+        "latency": 0.010380744934082031
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": 2379.44,
-        "latency": 0.005127573013305664
+        "latency": 0.004479837417602539
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": null,
-        "latency": 0.16590414047241211
+        "latency": 0.16811614036560057
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": 200.0,
-        "latency": 0.19735522270202638,
+        "latency": 0.21602768898010255,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 193.12,
+        "expected_timestamp": "193.12",
         "generated_timestamp": 320.0,
-        "latency": 0.18753986358642577,
+        "latency": 0.19837698936462403,
         "index_type": "hnsw"
       }
     ]
@@ -70,61 +70,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 212.72,
-        "generated_timestamp": 206.24,
-        "latency": 0.0014020442962646485
+        "expected_timestamp": "212.72",
+        "generated_timestamp": 212.72,
+        "latency": 0.0032644271850585938
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 212.72,
-        "generated_timestamp": 206.24,
-        "latency": 0.03615884780883789,
+        "expected_timestamp": "212.72",
+        "generated_timestamp": "212.72",
+        "latency": 0.035610628128051755,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 212.72,
-        "generated_timestamp": 206.24,
-        "latency": 0.038385009765625,
+        "expected_timestamp": "212.72",
+        "generated_timestamp": "212.72",
+        "latency": 0.0461273193359375,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 212.72,
+        "expected_timestamp": "212.72",
         "generated_timestamp": null,
-        "latency": 0.00861663818359375
+        "latency": 0.00821237564086914
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 212.72,
+        "expected_timestamp": "212.72",
         "generated_timestamp": 288.88,
-        "latency": 0.005418968200683594
+        "latency": 0.006489753723144531
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 212.72,
+        "expected_timestamp": "212.72",
         "generated_timestamp": null,
-        "latency": 0.1545192241668701
+        "latency": 0.16205058097839356
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 212.72,
+        "expected_timestamp": "212.72",
         "generated_timestamp": 275.0,
-        "latency": 0.17610635757446289,
+        "latency": 0.21825313568115234,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 212.72,
+        "expected_timestamp": "212.72",
         "generated_timestamp": 275.0,
-        "latency": 0.17764124870300294,
+        "latency": 0.19045038223266603,
         "index_type": "hnsw"
       }
     ]
@@ -135,61 +135,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 296.15999999999997,
-        "generated_timestamp": 206.24,
-        "latency": 0.0014044284820556641
+        "expected_timestamp": "296.15999999999997",
+        "generated_timestamp": 296.15999999999997,
+        "latency": 0.0032498836517333984
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 296.15999999999997,
-        "generated_timestamp": 421.68,
-        "latency": 0.05641851425170898,
+        "expected_timestamp": "296.15999999999997",
+        "generated_timestamp": "296.15999999999997",
+        "latency": 0.033531475067138675,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 296.15999999999997,
-        "generated_timestamp": 206.24,
-        "latency": 0.035254383087158205,
+        "expected_timestamp": "296.15999999999997",
+        "generated_timestamp": "296.15999999999997",
+        "latency": 0.040854883193969724,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 296.15999999999997,
+        "expected_timestamp": "296.15999999999997",
         "generated_timestamp": 296.15999999999997,
-        "latency": 0.006600713729858399
+        "latency": 0.0064145088195800785
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 296.15999999999997,
+        "expected_timestamp": "296.15999999999997",
         "generated_timestamp": 296.15999999999997,
-        "latency": 0.004803371429443359
+        "latency": 0.005620622634887695
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 296.15999999999997,
+        "expected_timestamp": "296.15999999999997",
         "generated_timestamp": null,
-        "latency": 0.14378938674926758
+        "latency": 0.1582268238067627
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 296.15999999999997,
-        "generated_timestamp": 370.0,
-        "latency": 0.17558445930480956,
+        "expected_timestamp": "296.15999999999997",
+        "generated_timestamp": 295.0,
+        "latency": 0.1777797222137451,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 296.15999999999997,
+        "expected_timestamp": "296.15999999999997",
         "generated_timestamp": 295.0,
-        "latency": 0.1799851417541504,
+        "latency": 0.17898144721984863,
         "index_type": "hnsw"
       }
     ]
@@ -200,61 +200,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": 395.68,
-        "latency": 0.0016033649444580078
+        "latency": 0.0034072399139404297
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 395.68,
-        "generated_timestamp": 580.16,
-        "latency": 0.03563222885131836,
+        "expected_timestamp": "395.68",
+        "generated_timestamp": "395.68",
+        "latency": 0.03543033599853516,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 395.68,
-        "generated_timestamp": 395.68,
-        "latency": 0.03407721519470215,
+        "expected_timestamp": "395.68",
+        "generated_timestamp": "395.68",
+        "latency": 0.036550378799438475,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": 395.68,
-        "latency": 0.00675358772277832
+        "latency": 0.008046483993530274
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": 395.68,
-        "latency": 0.004802417755126953
+        "latency": 0.0037367820739746095
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": null,
-        "latency": 0.1412132740020752
+        "latency": 0.14349765777587892
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": 355.0,
-        "latency": 0.17333035469055175,
+        "latency": 0.18076186180114745,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 395.68,
+        "expected_timestamp": "395.68",
         "generated_timestamp": 355.0,
-        "latency": 0.18327555656433106,
+        "latency": 0.18287906646728516,
         "index_type": "hnsw"
       }
     ]
@@ -265,61 +265,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 472.56,
+        "expected_timestamp": "472.56",
         "generated_timestamp": 472.56,
-        "latency": 0.001402425765991211
+        "latency": 0.002447032928466797
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 472.56,
-        "generated_timestamp": 472.56,
-        "latency": 0.035726165771484374,
+        "expected_timestamp": "472.56",
+        "generated_timestamp": "472.56",
+        "latency": 0.05088810920715332,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 472.56,
-        "generated_timestamp": 472.56,
-        "latency": 0.03465514183044434,
+        "expected_timestamp": "472.56",
+        "generated_timestamp": "472.56",
+        "latency": 0.04425725936889648,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 472.56,
+        "expected_timestamp": "472.56",
         "generated_timestamp": null,
-        "latency": 0.007402801513671875
+        "latency": 0.007552671432495117
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 472.56,
+        "expected_timestamp": "472.56",
         "generated_timestamp": 472.56,
-        "latency": 0.004596567153930664
+        "latency": 0.005933141708374024
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 472.56,
+        "expected_timestamp": "472.56",
         "generated_timestamp": null,
-        "latency": 0.14337191581726075
+        "latency": 0.14982233047485352
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 472.56,
-        "generated_timestamp": null,
-        "latency": 0.1747589111328125,
+        "expected_timestamp": "472.56",
+        "generated_timestamp": 0.0,
+        "latency": 0.19111313819885253,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 472.56,
-        "generated_timestamp": null,
-        "latency": 0.17493610382080077,
+        "expected_timestamp": "472.56",
+        "generated_timestamp": 0.0,
+        "latency": 0.1907799243927002,
         "index_type": "hnsw"
       }
     ]
@@ -330,61 +330,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 689.04,
-        "generated_timestamp": 580.16,
-        "latency": 0.0016356945037841798
+        "expected_timestamp": "689.04",
+        "generated_timestamp": 716.96,
+        "latency": 0.003104400634765625
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 689.04,
-        "generated_timestamp": 580.16,
-        "latency": 0.034706497192382814,
+        "expected_timestamp": "689.04",
+        "generated_timestamp": "716.96",
+        "latency": 0.03328914642333984,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 689.04,
-        "generated_timestamp": 580.16,
-        "latency": 0.03503670692443848,
+        "expected_timestamp": "689.04",
+        "generated_timestamp": "716.96",
+        "latency": 0.03871512413024902,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 689.04,
+        "expected_timestamp": "689.04",
         "generated_timestamp": 689.04,
-        "latency": 0.007027292251586914
+        "latency": 0.01058502197265625
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 689.04,
+        "expected_timestamp": "689.04",
         "generated_timestamp": 689.04,
-        "latency": 0.004802894592285156
+        "latency": 0.0040778636932373045
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 689.04,
+        "expected_timestamp": "689.04",
         "generated_timestamp": null,
-        "latency": 0.1451183795928955
+        "latency": 0.1455554962158203
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 689.04,
-        "generated_timestamp": 340.0,
-        "latency": 0.17473936080932617,
+        "expected_timestamp": "689.04",
+        "generated_timestamp": 355.0,
+        "latency": 0.18026299476623536,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 689.04,
+        "expected_timestamp": "689.04",
         "generated_timestamp": 355.0,
-        "latency": 0.17654790878295898,
+        "latency": 0.17929158210754395,
         "index_type": "hnsw"
       }
     ]
@@ -395,61 +395,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 771.76,
-        "generated_timestamp": 122.32000000000001,
-        "latency": 0.0018863201141357422
+        "expected_timestamp": "771.76",
+        "generated_timestamp": 865.84,
+        "latency": 0.002503633499145508
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 771.76,
-        "generated_timestamp": 122.32000000000001,
-        "latency": 0.05525994300842285,
+        "expected_timestamp": "771.76",
+        "generated_timestamp": "865.84",
+        "latency": 0.04261350631713867,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 771.76,
-        "generated_timestamp": 122.32000000000001,
-        "latency": 0.03604874610900879,
+        "expected_timestamp": "771.76",
+        "generated_timestamp": "865.84",
+        "latency": 0.037581682205200195,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 771.76,
+        "expected_timestamp": "771.76",
         "generated_timestamp": 689.04,
-        "latency": 0.007109689712524414
+        "latency": 0.007164955139160156
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 771.76,
+        "expected_timestamp": "771.76",
         "generated_timestamp": 689.04,
-        "latency": 0.005199003219604492
+        "latency": 0.005568408966064453
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 771.76,
+        "expected_timestamp": "771.76",
         "generated_timestamp": null,
-        "latency": 0.14111251831054689
+        "latency": 0.15455737113952636
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 771.76,
+        "expected_timestamp": "771.76",
         "generated_timestamp": 640.0,
-        "latency": 0.17170886993408202,
+        "latency": 0.18107900619506836,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 771.76,
+        "expected_timestamp": "771.76",
         "generated_timestamp": 640.0,
-        "latency": 0.17642498016357422,
+        "latency": 0.18158907890319825,
         "index_type": "hnsw"
       }
     ]
@@ -460,61 +460,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 843.6800000000001,
-        "generated_timestamp": 3042.3999999999996,
-        "latency": 0.0015996932983398438
+        "expected_timestamp": "843.6800000000001",
+        "generated_timestamp": 3063.6,
+        "latency": 0.0033215045928955077
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 843.6800000000001,
-        "generated_timestamp": 3042.3999999999996,
-        "latency": 0.03365650177001953,
+        "expected_timestamp": "843.6800000000001",
+        "generated_timestamp": "3063.6",
+        "latency": 0.03204631805419922,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 843.6800000000001,
-        "generated_timestamp": 3042.3999999999996,
-        "latency": 0.03386821746826172,
+        "expected_timestamp": "843.6800000000001",
+        "generated_timestamp": "3063.6",
+        "latency": 0.036267995834350586,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 843.6800000000001,
+        "expected_timestamp": "843.6800000000001",
         "generated_timestamp": 837.36,
-        "latency": 0.006734704971313477
+        "latency": 0.008092308044433593
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 843.6800000000001,
+        "expected_timestamp": "843.6800000000001",
         "generated_timestamp": 1398.56,
-        "latency": 0.004802513122558594
+        "latency": 0.004352426528930664
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 843.6800000000001,
+        "expected_timestamp": "843.6800000000001",
         "generated_timestamp": null,
-        "latency": 0.14139456748962403
+        "latency": 0.14748563766479492
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 843.6800000000001,
+        "expected_timestamp": "843.6800000000001",
         "generated_timestamp": 1035.0,
-        "latency": 0.17326483726501465,
+        "latency": 0.17793741226196289,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 843.6800000000001,
+        "expected_timestamp": "843.6800000000001",
         "generated_timestamp": 1035.0,
-        "latency": 0.17596788406372071,
+        "latency": 0.18152031898498536,
         "index_type": "hnsw"
       }
     ]
@@ -525,61 +525,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": 2081.36,
-        "latency": 0.0015999317169189454
+        "latency": 0.004205894470214844
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2081.36,
-        "generated_timestamp": 1054.8,
-        "latency": 0.035730934143066405,
+        "expected_timestamp": "2081.36",
+        "generated_timestamp": "2081.36",
+        "latency": 0.03520970344543457,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2081.36,
-        "generated_timestamp": 2081.36,
-        "latency": 0.036626768112182614,
+        "expected_timestamp": "2081.36",
+        "generated_timestamp": "2081.36",
+        "latency": 0.03813576698303223,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": 2081.36,
-        "latency": 0.006762218475341797
+        "latency": 0.0070208549499511715
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": 2081.36,
-        "latency": 0.004999876022338867
+        "latency": 0.00330657958984375
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": null,
-        "latency": 0.14245662689208985
+        "latency": 0.15032672882080078
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": 860.0,
-        "latency": 0.17262163162231445,
+        "latency": 0.19929904937744142,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2081.36,
+        "expected_timestamp": "2081.36",
         "generated_timestamp": 860.0,
-        "latency": 0.17703781127929688,
+        "latency": 0.17693405151367186,
         "index_type": "hnsw"
       }
     ]
@@ -590,61 +590,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 2756.3199999999997,
+        "expected_timestamp": "2756.3199999999997",
         "generated_timestamp": 2763.2,
-        "latency": 0.0015024185180664063
+        "latency": 0.0
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2756.3199999999997,
-        "generated_timestamp": 2763.2,
-        "latency": 0.032990121841430665,
+        "expected_timestamp": "2756.3199999999997",
+        "generated_timestamp": "2763.2",
+        "latency": 0.03588943481445313,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2756.3199999999997,
-        "generated_timestamp": 2763.2,
-        "latency": 0.03943343162536621,
+        "expected_timestamp": "2756.3199999999997",
+        "generated_timestamp": "2763.2",
+        "latency": 0.061530113220214844,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 2756.3199999999997,
+        "expected_timestamp": "2756.3199999999997",
         "generated_timestamp": 2763.2,
-        "latency": 0.007200002670288086
+        "latency": 0.00664973258972168
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 2756.3199999999997,
+        "expected_timestamp": "2756.3199999999997",
         "generated_timestamp": 2763.2,
-        "latency": 0.006400442123413086
+        "latency": 0.005821514129638672
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 2756.3199999999997,
+        "expected_timestamp": "2756.3199999999997",
         "generated_timestamp": null,
-        "latency": 0.14372730255126953
+        "latency": 0.14919047355651854
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2756.3199999999997,
-        "generated_timestamp": 2760.0,
-        "latency": 0.17474446296691895,
+        "expected_timestamp": "2756.3199999999997",
+        "generated_timestamp": 2425.0,
+        "latency": 0.18110318183898927,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2756.3199999999997,
+        "expected_timestamp": "2756.3199999999997",
         "generated_timestamp": 2425.0,
-        "latency": 0.1775125503540039,
+        "latency": 0.21069345474243165,
         "index_type": "hnsw"
       }
     ]
@@ -655,61 +655,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": 2970.24,
+        "expected_timestamp": "2970.24",
         "generated_timestamp": 2955.52,
-        "latency": 0.001404142379760742
+        "latency": 0.001879739761352539
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2970.24,
-        "generated_timestamp": 2955.52,
-        "latency": 0.03362140655517578,
+        "expected_timestamp": "2970.24",
+        "generated_timestamp": "2955.52",
+        "latency": 0.03327641487121582,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": 2970.24,
-        "generated_timestamp": 2955.52,
-        "latency": 0.035712909698486325,
+        "expected_timestamp": "2970.24",
+        "generated_timestamp": "2955.52",
+        "latency": 0.04193830490112305,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": 2970.24,
+        "expected_timestamp": "2970.24",
         "generated_timestamp": null,
-        "latency": 0.00716242790222168
+        "latency": 0.008380842208862305
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": 2970.24,
+        "expected_timestamp": "2970.24",
         "generated_timestamp": 2081.36,
-        "latency": 0.005001163482666016
+        "latency": 0.003956031799316406
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": 2970.24,
+        "expected_timestamp": "2970.24",
         "generated_timestamp": null,
-        "latency": 0.14383420944213868
+        "latency": 0.1482398509979248
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2970.24,
-        "generated_timestamp": 810.0,
-        "latency": 0.17715115547180177,
+        "expected_timestamp": "2970.24",
+        "generated_timestamp": 805.0,
+        "latency": 0.18005447387695311,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": 2970.24,
+        "expected_timestamp": "2970.24",
         "generated_timestamp": 1035.0,
-        "latency": 0.17618989944458008,
+        "latency": 0.18332862854003906,
         "index_type": "hnsw"
       }
     ]
@@ -720,61 +720,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.0014032840728759766
+        "expected_timestamp": "",
+        "generated_timestamp": 3578.48,
+        "latency": 0.002454805374145508
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3514.96,
-        "latency": 0.03330702781677246,
+        "expected_timestamp": "",
+        "generated_timestamp": "142.07999999999998",
+        "latency": 0.03650350570678711,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.035514020919799806,
+        "expected_timestamp": "",
+        "generated_timestamp": "3578.48",
+        "latency": 0.05606298446655274,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.006889533996582031
+        "latency": 0.00451192855834961
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 1988.56,
-        "latency": 0.004400396347045898
+        "latency": 0.004489326477050781
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.1442800998687744
+        "latency": 0.15280570983886718
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 735.0,
-        "latency": 0.17716751098632813,
+        "latency": 0.18678994178771974,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 735.0,
-        "latency": 0.17729902267456055,
+        "latency": 0.18640336990356446,
         "index_type": "hnsw"
       }
     ]
@@ -785,61 +785,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3733.7599999999998,
-        "latency": 0.0018002510070800782
+        "expected_timestamp": "",
+        "generated_timestamp": null,
+        "latency": 0.002098846435546875
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.03387575149536133,
+        "expected_timestamp": "",
+        "generated_timestamp": "3680.48",
+        "latency": 0.0360872745513916,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3733.7599999999998,
-        "latency": 0.03437581062316895,
+        "expected_timestamp": "",
+        "generated_timestamp": "2020.24",
+        "latency": 0.05800580978393555,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.0070002079010009766
+        "latency": 0.008142709732055664
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 3389.52,
-        "latency": 0.004799270629882812
+        "latency": 0.006240367889404297
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.14502134323120117
+        "latency": 0.1555323600769043
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
-        "generated_timestamp": null,
-        "latency": 0.17669501304626464,
+        "expected_timestamp": "",
+        "generated_timestamp": 0.0,
+        "latency": 0.18036727905273436,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
-        "generated_timestamp": null,
-        "latency": 0.1794496536254883,
+        "expected_timestamp": "",
+        "generated_timestamp": 0.0,
+        "latency": 0.18445463180541993,
         "index_type": "hnsw"
       }
     ]
@@ -850,61 +850,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.0016010761260986327
+        "expected_timestamp": "",
+        "generated_timestamp": null,
+        "latency": 0.0
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.05623483657836914,
+        "expected_timestamp": "",
+        "generated_timestamp": "1262.72",
+        "latency": 0.034998083114624025,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3130.96,
-        "latency": 0.03650927543640137,
+        "expected_timestamp": "",
+        "generated_timestamp": "3662.8",
+        "latency": 0.06147317886352539,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.0065593719482421875
+        "latency": 0.007530641555786133
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 2379.44,
-        "latency": 0.004802846908569336
+        "latency": 0.006624078750610352
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.14183483123779297
+        "latency": 0.1496129035949707
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 755.0,
-        "latency": 0.17484664916992188,
+        "latency": 0.18213849067687987,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 755.0,
-        "latency": 0.1771723747253418,
+        "latency": 0.18485941886901855,
         "index_type": "hnsw"
       }
     ]
@@ -915,61 +915,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 954.0,
-        "latency": 0.0016003131866455078
+        "latency": 0.0026534557342529296
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 918.24,
-        "latency": 0.0351557731628418,
+        "expected_timestamp": "",
+        "generated_timestamp": "954.0",
+        "latency": 0.03599314689636231,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 954.0,
-        "latency": 0.03451461791992187,
+        "expected_timestamp": "",
+        "generated_timestamp": "954.0",
+        "latency": 0.04362154006958008,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.0067999839782714845
+        "latency": 0.00767221450805664
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 1385.04,
-        "latency": 0.004802989959716797
+        "latency": 0.005041360855102539
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.14581608772277832
+        "latency": 0.14785423278808593
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
-        "generated_timestamp": 975.0,
-        "latency": 0.17266488075256348,
+        "expected_timestamp": "",
+        "generated_timestamp": 900.0,
+        "latency": 0.18662009239196778,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 975.0,
-        "latency": 0.2156528949737549,
+        "latency": 0.17630324363708497,
         "index_type": "hnsw"
       }
     ]
@@ -980,61 +980,61 @@
       {
         "retrieval_method": "faiss",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3247.6,
-        "latency": 0.0016001224517822265
+        "expected_timestamp": "",
+        "generated_timestamp": null,
+        "latency": 0.0
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 199.76000000000002,
-        "latency": 0.034619808197021484,
+        "expected_timestamp": "",
+        "generated_timestamp": "268.16",
+        "latency": 0.034534025192260745,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "text",
-        "expected_timestamp": null,
-        "generated_timestamp": 3247.6,
-        "latency": 0.03384976387023926,
+        "expected_timestamp": "",
+        "generated_timestamp": "268.16",
+        "latency": 0.03827128410339355,
         "index_type": "hnsw"
       },
       {
         "retrieval_method": "tfidf",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.006767892837524414
+        "latency": 0.006006479263305664
       },
       {
         "retrieval_method": "bm25",
         "modality": "text",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": 537.36,
-        "latency": 0.004690742492675782
+        "latency": 0.007142066955566406
       },
       {
         "retrieval_method": "faiss",
         "modality": "image",
-        "expected_timestamp": null,
+        "expected_timestamp": "",
         "generated_timestamp": null,
-        "latency": 0.14530725479125978
+        "latency": 0.14252028465270997
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
-        "generated_timestamp": null,
-        "latency": 0.1773061752319336,
+        "expected_timestamp": "",
+        "generated_timestamp": 0.0,
+        "latency": 0.17617521286010743,
         "index_type": "ivfflat"
       },
       {
         "retrieval_method": "postgres",
         "modality": "image",
-        "expected_timestamp": null,
-        "generated_timestamp": null,
-        "latency": 0.19932565689086915,
+        "expected_timestamp": "",
+        "generated_timestamp": 0.0,
+        "latency": 0.17865843772888185,
         "index_type": "hnsw"
       }
     ]
