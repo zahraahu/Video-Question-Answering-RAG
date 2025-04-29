@@ -57,7 +57,7 @@ To enable video clipping (used to extract relevant video segments), make sure **
 If you want to use the PostgreSQL retrieval option:
 
 - Ensure PostgreSQL is installed
-- Create a database and enable the `pgvector` extension: https://github.com/pgvector/pgvector
+- Create a database and enable the `pgvector` extension: [pgvector](https://github.com/pgvector/pgvector)
 - Add `.env` file in the root:
 
 ```
