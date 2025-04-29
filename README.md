@@ -11,7 +11,7 @@ This project allows you to ask natural language questions about a video and retu
 ## 🚀 Features
 
 - Retrieval using text and image embeddings
-- Powered by CLIP (Contrastive Language–Image Pretraining)
+- Powered by Open AI's CLIP for image embedding, and Snowflake Arctic for text embedding.
 - Supports multiple retrieval backends:
   - FAISS (in-memory flat index)
   - PostgreSQL with pgvector (ivfflat and hnsw indexes)
