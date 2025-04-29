@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "scripts")))
 import streamlit as st
 from scripts.retrieve import text_retrieve, image_retrieve
-from scripts.embed import embed_texts
+from scripts.embed import embed_texts, embed_texts_clip
 from scripts.utils.paths import VIDEO_PATH
 
 # Choose modality / retrieval method
@@ -32,13 +32,14 @@ if user_query:
     # Display user query
     st.session_state.chat_history.append(("user", user_query))
 
-    # Embed the query
-    query_embedding = embed_texts([user_query])[0]
-
     # Retrieve
     if MODALITY == "text":
+        # Embed the query
+        query_embedding = embed_texts([user_query])[0]
         _, result_timestamp, _ = text_retrieve(user_query, query_embedding, RETRIEVAL_METHOD, INDEX_TYPE)
     elif MODALITY == "image":
+        # Embed the query
+        query_embedding = embed_texts_clip([user_query])[0]
         _, result_timestamp, _ = image_retrieve(query_embedding, RETRIEVAL_METHOD, INDEX_TYPE)
 
     if result_timestamp is not None:
