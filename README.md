@@ -80,6 +80,7 @@ By default, the code is:
 
 ```
 # Choose modality / retrieval method
+
 RETRIEVAL_METHOD = "tfidf"    # or "faiss", "postgres", "bm25"
 INDEX_TYPE = ""    # if using postgres, you may need this ("ivfflat", "hnsw")
 MODALITY = "text"  # or "image"
@@ -124,8 +125,9 @@ python postgres_index.py   # Build Postgres indexes (ivfflat and hnsw)
 ## 📊 Evaluation
 
 Run `scripts/evaluate.py` to benchmark each retrieval method on accuracy, rejection quality, and latency.
+The queries to be tested can be found in `gold_test.json`, such that 10 questions are directly answerable from the video (include a corresponding timestamp), and 5 are unanswerable.
 
-Results are saved in both JSON and CSV for analysis. 
+The result of each run is saved in `evaluation_results.json`, and then the accuracy and rejection quality of each method are assessed and saved in `evaluation_summary.csv`.
 
 
 
