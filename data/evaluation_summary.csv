@@ -1,0 +1,9 @@
+retrieval_method,modality,index_type,mean_accuracy,mean_rejection_quality,mean_avg_latency
+faiss,text,,0.375,0.6875,0.001731923222541809
+postgres,text,ivfflat,0.4375,0.6875,0.03629273474216461
+postgres,text,hnsw,0.375,0.6875,0.04155981242656709
+tfidf,text,,0.6875,1.0,0.008245262503623963
+bm25,text,,0.375,0.6875,0.005726507306098938
+faiss,image,,0.3125,1.0,0.1531612247228622
+postgres,image,ivfflat,0.1875,0.6875,0.18727416694164278
+postgres,image,hnsw,0.0625,0.6875,0.1880240201950073

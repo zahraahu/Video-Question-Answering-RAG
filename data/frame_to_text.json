@@ -1,0 +1,5266 @@
+[
+  {
+    "timestamp": 0.0,
+    "frame_path": "data\\keyframes\\frame_0000.00.jpg",
+    "associated_text": " So, hello everyone. Welcome to the PC Seminar. Today we have this professor Amir Mohad from",
+    "start_time": 0.0,
+    "end_time": 8.24
+  },
+  {
+    "timestamp": 5.0,
+    "frame_path": "data\\keyframes\\frame_0005.00.jpg",
+    "associated_text": " So, hello everyone. Welcome to the PC Seminar. Today we have this professor Amir Mohad from",
+    "start_time": 0.0,
+    "end_time": 8.24
+  },
+  {
+    "timestamp": 10.0,
+    "frame_path": "data\\keyframes\\frame_0010.00.jpg",
+    "associated_text": " American University of Beirut and he'll be talking on the girth and parametrious complex",
+    "start_time": 8.24,
+    "end_time": 13.08
+  },
+  {
+    "timestamp": 15.0,
+    "frame_path": "data\\keyframes\\frame_0015.00.jpg",
+    "associated_text": " at your token sliding and token jumping. Thank you for joining us professor, over to",
+    "start_time": 13.08,
+    "end_time": 17.76
+  },
+  {
+    "timestamp": 20.0,
+    "frame_path": "data\\keyframes\\frame_0020.00.jpg",
+    "associated_text": " you now. Thank you, President. Thank you for having me. It's a real pleasure to be here.",
+    "start_time": 17.76,
+    "end_time": 26.080000000000002
+  },
+  {
+    "timestamp": 25.0,
+    "frame_path": "data\\keyframes\\frame_0025.00.jpg",
+    "associated_text": " you now. Thank you, President. Thank you for having me. It's a real pleasure to be here.",
+    "start_time": 17.76,
+    "end_time": 26.080000000000002
+  },
+  {
+    "timestamp": 30.0,
+    "frame_path": "data\\keyframes\\frame_0030.00.jpg",
+    "associated_text": " So, all right, let's jump right into it. So, since I did not really know the audience",
+    "start_time": 26.08,
+    "end_time": 32.239999999999995
+  },
+  {
+    "timestamp": 35.0,
+    "frame_path": "data\\keyframes\\frame_0035.00.jpg",
+    "associated_text": " too well, I made the assumption that many of you maybe have not seen this area of combinatorial",
+    "start_time": 32.239999999999995,
+    "end_time": 40.04
+  },
+  {
+    "timestamp": 40.0,
+    "frame_path": "data\\keyframes\\frame_0040.00.jpg",
+    "associated_text": " too well, I made the assumption that many of you maybe have not seen this area of combinatorial",
+    "start_time": 32.239999999999995,
+    "end_time": 40.04
+  },
+  {
+    "timestamp": 45.0,
+    "frame_path": "data\\keyframes\\frame_0045.00.jpg",
+    "associated_text": " reconfiguration problems. So, I decided what I'm going to do is I'm going to give a gentle",
+    "start_time": 40.04,
+    "end_time": 45.92
+  },
+  {
+    "timestamp": 50.0,
+    "frame_path": "data\\keyframes\\frame_0050.00.jpg",
+    "associated_text": " introduction to the area just to show you how many exciting problems and open problems",
+    "start_time": 45.92,
+    "end_time": 51.519999999999996
+  },
+  {
+    "timestamp": 55.0,
+    "frame_path": "data\\keyframes\\frame_0055.00.jpg",
+    "associated_text": " are there. And then I will talk more about token jumping and token sliding, specifically",
+    "start_time": 51.52,
+    "end_time": 58.32
+  },
+  {
+    "timestamp": 60.0,
+    "frame_path": "data\\keyframes\\frame_0060.00.jpg",
+    "associated_text": " what we know about them, what we knew about them before we started working on this project,",
+    "start_time": 58.32,
+    "end_time": 63.28
+  },
+  {
+    "timestamp": 65.0,
+    "frame_path": "data\\keyframes\\frame_0065.00.jpg",
+    "associated_text": " what we managed to discover and the tons of questions that remain to be answered.",
+    "start_time": 64.0,
+    "end_time": 69.36
+  },
+  {
+    "timestamp": 70.0,
+    "frame_path": "data\\keyframes\\frame_0070.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 75.0,
+    "frame_path": "data\\keyframes\\frame_0075.00.jpg",
+    "associated_text": " Right, and it's a really, I mean, the questions are so nice to state, so easy to state, and they",
+    "start_time": 70.16,
+    "end_time": 77.28
+  },
+  {
+    "timestamp": 80.0,
+    "frame_path": "data\\keyframes\\frame_0080.00.jpg",
+    "associated_text": " are accessible really to researchers at any level, which is one of the reasons why I enjoy working",
+    "start_time": 77.44,
+    "end_time": 84.24
+  },
+  {
+    "timestamp": 85.0,
+    "frame_path": "data\\keyframes\\frame_0085.00.jpg",
+    "associated_text": " on these problems. So, so hopefully you'll get to enjoy them too. So, before I start, I should",
+    "start_time": 84.24,
+    "end_time": 91.84
+  },
+  {
+    "timestamp": 90.0,
+    "frame_path": "data\\keyframes\\frame_0090.00.jpg",
+    "associated_text": " on these problems. So, so hopefully you'll get to enjoy them too. So, before I start, I should",
+    "start_time": 84.24,
+    "end_time": 91.84
+  },
+  {
+    "timestamp": 95.0,
+    "frame_path": "data\\keyframes\\frame_0095.00.jpg",
+    "associated_text": " point out that this is joint work that started back in the combinatorial reconfiguration workshop",
+    "start_time": 91.84,
+    "end_time": 98.48
+  },
+  {
+    "timestamp": 100.0,
+    "frame_path": "data\\keyframes\\frame_0100.00.jpg",
+    "associated_text": " almost two years ago. And it's joint work with Valentine Bartet, Nicolabusche, Le Mandalard,",
+    "start_time": 99.44,
+    "end_time": 106.4
+  },
+  {
+    "timestamp": 105.0,
+    "frame_path": "data\\keyframes\\frame_0105.00.jpg",
+    "associated_text": " almost two years ago. And it's joint work with Valentine Bartet, Nicolabusche, Le Mandalard,",
+    "start_time": 99.44,
+    "end_time": 106.4
+  },
+  {
+    "timestamp": 110.0,
+    "frame_path": "data\\keyframes\\frame_0110.00.jpg",
+    "associated_text": " and Karl Lomar, who is my master's student. All right, so the outline of the talk, it's going",
+    "start_time": 106.4,
+    "end_time": 116.4
+  },
+  {
+    "timestamp": 115.0,
+    "frame_path": "data\\keyframes\\frame_0115.00.jpg",
+    "associated_text": " and Karl Lomar, who is my master's student. All right, so the outline of the talk, it's going",
+    "start_time": 106.4,
+    "end_time": 116.4
+  },
+  {
+    "timestamp": 120.0,
+    "frame_path": "data\\keyframes\\frame_0120.00.jpg",
+    "associated_text": " to be in four sections. I will give a gentle introduction to combinatorial reconfiguration,",
+    "start_time": 116.4,
+    "end_time": 122.32000000000001
+  },
+  {
+    "timestamp": 125.0,
+    "frame_path": "data\\keyframes\\frame_0125.00.jpg",
+    "associated_text": " because I know many of you might not have seen such problems. Then I will talk about token",
+    "start_time": 122.32000000000001,
+    "end_time": 130.72
+  },
+  {
+    "timestamp": 130.0,
+    "frame_path": "data\\keyframes\\frame_0130.00.jpg",
+    "associated_text": " because I know many of you might not have seen such problems. Then I will talk about token",
+    "start_time": 122.32000000000001,
+    "end_time": 130.72
+  },
+  {
+    "timestamp": 135.0,
+    "frame_path": "data\\keyframes\\frame_0135.00.jpg",
+    "associated_text": " jumping and token sliding, what we know about them in terms of classical complexity or one",
+    "start_time": 130.72,
+    "end_time": 136.16
+  },
+  {
+    "timestamp": 140.0,
+    "frame_path": "data\\keyframes\\frame_0140.00.jpg",
+    "associated_text": " dimensional complexity. Then I'll talk about the paramount complexity of these two problems,",
+    "start_time": 136.16,
+    "end_time": 142.07999999999998
+  },
+  {
+    "timestamp": 145.0,
+    "frame_path": "data\\keyframes\\frame_0145.00.jpg",
+    "associated_text": " and what we know as of today, as we speak. And what are the problems that remain to be solved?",
+    "start_time": 142.07999999999998,
+    "end_time": 148.24
+  },
+  {
+    "timestamp": 150.0,
+    "frame_path": "data\\keyframes\\frame_0150.00.jpg",
+    "associated_text": " And then the last part of the lecture is where I will put some of the technical stuff to show you",
+    "start_time": 148.88,
+    "end_time": 153.76
+  },
+  {
+    "timestamp": 155.0,
+    "frame_path": "data\\keyframes\\frame_0155.00.jpg",
+    "associated_text": " to give you an idea about how we prove things when we deal with such problems and where are the",
+    "start_time": 153.76,
+    "end_time": 159.68
+  },
+  {
+    "timestamp": 160.0,
+    "frame_path": "data\\keyframes\\frame_0160.00.jpg",
+    "associated_text": " difficulties and what kind of techniques have been developed. So I tried to keep the technical part",
+    "start_time": 159.68,
+    "end_time": 166.16
+  },
+  {
+    "timestamp": 165.0,
+    "frame_path": "data\\keyframes\\frame_0165.00.jpg",
+    "associated_text": " difficulties and what kind of techniques have been developed. So I tried to keep the technical part",
+    "start_time": 159.68,
+    "end_time": 166.16
+  },
+  {
+    "timestamp": 170.0,
+    "frame_path": "data\\keyframes\\frame_0170.00.jpg",
+    "associated_text": " as light as I could so that really, I mean, I can focus on the big picture and the questions to be",
+    "start_time": 166.16,
+    "end_time": 174.16
+  },
+  {
+    "timestamp": 175.0,
+    "frame_path": "data\\keyframes\\frame_0175.00.jpg",
+    "associated_text": " asked and answered. So if you have any questions along the way, please feel free to interrupt me",
+    "start_time": 174.16,
+    "end_time": 179.84
+  },
+  {
+    "timestamp": 180.0,
+    "frame_path": "data\\keyframes\\frame_0180.00.jpg",
+    "associated_text": " either in the chat or by unmuting yourselves. So don't worry about leaving the questions to the",
+    "start_time": 179.84,
+    "end_time": 188.24
+  },
+  {
+    "timestamp": 185.0,
+    "frame_path": "data\\keyframes\\frame_0185.00.jpg",
+    "associated_text": " either in the chat or by unmuting yourselves. So don't worry about leaving the questions to the",
+    "start_time": 179.84,
+    "end_time": 188.24
+  },
+  {
+    "timestamp": 190.0,
+    "frame_path": "data\\keyframes\\frame_0190.00.jpg",
+    "associated_text": " end. You can interrupt me whenever you feel, whenever I say something that doesn't make sense.",
+    "start_time": 188.24,
+    "end_time": 192.08
+  },
+  {
+    "timestamp": 195.0,
+    "frame_path": "data\\keyframes\\frame_0195.00.jpg",
+    "associated_text": " Hopefully that won't happen too often. All right, so what is combinatorial configuration?",
+    "start_time": 193.12,
+    "end_time": 199.76000000000002
+  },
+  {
+    "timestamp": 200.0,
+    "frame_path": "data\\keyframes\\frame_0200.00.jpg",
+    "associated_text": " So the best way I think to introduce is with a familiar example, which is one player games,",
+    "start_time": 199.76000000000002,
+    "end_time": 206.24
+  },
+  {
+    "timestamp": 205.0,
+    "frame_path": "data\\keyframes\\frame_0205.00.jpg",
+    "associated_text": " So the best way I think to introduce is with a familiar example, which is one player games,",
+    "start_time": 199.76000000000002,
+    "end_time": 206.24
+  },
+  {
+    "timestamp": 210.0,
+    "frame_path": "data\\keyframes\\frame_0210.00.jpg",
+    "associated_text": " and the most common one that we use is the 15 puzzle game. So for those of you who don't know",
+    "start_time": 206.24,
+    "end_time": 212.64000000000001
+  },
+  {
+    "timestamp": 215.0,
+    "frame_path": "data\\keyframes\\frame_0215.00.jpg",
+    "associated_text": " the 15 puzzle game, so you're given like a four by four grid and you have one empty square.",
+    "start_time": 212.72,
+    "end_time": 219.04
+  },
+  {
+    "timestamp": 220.0,
+    "frame_path": "data\\keyframes\\frame_0220.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 225.0,
+    "frame_path": "data\\keyframes\\frame_0225.00.jpg",
+    "associated_text": " And basically you have all the remaining 15 squares are numbered from one to 15 and they come",
+    "start_time": 220.23999999999998,
+    "end_time": 225.35999999999999
+  },
+  {
+    "timestamp": 230.0,
+    "frame_path": "data\\keyframes\\frame_0230.00.jpg",
+    "associated_text": " in some ordering and your job is to basically move the squares around so that all the numbers become",
+    "start_time": 225.35999999999999,
+    "end_time": 232.32
+  },
+  {
+    "timestamp": 235.0,
+    "frame_path": "data\\keyframes\\frame_0235.00.jpg",
+    "associated_text": " ordered. So it's a battle. So they have to be ordered this way. So if you notice in this figure,",
+    "start_time": 232.32,
+    "end_time": 238.95999999999998
+  },
+  {
+    "timestamp": 240.0,
+    "frame_path": "data\\keyframes\\frame_0240.00.jpg",
+    "associated_text": " the only problem is that 14 and 15 are reversed. But the only moves that you're allowed to do is",
+    "start_time": 238.96,
+    "end_time": 245.60000000000002
+  },
+  {
+    "timestamp": 245.0,
+    "frame_path": "data\\keyframes\\frame_0245.00.jpg",
+    "associated_text": " the only problem is that 14 and 15 are reversed. But the only moves that you're allowed to do is",
+    "start_time": 238.96,
+    "end_time": 245.60000000000002
+  },
+  {
+    "timestamp": 250.0,
+    "frame_path": "data\\keyframes\\frame_0250.00.jpg",
+    "associated_text": " to basically move a number into the empty square. And basically you have to do a sequence of moves",
+    "start_time": 245.60000000000002,
+    "end_time": 254.48000000000002
+  },
+  {
+    "timestamp": 255.0,
+    "frame_path": "data\\keyframes\\frame_0255.00.jpg",
+    "associated_text": " so that you get all of the numbers in order. And for those of you who know this this game,",
+    "start_time": 254.48000000000002,
+    "end_time": 260.8
+  },
+  {
+    "timestamp": 260.0,
+    "frame_path": "data\\keyframes\\frame_0260.00.jpg",
+    "associated_text": " so that you get all of the numbers in order. And for those of you who know this this game,",
+    "start_time": 254.48000000000002,
+    "end_time": 260.8
+  },
+  {
+    "timestamp": 265.0,
+    "frame_path": "data\\keyframes\\frame_0265.00.jpg",
+    "associated_text": " this example that I have on the slide is actually unsolved. There is no way you can flip the order",
+    "start_time": 260.8,
+    "end_time": 268.16
+  },
+  {
+    "timestamp": 270.0,
+    "frame_path": "data\\keyframes\\frame_0270.00.jpg",
+    "associated_text": " and 15 of 14 and 15 in this puzzle. And I have a link here if you want to actually play the",
+    "start_time": 268.16,
+    "end_time": 274.32000000000005
+  },
+  {
+    "timestamp": 275.0,
+    "frame_path": "data\\keyframes\\frame_0275.00.jpg",
+    "associated_text": " puzzle online, which is pretty fun. So why do I do I start my talk by talking about 15 puzzle? It's",
+    "start_time": 274.32000000000005,
+    "end_time": 282.0
+  },
+  {
+    "timestamp": 280.0,
+    "frame_path": "data\\keyframes\\frame_0280.00.jpg",
+    "associated_text": " puzzle online, which is pretty fun. So why do I do I start my talk by talking about 15 puzzle? It's",
+    "start_time": 274.32000000000005,
+    "end_time": 282.0
+  },
+  {
+    "timestamp": 285.0,
+    "frame_path": "data\\keyframes\\frame_0285.00.jpg",
+    "associated_text": " because it's really I mean the way you solve the 15 puzzle tells you a lot about the area of",
+    "start_time": 282.0,
+    "end_time": 288.88
+  },
+  {
+    "timestamp": 290.0,
+    "frame_path": "data\\keyframes\\frame_0290.00.jpg",
+    "associated_text": " combinatorial configuration. So the standard way we would think about the 15 puzzle is by looking",
+    "start_time": 288.88,
+    "end_time": 296.08000000000004
+  },
+  {
+    "timestamp": 295.0,
+    "frame_path": "data\\keyframes\\frame_0295.00.jpg",
+    "associated_text": " combinatorial configuration. So the standard way we would think about the 15 puzzle is by looking",
+    "start_time": 288.88,
+    "end_time": 296.08000000000004
+  },
+  {
+    "timestamp": 300.0,
+    "frame_path": "data\\keyframes\\frame_0300.00.jpg",
+    "associated_text": " at the state space or what we call the reconfiguration graph of the 15 puzzle. So what does that graph",
+    "start_time": 296.15999999999997,
+    "end_time": 302.47999999999996
+  },
+  {
+    "timestamp": 305.0,
+    "frame_path": "data\\keyframes\\frame_0305.00.jpg",
+    "associated_text": " consist of? Well, we have one vertex or one node in this graph for each possible configuration of",
+    "start_time": 302.47999999999996,
+    "end_time": 310.24
+  },
+  {
+    "timestamp": 310.0,
+    "frame_path": "data\\keyframes\\frame_0310.00.jpg",
+    "associated_text": " consist of? Well, we have one vertex or one node in this graph for each possible configuration of",
+    "start_time": 302.47999999999996,
+    "end_time": 310.24
+  },
+  {
+    "timestamp": 315.0,
+    "frame_path": "data\\keyframes\\frame_0315.00.jpg",
+    "associated_text": " the puzzle. So basically each possible configuration, so it would be a possible permutation of the 15",
+    "start_time": 310.24,
+    "end_time": 316.88
+  },
+  {
+    "timestamp": 320.0,
+    "frame_path": "data\\keyframes\\frame_0320.00.jpg",
+    "associated_text": " numbers. In addition to where you're going to put the empty square, each one of those will be a vertex",
+    "start_time": 316.88,
+    "end_time": 323.12
+  },
+  {
+    "timestamp": 325.0,
+    "frame_path": "data\\keyframes\\frame_0325.00.jpg",
+    "associated_text": " and the graph. And now we connect two vertices in that graph whenever one can be reached from the",
+    "start_time": 323.12,
+    "end_time": 330.56
+  },
+  {
+    "timestamp": 330.0,
+    "frame_path": "data\\keyframes\\frame_0330.00.jpg",
+    "associated_text": " and the graph. And now we connect two vertices in that graph whenever one can be reached from the",
+    "start_time": 323.12,
+    "end_time": 330.56
+  },
+  {
+    "timestamp": 335.0,
+    "frame_path": "data\\keyframes\\frame_0335.00.jpg",
+    "associated_text": " other by a single move. And what do we mean here by a single mover? It's basically just moving",
+    "start_time": 330.56,
+    "end_time": 336.56
+  },
+  {
+    "timestamp": 340.0,
+    "frame_path": "data\\keyframes\\frame_0340.00.jpg",
+    "associated_text": " number into the empty square. So if you look at the top node here in this graph, there are four",
+    "start_time": 337.92,
+    "end_time": 344.0
+  },
+  {
+    "timestamp": 345.0,
+    "frame_path": "data\\keyframes\\frame_0345.00.jpg",
+    "associated_text": " possibilities that you can do in one move, which we call a reconfiguration step, which is you can",
+    "start_time": 344.0,
+    "end_time": 349.68
+  },
+  {
+    "timestamp": 350.0,
+    "frame_path": "data\\keyframes\\frame_0350.00.jpg",
+    "associated_text": " move nine into the empty square, you can move three into the empty square, 12 or 15.",
+    "start_time": 349.68,
+    "end_time": 356.08
+  },
+  {
+    "timestamp": 355.0,
+    "frame_path": "data\\keyframes\\frame_0355.00.jpg",
+    "associated_text": " move nine into the empty square, you can move three into the empty square, 12 or 15.",
+    "start_time": 349.68,
+    "end_time": 356.08
+  },
+  {
+    "timestamp": 360.0,
+    "frame_path": "data\\keyframes\\frame_0360.00.jpg",
+    "associated_text": " That gives us basically four neighbors of that vertex in the graph.",
+    "start_time": 356.8,
+    "end_time": 360.40000000000003
+  },
+  {
+    "timestamp": 365.0,
+    "frame_path": "data\\keyframes\\frame_0365.00.jpg",
+    "associated_text": " Okay, and we call this whole graph, the reconfiguration graph or the state space if you're more",
+    "start_time": 361.68,
+    "end_time": 367.44
+  },
+  {
+    "timestamp": 370.0,
+    "frame_path": "data\\keyframes\\frame_0370.00.jpg",
+    "associated_text": " comfortable thinking about states, the states of the game. So now given this graph, the reconfiguration",
+    "start_time": 367.44,
+    "end_time": 375.52
+  },
+  {
+    "timestamp": 375.0,
+    "frame_path": "data\\keyframes\\frame_0375.00.jpg",
+    "associated_text": " comfortable thinking about states, the states of the game. So now given this graph, the reconfiguration",
+    "start_time": 367.44,
+    "end_time": 375.52
+  },
+  {
+    "timestamp": 380.0,
+    "frame_path": "data\\keyframes\\frame_0380.00.jpg",
+    "associated_text": " graph, there are tons of very interesting questions that you can ask about it. There are structural",
+    "start_time": 376.0,
+    "end_time": 381.28
+  },
+  {
+    "timestamp": 385.0,
+    "frame_path": "data\\keyframes\\frame_0385.00.jpg",
+    "associated_text": " questions and there are algorithmic questions. And these are typically the types of questions that",
+    "start_time": 381.28,
+    "end_time": 387.2
+  },
+  {
+    "timestamp": 390.0,
+    "frame_path": "data\\keyframes\\frame_0390.00.jpg",
+    "associated_text": " were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+    "start_time": 387.2,
+    "end_time": 395.68
+  },
+  {
+    "timestamp": 395.0,
+    "frame_path": "data\\keyframes\\frame_0395.00.jpg",
+    "associated_text": " were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+    "start_time": 387.2,
+    "end_time": 395.68
+  },
+  {
+    "timestamp": 400.0,
+    "frame_path": "data\\keyframes\\frame_0400.00.jpg",
+    "associated_text": " questions would be, well, the simplest one would be how big is this reconfiguration graph?",
+    "start_time": 395.68,
+    "end_time": 401.12
+  },
+  {
+    "timestamp": 405.0,
+    "frame_path": "data\\keyframes\\frame_0405.00.jpg",
+    "associated_text": " Right, how many vertices or how many edges? And that's usually not a very hard question to answer",
+    "start_time": 401.12,
+    "end_time": 408.56
+  },
+  {
+    "timestamp": 410.0,
+    "frame_path": "data\\keyframes\\frame_0410.00.jpg",
+    "associated_text": " in terms of upper and lower ones. More interestingly, you could ask, is this reconfiguration graph",
+    "start_time": 408.56,
+    "end_time": 414.64
+  },
+  {
+    "timestamp": 415.0,
+    "frame_path": "data\\keyframes\\frame_0415.00.jpg",
+    "associated_text": " connected? Right? Or is, can I reach any state starting from any other state by a sequence of",
+    "start_time": 414.64,
+    "end_time": 421.68
+  },
+  {
+    "timestamp": 420.0,
+    "frame_path": "data\\keyframes\\frame_0420.00.jpg",
+    "associated_text": " connected? Right? Or is, can I reach any state starting from any other state by a sequence of",
+    "start_time": 414.64,
+    "end_time": 421.68
+  },
+  {
+    "timestamp": 425.0,
+    "frame_path": "data\\keyframes\\frame_0425.00.jpg",
+    "associated_text": " legal moves? And as I told you before, for the 15 puzzle, the reconfiguration graph is definitely",
+    "start_time": 421.68,
+    "end_time": 428.88
+  },
+  {
+    "timestamp": 430.0,
+    "frame_path": "data\\keyframes\\frame_0430.00.jpg",
+    "associated_text": " not connected because there was no way to reverse 14 and 15 in the previous example that I showed",
+    "start_time": 428.88,
+    "end_time": 435.04
+  },
+  {
+    "timestamp": 435.0,
+    "frame_path": "data\\keyframes\\frame_0435.00.jpg",
+    "associated_text": " not connected because there was no way to reverse 14 and 15 in the previous example that I showed",
+    "start_time": 428.88,
+    "end_time": 435.04
+  },
+  {
+    "timestamp": 440.0,
+    "frame_path": "data\\keyframes\\frame_0440.00.jpg",
+    "associated_text": " you and you can easily prove that, by the way. So when it's not connected, another question would be",
+    "start_time": 435.04,
+    "end_time": 440.4
+  },
+  {
+    "timestamp": 445.0,
+    "frame_path": "data\\keyframes\\frame_0445.00.jpg",
+    "associated_text": " how many components does I have? Is there some sort of a nice structure to the components of this",
+    "start_time": 440.4,
+    "end_time": 448.56
+  },
+  {
+    "timestamp": 450.0,
+    "frame_path": "data\\keyframes\\frame_0450.00.jpg",
+    "associated_text": " graph? And then another question would be what is the diameter of the circumfiguration graph or of",
+    "start_time": 448.56,
+    "end_time": 455.2
+  },
+  {
+    "timestamp": 455.0,
+    "frame_path": "data\\keyframes\\frame_0455.00.jpg",
+    "associated_text": " graph? And then another question would be what is the diameter of the circumfiguration graph or of",
+    "start_time": 448.56,
+    "end_time": 455.2
+  },
+  {
+    "timestamp": 460.0,
+    "frame_path": "data\\keyframes\\frame_0460.00.jpg",
+    "associated_text": " with one player games, because this could tell you like what would be the worst possible shortest path",
+    "start_time": 459.52,
+    "end_time": 466.88
+  },
+  {
+    "timestamp": 465.0,
+    "frame_path": "data\\keyframes\\frame_0465.00.jpg",
+    "associated_text": " with one player games, because this could tell you like what would be the worst possible shortest path",
+    "start_time": 459.52,
+    "end_time": 466.88
+  },
+  {
+    "timestamp": 470.0,
+    "frame_path": "data\\keyframes\\frame_0470.00.jpg",
+    "associated_text": " to reach a target configuration or to solve your game, to win your game, for example. And in the",
+    "start_time": 466.88,
+    "end_time": 472.56
+  },
+  {
+    "timestamp": 475.0,
+    "frame_path": "data\\keyframes\\frame_0475.00.jpg",
+    "associated_text": " literature, this is sometimes known as God's number, which would be the diameter of the reconfiguration",
+    "start_time": 472.56,
+    "end_time": 479.03999999999996
+  },
+  {
+    "timestamp": 480.0,
+    "frame_path": "data\\keyframes\\frame_0480.00.jpg",
+    "associated_text": " graph. And these are all very interesting, very interesting structural questions to ask about",
+    "start_time": 480.0,
+    "end_time": 485.84000000000003
+  },
+  {
+    "timestamp": 485.0,
+    "frame_path": "data\\keyframes\\frame_0485.00.jpg",
+    "associated_text": " graph. And these are all very interesting, very interesting structural questions to ask about",
+    "start_time": 480.0,
+    "end_time": 485.84000000000003
+  },
+  {
+    "timestamp": 490.0,
+    "frame_path": "data\\keyframes\\frame_0490.00.jpg",
+    "associated_text": " this reconfiguration graph. Now on the algorithmic side or the computational side, there's the",
+    "start_time": 485.84000000000003,
+    "end_time": 492.16
+  },
+  {
+    "timestamp": 495.0,
+    "frame_path": "data\\keyframes\\frame_0495.00.jpg",
+    "associated_text": " obvious question of if I'm given a starting state and some ending state or target state, like in the",
+    "start_time": 492.16,
+    "end_time": 498.88
+  },
+  {
+    "timestamp": 500.0,
+    "frame_path": "data\\keyframes\\frame_0500.00.jpg",
+    "associated_text": " case of the puzzle game, that I am given some starting state and we know what the goal state is.",
+    "start_time": 498.88,
+    "end_time": 504.48
+  },
+  {
+    "timestamp": 505.0,
+    "frame_path": "data\\keyframes\\frame_0505.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 510.0,
+    "frame_path": "data\\keyframes\\frame_0510.00.jpg",
+    "associated_text": " So here one decision problem would be to answer the question whether it's possible to get to the",
+    "start_time": 505.20000000000005,
+    "end_time": 510.16
+  },
+  {
+    "timestamp": 515.0,
+    "frame_path": "data\\keyframes\\frame_0515.00.jpg",
+    "associated_text": " target state starting from some initial state that is also given to me. So you can decide to solve",
+    "start_time": 510.16,
+    "end_time": 517.04
+  },
+  {
+    "timestamp": 520.0,
+    "frame_path": "data\\keyframes\\frame_0520.00.jpg",
+    "associated_text": " this problem either as a decision problem or as a search problem, which would give you the actual",
+    "start_time": 517.04,
+    "end_time": 521.9200000000001
+  },
+  {
+    "timestamp": 525.0,
+    "frame_path": "data\\keyframes\\frame_0525.00.jpg",
+    "associated_text": " sequence of steps that will take you from a state to the target state. Other interesting computational",
+    "start_time": 521.9200000000001,
+    "end_time": 531.6
+  },
+  {
+    "timestamp": 530.0,
+    "frame_path": "data\\keyframes\\frame_0530.00.jpg",
+    "associated_text": " sequence of steps that will take you from a state to the target state. Other interesting computational",
+    "start_time": 521.9200000000001,
+    "end_time": 531.6
+  },
+  {
+    "timestamp": 535.0,
+    "frame_path": "data\\keyframes\\frame_0535.00.jpg",
+    "associated_text": " problems is it always possible to go from one configuration to any other and this is basically",
+    "start_time": 531.6,
+    "end_time": 537.36
+  },
+  {
+    "timestamp": 540.0,
+    "frame_path": "data\\keyframes\\frame_0540.00.jpg",
+    "associated_text": " also related to the structural question about connected components. And the last question that I",
+    "start_time": 537.36,
+    "end_time": 545.36
+  },
+  {
+    "timestamp": 545.0,
+    "frame_path": "data\\keyframes\\frame_0545.00.jpg",
+    "associated_text": " also related to the structural question about connected components. And the last question that I",
+    "start_time": 537.36,
+    "end_time": 545.36
+  },
+  {
+    "timestamp": 550.0,
+    "frame_path": "data\\keyframes\\frame_0550.00.jpg",
+    "associated_text": " will mention, which is also interesting, is how fast can you go from one configuration to another,",
+    "start_time": 545.36,
+    "end_time": 551.2
+  },
+  {
+    "timestamp": 555.0,
+    "frame_path": "data\\keyframes\\frame_0555.00.jpg",
+    "associated_text": " meaning can you do it in at most case steps? There is a question I should wait or no,",
+    "start_time": 551.2,
+    "end_time": 560.48
+  },
+  {
+    "timestamp": 560.0,
+    "frame_path": "data\\keyframes\\frame_0560.00.jpg",
+    "associated_text": " meaning can you do it in at most case steps? There is a question I should wait or no,",
+    "start_time": 551.2,
+    "end_time": 560.48
+  },
+  {
+    "timestamp": 565.0,
+    "frame_path": "data\\keyframes\\frame_0565.00.jpg",
+    "associated_text": " okay. All right. So think about all of these questions that we paused using the simple 15 puzzle game.",
+    "start_time": 560.5600000000001,
+    "end_time": 574.0
+  },
+  {
+    "timestamp": 570.0,
+    "frame_path": "data\\keyframes\\frame_0570.00.jpg",
+    "associated_text": " okay. All right. So think about all of these questions that we paused using the simple 15 puzzle game.",
+    "start_time": 560.5600000000001,
+    "end_time": 574.0
+  },
+  {
+    "timestamp": 575.0,
+    "frame_path": "data\\keyframes\\frame_0575.00.jpg",
+    "associated_text": " And now we're going to look at a lot of other possible problems where the same",
+    "start_time": 574.0,
+    "end_time": 580.16
+  },
+  {
+    "timestamp": 580.0,
+    "frame_path": "data\\keyframes\\frame_0580.00.jpg",
+    "associated_text": " And now we're going to look at a lot of other possible problems where the same",
+    "start_time": 574.0,
+    "end_time": 580.16
+  },
+  {
+    "timestamp": 585.0,
+    "frame_path": "data\\keyframes\\frame_0585.00.jpg",
+    "associated_text": " any configuration graph can be extracted and we can ask the same set of questions.",
+    "start_time": 580.16,
+    "end_time": 585.84
+  },
+  {
+    "timestamp": 590.0,
+    "frame_path": "data\\keyframes\\frame_0590.00.jpg",
+    "associated_text": " So all of you here are familiar with the case sad problem. So you're given a Boolean formula and",
+    "start_time": 586.8000000000001,
+    "end_time": 592.4
+  },
+  {
+    "timestamp": 595.0,
+    "frame_path": "data\\keyframes\\frame_0595.00.jpg",
+    "associated_text": " you want to know if you can satisfy this formula by assigning values to the variables and we know",
+    "start_time": 592.4,
+    "end_time": 599.0400000000001
+  },
+  {
+    "timestamp": 600.0,
+    "frame_path": "data\\keyframes\\frame_0600.00.jpg",
+    "associated_text": " that this is NP complete for K greater than or equal to three. So now how can you transform this into",
+    "start_time": 599.0400000000001,
+    "end_time": 605.2
+  },
+  {
+    "timestamp": 605.0,
+    "frame_path": "data\\keyframes\\frame_0605.00.jpg",
+    "associated_text": " that this is NP complete for K greater than or equal to three. So now how can you transform this into",
+    "start_time": 599.0400000000001,
+    "end_time": 605.2
+  },
+  {
+    "timestamp": 610.0,
+    "frame_path": "data\\keyframes\\frame_0610.00.jpg",
+    "associated_text": " a reconfiguration problem? Well, it's very simple. So now you're given a formula and you're given",
+    "start_time": 605.2,
+    "end_time": 612.32
+  },
+  {
+    "timestamp": 615.0,
+    "frame_path": "data\\keyframes\\frame_0615.00.jpg",
+    "associated_text": " two satisfying assignments. So you can think of those satisfying assignments as bit vectors.",
+    "start_time": 612.32,
+    "end_time": 617.44
+  },
+  {
+    "timestamp": 620.0,
+    "frame_path": "data\\keyframes\\frame_0620.00.jpg",
+    "associated_text": " And so now the question that you can ask is can I go from the first satisfying assignment as",
+    "start_time": 618.72,
+    "end_time": 625.0400000000001
+  },
+  {
+    "timestamp": 625.0,
+    "frame_path": "data\\keyframes\\frame_0625.00.jpg",
+    "associated_text": " And so now the question that you can ask is can I go from the first satisfying assignment as",
+    "start_time": 618.72,
+    "end_time": 625.0400000000001
+  },
+  {
+    "timestamp": 630.0,
+    "frame_path": "data\\keyframes\\frame_0630.00.jpg",
+    "associated_text": " the next one by basically flipping one bit at a time under the condition that I remain a",
+    "start_time": 625.0400000000001,
+    "end_time": 632.96
+  },
+  {
+    "timestamp": 635.0,
+    "frame_path": "data\\keyframes\\frame_0635.00.jpg",
+    "associated_text": " satisfying assignment at all times? And notice that without this condition the problem is trivial.",
+    "start_time": 632.96,
+    "end_time": 639.2800000000001
+  },
+  {
+    "timestamp": 640.0,
+    "frame_path": "data\\keyframes\\frame_0640.00.jpg",
+    "associated_text": " So you can basically just flip the bits however you like and reach S from T or T from S.",
+    "start_time": 639.4399999999999,
+    "end_time": 647.04
+  },
+  {
+    "timestamp": 645.0,
+    "frame_path": "data\\keyframes\\frame_0645.00.jpg",
+    "associated_text": " So you can basically just flip the bits however you like and reach S from T or T from S.",
+    "start_time": 639.4399999999999,
+    "end_time": 647.04
+  },
+  {
+    "timestamp": 650.0,
+    "frame_path": "data\\keyframes\\frame_0650.00.jpg",
+    "associated_text": " But once you have this constraint of you should remain a satisfying assignment the problem",
+    "start_time": 647.68,
+    "end_time": 653.6
+  },
+  {
+    "timestamp": 655.0,
+    "frame_path": "data\\keyframes\\frame_0655.00.jpg",
+    "associated_text": " becomes way more interesting. And you can think of this problem again as walking in the solution space",
+    "start_time": 653.6,
+    "end_time": 660.0799999999999
+  },
+  {
+    "timestamp": 660.0,
+    "frame_path": "data\\keyframes\\frame_0660.00.jpg",
+    "associated_text": " becomes way more interesting. And you can think of this problem again as walking in the solution space",
+    "start_time": 653.6,
+    "end_time": 660.0799999999999
+  },
+  {
+    "timestamp": 665.0,
+    "frame_path": "data\\keyframes\\frame_0665.00.jpg",
+    "associated_text": " of the given formula of all the satisfying assignment of the formula F.",
+    "start_time": 660.88,
+    "end_time": 665.52
+  },
+  {
+    "timestamp": 670.0,
+    "frame_path": "data\\keyframes\\frame_0670.00.jpg",
+    "associated_text": " All right, so that's the sad reconfiguration problem. Let's look at another example.",
+    "start_time": 666.16,
+    "end_time": 674.56
+  },
+  {
+    "timestamp": 675.0,
+    "frame_path": "data\\keyframes\\frame_0675.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 680.0,
+    "frame_path": "data\\keyframes\\frame_0680.00.jpg",
+    "associated_text": " Graph coloring. We all know it. We all love it. You're given a graph and some integer K and you are",
+    "start_time": 675.76,
+    "end_time": 683.6
+  },
+  {
+    "timestamp": 685.0,
+    "frame_path": "data\\keyframes\\frame_0685.00.jpg",
+    "associated_text": " asked whether you can properly cave color the graph G. And we know again that this is NP complete",
+    "start_time": 683.6,
+    "end_time": 689.04
+  },
+  {
+    "timestamp": 690.0,
+    "frame_path": "data\\keyframes\\frame_0690.00.jpg",
+    "associated_text": " for K greater than or equal to three. How do you transform that into a reconfiguration problem? Well,",
+    "start_time": 689.04,
+    "end_time": 694.48
+  },
+  {
+    "timestamp": 695.0,
+    "frame_path": "data\\keyframes\\frame_0695.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 700.0,
+    "frame_path": "data\\keyframes\\frame_0700.00.jpg",
+    "associated_text": " now you're given a graph. You're given two colorings of the graph alpha and beta. And the question",
+    "start_time": 695.28,
+    "end_time": 701.6
+  },
+  {
+    "timestamp": 705.0,
+    "frame_path": "data\\keyframes\\frame_0705.00.jpg",
+    "associated_text": " is can you recolor alpha to get the to beta? But you need to recolor one vertex at a time and you need",
+    "start_time": 701.6,
+    "end_time": 709.9200000000001
+  },
+  {
+    "timestamp": 710.0,
+    "frame_path": "data\\keyframes\\frame_0710.00.jpg",
+    "associated_text": " to remain a proper K coloring throughout. Same idea again leads us to this notion of the",
+    "start_time": 709.9200000000001,
+    "end_time": 716.96
+  },
+  {
+    "timestamp": 715.0,
+    "frame_path": "data\\keyframes\\frame_0715.00.jpg",
+    "associated_text": " to remain a proper K coloring throughout. Same idea again leads us to this notion of the",
+    "start_time": 709.9200000000001,
+    "end_time": 716.96
+  },
+  {
+    "timestamp": 720.0,
+    "frame_path": "data\\keyframes\\frame_0720.00.jpg",
+    "associated_text": " reconfiguration space where we are looking at the K colorings of the graph and how they are connected",
+    "start_time": 716.96,
+    "end_time": 723.28
+  },
+  {
+    "timestamp": 725.0,
+    "frame_path": "data\\keyframes\\frame_0725.00.jpg",
+    "associated_text": " under this adjacent simulation that we define, which is a single vertex recoloring.",
+    "start_time": 724.24,
+    "end_time": 729.28
+  },
+  {
+    "timestamp": 730.0,
+    "frame_path": "data\\keyframes\\frame_0730.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 735.0,
+    "frame_path": "data\\keyframes\\frame_0735.00.jpg",
+    "associated_text": " The final example that I will mention, which will be basically what we will focus on in the rest",
+    "start_time": 731.92,
+    "end_time": 737.1999999999999
+  },
+  {
+    "timestamp": 740.0,
+    "frame_path": "data\\keyframes\\frame_0740.00.jpg",
+    "associated_text": " of the talk is token placement. I call it, but as you will all guess, this is the famous",
+    "start_time": 737.1999999999999,
+    "end_time": 742.88
+  },
+  {
+    "timestamp": 745.0,
+    "frame_path": "data\\keyframes\\frame_0745.00.jpg",
+    "associated_text": " independent set problem. But we will look at it as a token placement problem because it will be",
+    "start_time": 742.88,
+    "end_time": 748.8
+  },
+  {
+    "timestamp": 750.0,
+    "frame_path": "data\\keyframes\\frame_0750.00.jpg",
+    "associated_text": " more useful for the rest of the talk. So you're given a graph G and an integer K. And the question",
+    "start_time": 748.8,
+    "end_time": 754.0
+  },
+  {
+    "timestamp": 755.0,
+    "frame_path": "data\\keyframes\\frame_0755.00.jpg",
+    "associated_text": " is can you place K tokens on your graph K black tokens so that no two of these tokens share an",
+    "start_time": 754.0,
+    "end_time": 760.0
+  },
+  {
+    "timestamp": 760.0,
+    "frame_path": "data\\keyframes\\frame_0760.00.jpg",
+    "associated_text": " edge. And of course, we all know that this is an NP complete problem. So how can you transform",
+    "start_time": 760.0,
+    "end_time": 766.4799999999999
+  },
+  {
+    "timestamp": 765.0,
+    "frame_path": "data\\keyframes\\frame_0765.00.jpg",
+    "associated_text": " edge. And of course, we all know that this is an NP complete problem. So how can you transform",
+    "start_time": 760.0,
+    "end_time": 766.4799999999999
+  },
+  {
+    "timestamp": 770.0,
+    "frame_path": "data\\keyframes\\frame_0770.00.jpg",
+    "associated_text": " this problem into a reconfiguration problem? Again, now I'm giving a graph two independent",
+    "start_time": 766.4799999999999,
+    "end_time": 771.76
+  },
+  {
+    "timestamp": 775.0,
+    "frame_path": "data\\keyframes\\frame_0775.00.jpg",
+    "associated_text": " sets of the graph each of size K. And the question is can I go from one independent set to the",
+    "start_time": 771.76,
+    "end_time": 778.4799999999999
+  },
+  {
+    "timestamp": 780.0,
+    "frame_path": "data\\keyframes\\frame_0780.00.jpg",
+    "associated_text": " other under what rule? So here defining the rule for independent set, how can I go between",
+    "start_time": 778.48,
+    "end_time": 786.88
+  },
+  {
+    "timestamp": 785.0,
+    "frame_path": "data\\keyframes\\frame_0785.00.jpg",
+    "associated_text": " other under what rule? So here defining the rule for independent set, how can I go between",
+    "start_time": 778.48,
+    "end_time": 786.88
+  },
+  {
+    "timestamp": 790.0,
+    "frame_path": "data\\keyframes\\frame_0790.00.jpg",
+    "associated_text": " consecutive independent sets becomes a little bit less obvious. And there are two main strategies",
+    "start_time": 786.88,
+    "end_time": 793.52
+  },
+  {
+    "timestamp": 795.0,
+    "frame_path": "data\\keyframes\\frame_0795.00.jpg",
+    "associated_text": " that people have attempted. So the first rule is what we call token jumping. So you are basically",
+    "start_time": 793.52,
+    "end_time": 800.5600000000001
+  },
+  {
+    "timestamp": 800.0,
+    "frame_path": "data\\keyframes\\frame_0800.00.jpg",
+    "associated_text": " that people have attempted. So the first rule is what we call token jumping. So you are basically",
+    "start_time": 793.52,
+    "end_time": 800.5600000000001
+  },
+  {
+    "timestamp": 805.0,
+    "frame_path": "data\\keyframes\\frame_0805.00.jpg",
+    "associated_text": " allowed to take any token on your graph and jump it to any other vertex on the graph, assuming that",
+    "start_time": 800.5600000000001,
+    "end_time": 807.44
+  },
+  {
+    "timestamp": 810.0,
+    "frame_path": "data\\keyframes\\frame_0810.00.jpg",
+    "associated_text": " it doesn't have a token and that you maintain an independent set at all times. So for example,",
+    "start_time": 807.44,
+    "end_time": 814.0
+  },
+  {
+    "timestamp": 815.0,
+    "frame_path": "data\\keyframes\\frame_0815.00.jpg",
+    "associated_text": " in this example that I have here, it would be perfectly okay to take this token here and jump",
+    "start_time": 814.0,
+    "end_time": 820.6400000000001
+  },
+  {
+    "timestamp": 820.0,
+    "frame_path": "data\\keyframes\\frame_0820.00.jpg",
+    "associated_text": " in this example that I have here, it would be perfectly okay to take this token here and jump",
+    "start_time": 814.0,
+    "end_time": 820.6400000000001
+  },
+  {
+    "timestamp": 825.0,
+    "frame_path": "data\\keyframes\\frame_0825.00.jpg",
+    "associated_text": " it to this vertex here. Or I could also take this token here and jump it to this vertex here.",
+    "start_time": 820.6400000000001,
+    "end_time": 829.6
+  },
+  {
+    "timestamp": 830.0,
+    "frame_path": "data\\keyframes\\frame_0830.00.jpg",
+    "associated_text": " So that, no, actually that would violate the independence. So you can jump to any other vertex as",
+    "start_time": 829.9200000000001,
+    "end_time": 837.36
+  },
+  {
+    "timestamp": 835.0,
+    "frame_path": "data\\keyframes\\frame_0835.00.jpg",
+    "associated_text": " So that, no, actually that would violate the independence. So you can jump to any other vertex as",
+    "start_time": 829.9200000000001,
+    "end_time": 837.36
+  },
+  {
+    "timestamp": 840.0,
+    "frame_path": "data\\keyframes\\frame_0840.00.jpg",
+    "associated_text": " long as you maintain independence. And we call that the token jumping rule. The other rule is",
+    "start_time": 837.36,
+    "end_time": 843.6800000000001
+  },
+  {
+    "timestamp": 845.0,
+    "frame_path": "data\\keyframes\\frame_0845.00.jpg",
+    "associated_text": " basically token sliding. So in this case, we only allow a token to slide along edges of the graph.",
+    "start_time": 843.6800000000001,
+    "end_time": 850.0
+  },
+  {
+    "timestamp": 850.0,
+    "frame_path": "data\\keyframes\\frame_0850.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 855.0,
+    "frame_path": "data\\keyframes\\frame_0855.00.jpg",
+    "associated_text": " So a token can only move to adjacent vertex, assuming of course this does not violate independence.",
+    "start_time": 850.56,
+    "end_time": 860.16
+  },
+  {
+    "timestamp": 860.0,
+    "frame_path": "data\\keyframes\\frame_0860.00.jpg",
+    "associated_text": " So a token can only move to adjacent vertex, assuming of course this does not violate independence.",
+    "start_time": 850.56,
+    "end_time": 860.16
+  },
+  {
+    "timestamp": 865.0,
+    "frame_path": "data\\keyframes\\frame_0865.00.jpg",
+    "associated_text": " So now we have two different reconfiguration graphs we can think about. We can think about the",
+    "start_time": 860.96,
+    "end_time": 865.84
+  },
+  {
+    "timestamp": 870.0,
+    "frame_path": "data\\keyframes\\frame_0870.00.jpg",
+    "associated_text": " reconfiguration graph under the token jumping adjacency. And we can think about the reconfiguration",
+    "start_time": 865.84,
+    "end_time": 871.28
+  },
+  {
+    "timestamp": 875.0,
+    "frame_path": "data\\keyframes\\frame_0875.00.jpg",
+    "associated_text": " graph under the token sliding adjacency. And we're going to talk about these two different problems",
+    "start_time": 871.28,
+    "end_time": 877.76
+  },
+  {
+    "timestamp": 880.0,
+    "frame_path": "data\\keyframes\\frame_0880.00.jpg",
+    "associated_text": " because they do actually behave quite differently. And they produce quite interesting results.",
+    "start_time": 877.84,
+    "end_time": 884.16
+  },
+  {
+    "timestamp": 885.0,
+    "frame_path": "data\\keyframes\\frame_0885.00.jpg",
+    "associated_text": " Like the difference between the two, we don't fully understand yet, but we kind of know that token",
+    "start_time": 884.16,
+    "end_time": 889.36
+  },
+  {
+    "timestamp": 890.0,
+    "frame_path": "data\\keyframes\\frame_0890.00.jpg",
+    "associated_text": " sliding can be harder than token jumping. But there's still a lot of questions to be answered.",
+    "start_time": 889.36,
+    "end_time": 895.6
+  },
+  {
+    "timestamp": 895.0,
+    "frame_path": "data\\keyframes\\frame_0895.00.jpg",
+    "associated_text": " sliding can be harder than token jumping. But there's still a lot of questions to be answered.",
+    "start_time": 889.36,
+    "end_time": 895.6
+  },
+  {
+    "timestamp": 900.0,
+    "frame_path": "data\\keyframes\\frame_0900.00.jpg",
+    "associated_text": " All right. So some of you might be asking why do we care about studying such problems?",
+    "start_time": 898.64,
+    "end_time": 904.0
+  },
+  {
+    "timestamp": 905.0,
+    "frame_path": "data\\keyframes\\frame_0905.00.jpg",
+    "associated_text": " There's a lot of motivations out there. I mean, as sometimes I would say you don't need motivation,",
+    "start_time": 904.8,
+    "end_time": 913.36
+  },
+  {
+    "timestamp": 910.0,
+    "frame_path": "data\\keyframes\\frame_0910.00.jpg",
+    "associated_text": " There's a lot of motivations out there. I mean, as sometimes I would say you don't need motivation,",
+    "start_time": 904.8,
+    "end_time": 913.36
+  },
+  {
+    "timestamp": 915.0,
+    "frame_path": "data\\keyframes\\frame_0915.00.jpg",
+    "associated_text": " they're interesting. There's a lot of open questions that we need to answer. But you can also",
+    "start_time": 913.36,
+    "end_time": 918.24
+  },
+  {
+    "timestamp": 920.0,
+    "frame_path": "data\\keyframes\\frame_0920.00.jpg",
+    "associated_text": " think about reconfiguration problems as another way of modeling real world algorithmic problems.",
+    "start_time": 918.24,
+    "end_time": 924.48
+  },
+  {
+    "timestamp": 925.0,
+    "frame_path": "data\\keyframes\\frame_0925.00.jpg",
+    "associated_text": " Because you usually never start from scratch. When you're trying to solve real world problems,",
+    "start_time": 924.48,
+    "end_time": 929.92
+  },
+  {
+    "timestamp": 930.0,
+    "frame_path": "data\\keyframes\\frame_0930.00.jpg",
+    "associated_text": " you usually start from something and you're trying to prove it or make it better or change it",
+    "start_time": 929.92,
+    "end_time": 934.8
+  },
+  {
+    "timestamp": 935.0,
+    "frame_path": "data\\keyframes\\frame_0935.00.jpg",
+    "associated_text": " to something more appropriate. Another very good application of studying these problems is that",
+    "start_time": 934.8,
+    "end_time": 942.64
+  },
+  {
+    "timestamp": 940.0,
+    "frame_path": "data\\keyframes\\frame_0940.00.jpg",
+    "associated_text": " to something more appropriate. Another very good application of studying these problems is that",
+    "start_time": 934.8,
+    "end_time": 942.64
+  },
+  {
+    "timestamp": 945.0,
+    "frame_path": "data\\keyframes\\frame_0945.00.jpg",
+    "associated_text": " they give you a better understanding of solution spaces, which can be very important for other areas",
+    "start_time": 942.64,
+    "end_time": 948.0
+  },
+  {
+    "timestamp": 950.0,
+    "frame_path": "data\\keyframes\\frame_0950.00.jpg",
+    "associated_text": " as well. And they have been used in statistical physics, quantum computing, and complexity theory,",
+    "start_time": 948.0,
+    "end_time": 954.0
+  },
+  {
+    "timestamp": 955.0,
+    "frame_path": "data\\keyframes\\frame_0955.00.jpg",
+    "associated_text": " combinatorics, and robotics, and hopefully many more applications to come. But what I would tell you",
+    "start_time": 954.0,
+    "end_time": 960.08
+  },
+  {
+    "timestamp": 960.0,
+    "frame_path": "data\\keyframes\\frame_0960.00.jpg",
+    "associated_text": " combinatorics, and robotics, and hopefully many more applications to come. But what I would tell you",
+    "start_time": 954.0,
+    "end_time": 960.08
+  },
+  {
+    "timestamp": 965.0,
+    "frame_path": "data\\keyframes\\frame_0965.00.jpg",
+    "associated_text": " is that there are so many very interesting problems that are so easy to start thinking about without",
+    "start_time": 960.08,
+    "end_time": 965.92
+  },
+  {
+    "timestamp": 970.0,
+    "frame_path": "data\\keyframes\\frame_0970.00.jpg",
+    "associated_text": " having too much background, which is why I think this is a very nice area to start working on",
+    "start_time": 965.92,
+    "end_time": 971.76
+  },
+  {
+    "timestamp": 975.0,
+    "frame_path": "data\\keyframes\\frame_0975.00.jpg",
+    "associated_text": " at any level in your research career.",
+    "start_time": 972.88,
+    "end_time": 975.2
+  },
+  {
+    "timestamp": 980.0,
+    "frame_path": "data\\keyframes\\frame_0980.00.jpg",
+    "associated_text": " All right, so I'll take a break here and take questions if there are any. And then we will dive into",
+    "start_time": 975.2,
+    "end_time": 985.2800000000001
+  },
+  {
+    "timestamp": 985.0,
+    "frame_path": "data\\keyframes\\frame_0985.00.jpg",
+    "associated_text": " All right, so I'll take a break here and take questions if there are any. And then we will dive into",
+    "start_time": 975.2,
+    "end_time": 985.2800000000001
+  },
+  {
+    "timestamp": 990.0,
+    "frame_path": "data\\keyframes\\frame_0990.00.jpg",
+    "associated_text": " the token jumping and token sliding problems, what we know about them in terms of classical complexity,",
+    "start_time": 985.2800000000001,
+    "end_time": 992.6400000000001
+  },
+  {
+    "timestamp": 995.0,
+    "frame_path": "data\\keyframes\\frame_0995.00.jpg",
+    "associated_text": " and what was basically the starting point for the project that led us to this paper.",
+    "start_time": 992.6400000000001,
+    "end_time": 997.36
+  },
+  {
+    "timestamp": 1000.0,
+    "frame_path": "data\\keyframes\\frame_1000.00.jpg",
+    "associated_text": " Any questions at this point?",
+    "start_time": 997.84,
+    "end_time": 1001.92
+  },
+  {
+    "timestamp": 1005.0,
+    "frame_path": "data\\keyframes\\frame_1005.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1010.0,
+    "frame_path": "data\\keyframes\\frame_1010.00.jpg",
+    "associated_text": " I'm, I apologize for the small context, which I am in interrupting here. So this is just to",
+    "start_time": 1005.12,
+    "end_time": 1011.6
+  },
+  {
+    "timestamp": 1015.0,
+    "frame_path": "data\\keyframes\\frame_1015.00.jpg",
+    "associated_text": " announce for the PC301 workshop that will be happening in December end. And this will be slightly",
+    "start_time": 1011.6,
+    "end_time": 1017.6800000000001
+  },
+  {
+    "timestamp": 1020.0,
+    "frame_path": "data\\keyframes\\frame_1020.00.jpg",
+    "associated_text": " different from the previous two workshops. First major difference, this will be online. Second is",
+    "start_time": 1017.6800000000001,
+    "end_time": 1023.12
+  },
+  {
+    "timestamp": 1025.0,
+    "frame_path": "data\\keyframes\\frame_1025.00.jpg",
+    "associated_text": " some advanced topics we'll be discussing. So anyone who intends to explore",
+    "start_time": 1023.84,
+    "end_time": 1029.52
+  },
+  {
+    "timestamp": 1030.0,
+    "frame_path": "data\\keyframes\\frame_1030.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1035.0,
+    "frame_path": "data\\keyframes\\frame_1035.00.jpg",
+    "associated_text": " somewhat more complex topics in parametrize algorithms is invited to have a check.",
+    "start_time": 1030.4,
+    "end_time": 1036.88
+  },
+  {
+    "timestamp": 1040.0,
+    "frame_path": "data\\keyframes\\frame_1040.00.jpg",
+    "associated_text": " We can look at the website that has been shared on the chat. And if you wish, you can register",
+    "start_time": 1036.88,
+    "end_time": 1041.44
+  },
+  {
+    "timestamp": 1045.0,
+    "frame_path": "data\\keyframes\\frame_1045.00.jpg",
+    "associated_text": " simply by filling a form that is linked at the bottom of the webpage. So just to inform",
+    "start_time": 1041.44,
+    "end_time": 1048.96
+  },
+  {
+    "timestamp": 1050.0,
+    "frame_path": "data\\keyframes\\frame_1050.00.jpg",
+    "associated_text": " you all about it. And sorry for the interruption for this. Now,",
+    "start_time": 1049.04,
+    "end_time": 1051.8400000000001
+  },
+  {
+    "timestamp": 1055.0,
+    "frame_path": "data\\keyframes\\frame_1055.00.jpg",
+    "associated_text": " all right. All right. So let's start talking about token jumping, token sliding, and a little bit",
+    "start_time": 1054.8,
+    "end_time": 1063.52
+  },
+  {
+    "timestamp": 1060.0,
+    "frame_path": "data\\keyframes\\frame_1060.00.jpg",
+    "associated_text": " all right. All right. So let's start talking about token jumping, token sliding, and a little bit",
+    "start_time": 1054.8,
+    "end_time": 1063.52
+  },
+  {
+    "timestamp": 1065.0,
+    "frame_path": "data\\keyframes\\frame_1065.00.jpg",
+    "associated_text": " about classical complexity. I know everybody here knows about P and NP. So I'm not going to talk about",
+    "start_time": 1063.52,
+    "end_time": 1070.32
+  },
+  {
+    "timestamp": 1070.0,
+    "frame_path": "data\\keyframes\\frame_1070.00.jpg",
+    "associated_text": " about classical complexity. I know everybody here knows about P and NP. So I'm not going to talk about",
+    "start_time": 1063.52,
+    "end_time": 1070.32
+  },
+  {
+    "timestamp": 1075.0,
+    "frame_path": "data\\keyframes\\frame_1075.00.jpg",
+    "associated_text": " this. Some of you might not be familiar with the PSPACE class. So just a quick note that's as much",
+    "start_time": 1070.32,
+    "end_time": 1076.4
+  },
+  {
+    "timestamp": 1080.0,
+    "frame_path": "data\\keyframes\\frame_1080.00.jpg",
+    "associated_text": " as you will need to know for this talk is that PSPACE is the set of all decision problems",
+    "start_time": 1076.4,
+    "end_time": 1082.0
+  },
+  {
+    "timestamp": 1085.0,
+    "frame_path": "data\\keyframes\\frame_1085.00.jpg",
+    "associated_text": " that can be solved using a polynomial amount of space. And the reason why I mentioned this class is",
+    "start_time": 1082.64,
+    "end_time": 1088.96
+  },
+  {
+    "timestamp": 1090.0,
+    "frame_path": "data\\keyframes\\frame_1090.00.jpg",
+    "associated_text": " because many, many, many, many, the configuration problem actually are PSPACE complete.",
+    "start_time": 1088.96,
+    "end_time": 1095.2800000000002
+  },
+  {
+    "timestamp": 1095.0,
+    "frame_path": "data\\keyframes\\frame_1095.00.jpg",
+    "associated_text": " because many, many, many, many, the configuration problem actually are PSPACE complete.",
+    "start_time": 1088.96,
+    "end_time": 1095.2800000000002
+  },
+  {
+    "timestamp": 1100.0,
+    "frame_path": "data\\keyframes\\frame_1100.00.jpg",
+    "associated_text": " Okay. And so, so what we know, the standard inclusion is we know that P is contained in NP,",
+    "start_time": 1096.16,
+    "end_time": 1102.4
+  },
+  {
+    "timestamp": 1105.0,
+    "frame_path": "data\\keyframes\\frame_1105.00.jpg",
+    "associated_text": " which is contained in PSPACE. But a very useful thing about PSPACE is that savage prove that",
+    "start_time": 1102.4,
+    "end_time": 1108.16
+  },
+  {
+    "timestamp": 1110.0,
+    "frame_path": "data\\keyframes\\frame_1110.00.jpg",
+    "associated_text": " it's equal to NP space. So polynomial space and non deterministic polynomial space are the same class.",
+    "start_time": 1108.16,
+    "end_time": 1115.44
+  },
+  {
+    "timestamp": 1115.0,
+    "frame_path": "data\\keyframes\\frame_1115.00.jpg",
+    "associated_text": " it's equal to NP space. So polynomial space and non deterministic polynomial space are the same class.",
+    "start_time": 1108.16,
+    "end_time": 1115.44
+  },
+  {
+    "timestamp": 1120.0,
+    "frame_path": "data\\keyframes\\frame_1120.00.jpg",
+    "associated_text": " Basically, and that's extremely useful when you start to think about reconfiguration problems,",
+    "start_time": 1116.8000000000002,
+    "end_time": 1122.24
+  },
+  {
+    "timestamp": 1125.0,
+    "frame_path": "data\\keyframes\\frame_1125.00.jpg",
+    "associated_text": " because if you think about reconfiguration problem, where you're given some state and you want",
+    "start_time": 1122.24,
+    "end_time": 1126.64
+  },
+  {
+    "timestamp": 1130.0,
+    "frame_path": "data\\keyframes\\frame_1130.00.jpg",
+    "associated_text": " to reach the other one. So basically, you can solve that easily in non deterministic polynomial space,",
+    "start_time": 1126.64,
+    "end_time": 1134.4
+  },
+  {
+    "timestamp": 1135.0,
+    "frame_path": "data\\keyframes\\frame_1135.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1140.0,
+    "frame_path": "data\\keyframes\\frame_1140.00.jpg",
+    "associated_text": " which basically implies that they are NP space. But actually, you can show a lot more than that.",
+    "start_time": 1135.6000000000001,
+    "end_time": 1143.44
+  },
+  {
+    "timestamp": 1145.0,
+    "frame_path": "data\\keyframes\\frame_1145.00.jpg",
+    "associated_text": " You can show that many, really, many reconfiguration problems are actually PSPACE complete,",
+    "start_time": 1143.44,
+    "end_time": 1148.64
+  },
+  {
+    "timestamp": 1150.0,
+    "frame_path": "data\\keyframes\\frame_1150.00.jpg",
+    "associated_text": " which is not surprising. Right. The fact that many of these reconfiguration problems are PSPACE",
+    "start_time": 1148.64,
+    "end_time": 1154.24
+  },
+  {
+    "timestamp": 1155.0,
+    "frame_path": "data\\keyframes\\frame_1155.00.jpg",
+    "associated_text": " complete is not very surprising. Right. And then, then not being in NP is because they don't always have",
+    "start_time": 1154.24,
+    "end_time": 1162.96
+  },
+  {
+    "timestamp": 1160.0,
+    "frame_path": "data\\keyframes\\frame_1160.00.jpg",
+    "associated_text": " complete is not very surprising. Right. And then, then not being in NP is because they don't always have",
+    "start_time": 1154.24,
+    "end_time": 1162.96
+  },
+  {
+    "timestamp": 1165.0,
+    "frame_path": "data\\keyframes\\frame_1165.00.jpg",
+    "associated_text": " polynomial-size certificates, which also makes sense, because sometimes the number of steps that",
+    "start_time": 1162.96,
+    "end_time": 1168.72
+  },
+  {
+    "timestamp": 1170.0,
+    "frame_path": "data\\keyframes\\frame_1170.00.jpg",
+    "associated_text": " you need to take to go from one configuration to the other might very well be exponential in the",
+    "start_time": 1168.72,
+    "end_time": 1174.08
+  },
+  {
+    "timestamp": 1175.0,
+    "frame_path": "data\\keyframes\\frame_1175.00.jpg",
+    "associated_text": " graph size. But there are also some extremely surprising results. And these are some of the results,",
+    "start_time": 1174.08,
+    "end_time": 1180.64
+  },
+  {
+    "timestamp": 1180.0,
+    "frame_path": "data\\keyframes\\frame_1180.00.jpg",
+    "associated_text": " graph size. But there are also some extremely surprising results. And these are some of the results,",
+    "start_time": 1174.08,
+    "end_time": 1180.64
+  },
+  {
+    "timestamp": 1185.0,
+    "frame_path": "data\\keyframes\\frame_1185.00.jpg",
+    "associated_text": " some of my favorite results in the area. But for example, you all know that coloring is NP complete",
+    "start_time": 1180.64,
+    "end_time": 1188.16
+  },
+  {
+    "timestamp": 1190.0,
+    "frame_path": "data\\keyframes\\frame_1190.00.jpg",
+    "associated_text": " even for k equals 3. However, it turns out that if you try to solve the recoloring problem",
+    "start_time": 1188.16,
+    "end_time": 1194.48
+  },
+  {
+    "timestamp": 1195.0,
+    "frame_path": "data\\keyframes\\frame_1195.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1200.0,
+    "frame_path": "data\\keyframes\\frame_1200.00.jpg",
+    "associated_text": " for k equals 3, it's actually polynomial-time-solvable. So if I give you two, three",
+    "start_time": 1195.5200000000002,
+    "end_time": 1201.44
+  },
+  {
+    "timestamp": 1205.0,
+    "frame_path": "data\\keyframes\\frame_1205.00.jpg",
+    "associated_text": " colorings of a graph, and I ask you, is there a path between them that recolors one vertex at a time,",
+    "start_time": 1201.44,
+    "end_time": 1208.48
+  },
+  {
+    "timestamp": 1210.0,
+    "frame_path": "data\\keyframes\\frame_1210.00.jpg",
+    "associated_text": " and is always a valid three coloring, then this problem can be solved in polynomial-time.",
+    "start_time": 1208.48,
+    "end_time": 1214.88
+  },
+  {
+    "timestamp": 1215.0,
+    "frame_path": "data\\keyframes\\frame_1215.00.jpg",
+    "associated_text": " And the recoloring problem only becomes PSPACE complete for k equals 4 and more.",
+    "start_time": 1214.88,
+    "end_time": 1219.52
+  },
+  {
+    "timestamp": 1220.0,
+    "frame_path": "data\\keyframes\\frame_1220.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1225.0,
+    "frame_path": "data\\keyframes\\frame_1225.00.jpg",
+    "associated_text": " Right. So that's the first surprising result. Another very surprising result is that",
+    "start_time": 1221.92,
+    "end_time": 1227.68
+  },
+  {
+    "timestamp": 1230.0,
+    "frame_path": "data\\keyframes\\frame_1230.00.jpg",
+    "associated_text": " as your all FBT experts here, I know that you're all familiar with the fact that usually,",
+    "start_time": 1228.48,
+    "end_time": 1234.8
+  },
+  {
+    "timestamp": 1235.0,
+    "frame_path": "data\\keyframes\\frame_1235.00.jpg",
+    "associated_text": " when we study problems on graphs of bounded bucket width, path width,",
+    "start_time": 1234.8,
+    "end_time": 1238.56
+  },
+  {
+    "timestamp": 1240.0,
+    "frame_path": "data\\keyframes\\frame_1240.00.jpg",
+    "associated_text": " tree width, they tend to become easier. It turns out that that's not really the case for",
+    "start_time": 1238.56,
+    "end_time": 1247.04
+  },
+  {
+    "timestamp": 1245.0,
+    "frame_path": "data\\keyframes\\frame_1245.00.jpg",
+    "associated_text": " tree width, they tend to become easier. It turns out that that's not really the case for",
+    "start_time": 1238.56,
+    "end_time": 1247.04
+  },
+  {
+    "timestamp": 1250.0,
+    "frame_path": "data\\keyframes\\frame_1250.00.jpg",
+    "associated_text": " reconfiguration problems, at least for token sliding and jumping, which is the two problems that",
+    "start_time": 1247.04,
+    "end_time": 1251.6
+  },
+  {
+    "timestamp": 1255.0,
+    "frame_path": "data\\keyframes\\frame_1255.00.jpg",
+    "associated_text": " are related to independent set. It turns out that those two problems remain PSPACE complete,",
+    "start_time": 1251.6,
+    "end_time": 1257.28
+  },
+  {
+    "timestamp": 1260.0,
+    "frame_path": "data\\keyframes\\frame_1260.00.jpg",
+    "associated_text": " even if you have a graph of constant tree width or path width or even bucket width.",
+    "start_time": 1257.28,
+    "end_time": 1261.76
+  },
+  {
+    "timestamp": 1265.0,
+    "frame_path": "data\\keyframes\\frame_1265.00.jpg",
+    "associated_text": " So a very, very, very simple graph structure still the problem remains hard.",
+    "start_time": 1262.72,
+    "end_time": 1268.64
+  },
+  {
+    "timestamp": 1270.0,
+    "frame_path": "data\\keyframes\\frame_1270.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1275.0,
+    "frame_path": "data\\keyframes\\frame_1275.00.jpg",
+    "associated_text": " All right. And finally, the last theorem that I also like a lot shows you basically that",
+    "start_time": 1271.12,
+    "end_time": 1278.64
+  },
+  {
+    "timestamp": 1280.0,
+    "frame_path": "data\\keyframes\\frame_1280.00.jpg",
+    "associated_text": " sliding and jumping behave differently. And it was shown that if you restrict yourself to",
+    "start_time": 1278.64,
+    "end_time": 1286.24
+  },
+  {
+    "timestamp": 1285.0,
+    "frame_path": "data\\keyframes\\frame_1285.00.jpg",
+    "associated_text": " sliding and jumping behave differently. And it was shown that if you restrict yourself to",
+    "start_time": 1278.64,
+    "end_time": 1286.24
+  },
+  {
+    "timestamp": 1290.0,
+    "frame_path": "data\\keyframes\\frame_1290.00.jpg",
+    "associated_text": " bipartite graphs, where we know that max independent set can be solved in polynomial time,",
+    "start_time": 1286.24,
+    "end_time": 1291.44
+  },
+  {
+    "timestamp": 1295.0,
+    "frame_path": "data\\keyframes\\frame_1295.00.jpg",
+    "associated_text": " if you restrict yourself to those graphs, it turns out that token jumping is NP complete,",
+    "start_time": 1292.32,
+    "end_time": 1298.56
+  },
+  {
+    "timestamp": 1300.0,
+    "frame_path": "data\\keyframes\\frame_1300.00.jpg",
+    "associated_text": " whereas token sliding is PSPACE complete, which is a strange difference between the behavior",
+    "start_time": 1299.76,
+    "end_time": 1310.0
+  },
+  {
+    "timestamp": 1305.0,
+    "frame_path": "data\\keyframes\\frame_1305.00.jpg",
+    "associated_text": " whereas token sliding is PSPACE complete, which is a strange difference between the behavior",
+    "start_time": 1299.76,
+    "end_time": 1310.0
+  },
+  {
+    "timestamp": 1310.0,
+    "frame_path": "data\\keyframes\\frame_1310.00.jpg",
+    "associated_text": " of those two problems. All right. So in fact, we know a lot more about token sliding and",
+    "start_time": 1310.0,
+    "end_time": 1321.52
+  },
+  {
+    "timestamp": 1315.0,
+    "frame_path": "data\\keyframes\\frame_1315.00.jpg",
+    "associated_text": " of those two problems. All right. So in fact, we know a lot more about token sliding and",
+    "start_time": 1310.0,
+    "end_time": 1321.52
+  },
+  {
+    "timestamp": 1320.0,
+    "frame_path": "data\\keyframes\\frame_1320.00.jpg",
+    "associated_text": " of those two problems. All right. So in fact, we know a lot more about token sliding and",
+    "start_time": 1310.0,
+    "end_time": 1321.52
+  },
+  {
+    "timestamp": 1325.0,
+    "frame_path": "data\\keyframes\\frame_1325.00.jpg",
+    "associated_text": " token jumping. These problems have been at the heart of the area of combinatorial reconfiguration.",
+    "start_time": 1321.52,
+    "end_time": 1327.52
+  },
+  {
+    "timestamp": 1330.0,
+    "frame_path": "data\\keyframes\\frame_1330.00.jpg",
+    "associated_text": " They have been studied so much. And we know so much about them, at least in terms of standard",
+    "start_time": 1327.52,
+    "end_time": 1333.12
+  },
+  {
+    "timestamp": 1335.0,
+    "frame_path": "data\\keyframes\\frame_1335.00.jpg",
+    "associated_text": " or classical complexity. So some of the important results for our paper that we're going to focus on",
+    "start_time": 1333.84,
+    "end_time": 1342.2399999999998
+  },
+  {
+    "timestamp": 1340.0,
+    "frame_path": "data\\keyframes\\frame_1340.00.jpg",
+    "associated_text": " or classical complexity. So some of the important results for our paper that we're going to focus on",
+    "start_time": 1333.84,
+    "end_time": 1342.2399999999998
+  },
+  {
+    "timestamp": 1345.0,
+    "frame_path": "data\\keyframes\\frame_1345.00.jpg",
+    "associated_text": " is this result. So that's going to be the starting point of the results that we will discuss",
+    "start_time": 1343.9199999999998,
+    "end_time": 1350.08
+  },
+  {
+    "timestamp": 1350.0,
+    "frame_path": "data\\keyframes\\frame_1350.00.jpg",
+    "associated_text": " is this result. So that's going to be the starting point of the results that we will discuss",
+    "start_time": 1343.9199999999998,
+    "end_time": 1350.08
+  },
+  {
+    "timestamp": 1355.0,
+    "frame_path": "data\\keyframes\\frame_1355.00.jpg",
+    "associated_text": " next when we move to parametrize complexity. So the fact that token sliding and token jumping",
+    "start_time": 1350.08,
+    "end_time": 1355.12
+  },
+  {
+    "timestamp": 1360.0,
+    "frame_path": "data\\keyframes\\frame_1360.00.jpg",
+    "associated_text": " are PSPACE complete and then NP complete, respectively on bipartite graphs,",
+    "start_time": 1356.6399999999999,
+    "end_time": 1360.8
+  },
+  {
+    "timestamp": 1365.0,
+    "frame_path": "data\\keyframes\\frame_1365.00.jpg",
+    "associated_text": " was the starting point of our next paper. But there are some very interesting results here that",
+    "start_time": 1360.8,
+    "end_time": 1365.52
+  },
+  {
+    "timestamp": 1370.0,
+    "frame_path": "data\\keyframes\\frame_1370.00.jpg",
+    "associated_text": " are also worth mentioning. So for example, for even whole figure halves, we know how to solve token",
+    "start_time": 1365.52,
+    "end_time": 1371.2
+  },
+  {
+    "timestamp": 1375.0,
+    "frame_path": "data\\keyframes\\frame_1375.00.jpg",
+    "associated_text": " jumping in polynomial time. But the complexity of independent set even remains open on this class of",
+    "start_time": 1371.2,
+    "end_time": 1378.0
+  },
+  {
+    "timestamp": 1380.0,
+    "frame_path": "data\\keyframes\\frame_1380.00.jpg",
+    "associated_text": " graphs. And the complexity of token sliding also remains open. So we don't know how to check if,",
+    "start_time": 1378.0,
+    "end_time": 1384.96
+  },
+  {
+    "timestamp": 1385.0,
+    "frame_path": "data\\keyframes\\frame_1385.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1390.0,
+    "frame_path": "data\\keyframes\\frame_1390.00.jpg",
+    "associated_text": " given two independent sets, I can slide one to the other. Can you answer that question in",
+    "start_time": 1385.04,
+    "end_time": 1390.88
+  },
+  {
+    "timestamp": 1395.0,
+    "frame_path": "data\\keyframes\\frame_1395.00.jpg",
+    "associated_text": " polynomial time for even whole free graphs? For split graphs and chordal graphs, they also",
+    "start_time": 1390.88,
+    "end_time": 1398.56
+  },
+  {
+    "timestamp": 1400.0,
+    "frame_path": "data\\keyframes\\frame_1400.00.jpg",
+    "associated_text": " behave extremely differently token sliding and token jumping. So they are token sliding is",
+    "start_time": 1398.56,
+    "end_time": 1403.8400000000001
+  },
+  {
+    "timestamp": 1405.0,
+    "frame_path": "data\\keyframes\\frame_1405.00.jpg",
+    "associated_text": " PSPACE complete on split graphs and chordal graphs while token jumping is polynomial time.",
+    "start_time": 1403.8400000000001,
+    "end_time": 1409.68
+  },
+  {
+    "timestamp": 1410.0,
+    "frame_path": "data\\keyframes\\frame_1410.00.jpg",
+    "associated_text": " And that is some of the reasons why we feel that token sliding is harder usually than token jumping.",
+    "start_time": 1409.8400000000001,
+    "end_time": 1418.16
+  },
+  {
+    "timestamp": 1415.0,
+    "frame_path": "data\\keyframes\\frame_1415.00.jpg",
+    "associated_text": " And that is some of the reasons why we feel that token sliding is harder usually than token jumping.",
+    "start_time": 1409.8400000000001,
+    "end_time": 1418.16
+  },
+  {
+    "timestamp": 1420.0,
+    "frame_path": "data\\keyframes\\frame_1420.00.jpg",
+    "associated_text": " But it's not always the case. All right. So that's it for classical complexity.",
+    "start_time": 1418.16,
+    "end_time": 1428.48
+  },
+  {
+    "timestamp": 1425.0,
+    "frame_path": "data\\keyframes\\frame_1425.00.jpg",
+    "associated_text": " But it's not always the case. All right. So that's it for classical complexity.",
+    "start_time": 1418.16,
+    "end_time": 1428.48
+  },
+  {
+    "timestamp": 1430.0,
+    "frame_path": "data\\keyframes\\frame_1430.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1435.0,
+    "frame_path": "data\\keyframes\\frame_1435.00.jpg",
+    "associated_text": " So now let's move on to parametrize complexity. And let's basically think about how you can",
+    "start_time": 1430.88,
+    "end_time": 1435.92
+  },
+  {
+    "timestamp": 1440.0,
+    "frame_path": "data\\keyframes\\frame_1440.00.jpg",
+    "associated_text": " parametrize those two problems, token jumping and token sliding. So the obvious parameter would be",
+    "start_time": 1435.92,
+    "end_time": 1444.16
+  },
+  {
+    "timestamp": 1445.0,
+    "frame_path": "data\\keyframes\\frame_1445.00.jpg",
+    "associated_text": " the number of tokens. So one of the obvious parameters would be the number of tokens. So",
+    "start_time": 1444.16,
+    "end_time": 1449.3600000000001
+  },
+  {
+    "timestamp": 1450.0,
+    "frame_path": "data\\keyframes\\frame_1450.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1455.0,
+    "frame_path": "data\\keyframes\\frame_1455.00.jpg",
+    "associated_text": " and we're going to denote that by K. Another parameter would be the length of the sequence.",
+    "start_time": 1450.4,
+    "end_time": 1455.44
+  },
+  {
+    "timestamp": 1460.0,
+    "frame_path": "data\\keyframes\\frame_1460.00.jpg",
+    "associated_text": " Like how many steps does it take to go from one independent set to the other? You can also obviously",
+    "start_time": 1455.44,
+    "end_time": 1462.0
+  },
+  {
+    "timestamp": 1465.0,
+    "frame_path": "data\\keyframes\\frame_1465.00.jpg",
+    "associated_text": " parametrize by tree width or path width or any combination of the above. When we started working",
+    "start_time": 1462.0,
+    "end_time": 1468.16
+  },
+  {
+    "timestamp": 1470.0,
+    "frame_path": "data\\keyframes\\frame_1470.00.jpg",
+    "associated_text": " on this problem, our initial aim was to basically study the parametrize complexity of token sliding",
+    "start_time": 1468.16,
+    "end_time": 1476.16
+  },
+  {
+    "timestamp": 1475.0,
+    "frame_path": "data\\keyframes\\frame_1475.00.jpg",
+    "associated_text": " on this problem, our initial aim was to basically study the parametrize complexity of token sliding",
+    "start_time": 1468.16,
+    "end_time": 1476.16
+  },
+  {
+    "timestamp": 1480.0,
+    "frame_path": "data\\keyframes\\frame_1480.00.jpg",
+    "associated_text": " and token jumping on bipartite graphs using the parameter K number of tokens.",
+    "start_time": 1476.16,
+    "end_time": 1481.84
+  },
+  {
+    "timestamp": 1485.0,
+    "frame_path": "data\\keyframes\\frame_1485.00.jpg",
+    "associated_text": " Right. Because remember, we saw that token sliding is PSPACE complete on bipartite graphs and",
+    "start_time": 1483.04,
+    "end_time": 1487.92
+  },
+  {
+    "timestamp": 1490.0,
+    "frame_path": "data\\keyframes\\frame_1490.00.jpg",
+    "associated_text": " token jumping is NPGA. So you were interested to see if basically this is going to give us",
+    "start_time": 1487.92,
+    "end_time": 1494.72
+  },
+  {
+    "timestamp": 1495.0,
+    "frame_path": "data\\keyframes\\frame_1495.00.jpg",
+    "associated_text": " W1 hardness for token sliding and FPTNES for token jumping.",
+    "start_time": 1494.72,
+    "end_time": 1499.2
+  },
+  {
+    "timestamp": 1500.0,
+    "frame_path": "data\\keyframes\\frame_1500.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1505.0,
+    "frame_path": "data\\keyframes\\frame_1505.00.jpg",
+    "associated_text": " All right. At least that was the initial hope. That's why we started working on this project.",
+    "start_time": 1500.88,
+    "end_time": 1505.44
+  },
+  {
+    "timestamp": 1510.0,
+    "frame_path": "data\\keyframes\\frame_1510.00.jpg",
+    "associated_text": " We weren't able to answer the two questions. So we were able to answer one side of the question,",
+    "start_time": 1506.16,
+    "end_time": 1512.0
+  },
+  {
+    "timestamp": 1515.0,
+    "frame_path": "data\\keyframes\\frame_1515.00.jpg",
+    "associated_text": " which is we were able to show that on bipartite graphs token sliding is in fact W1 hard.",
+    "start_time": 1512.72,
+    "end_time": 1520.72
+  },
+  {
+    "timestamp": 1520.0,
+    "frame_path": "data\\keyframes\\frame_1520.00.jpg",
+    "associated_text": " which is we were able to show that on bipartite graphs token sliding is in fact W1 hard.",
+    "start_time": 1512.72,
+    "end_time": 1520.72
+  },
+  {
+    "timestamp": 1525.0,
+    "frame_path": "data\\keyframes\\frame_1525.00.jpg",
+    "associated_text": " So token sliding parametrize by the number of tokens on bipartite graphs is W1 hard.",
+    "start_time": 1522.32,
+    "end_time": 1528.16
+  },
+  {
+    "timestamp": 1530.0,
+    "frame_path": "data\\keyframes\\frame_1530.00.jpg",
+    "associated_text": " We were not able to answer the question for token jumping. So that is still an open question.",
+    "start_time": 1528.72,
+    "end_time": 1535.12
+  },
+  {
+    "timestamp": 1535.0,
+    "frame_path": "data\\keyframes\\frame_1535.00.jpg",
+    "associated_text": " We were not able to answer the question for token jumping. So that is still an open question.",
+    "start_time": 1528.72,
+    "end_time": 1535.12
+  },
+  {
+    "timestamp": 1540.0,
+    "frame_path": "data\\keyframes\\frame_1540.00.jpg",
+    "associated_text": " So having answered that question and failed on the next question, we started thinking about ways",
+    "start_time": 1536.08,
+    "end_time": 1542.8
+  },
+  {
+    "timestamp": 1545.0,
+    "frame_path": "data\\keyframes\\frame_1545.00.jpg",
+    "associated_text": " to basically simplify a little bit some of these questions. So the next thing we asked ourselves,",
+    "start_time": 1542.8,
+    "end_time": 1549.76
+  },
+  {
+    "timestamp": 1550.0,
+    "frame_path": "data\\keyframes\\frame_1550.00.jpg",
+    "associated_text": " so there are two directions where you can try and simplify. So the next thing we asked ourselves was,",
+    "start_time": 1549.76,
+    "end_time": 1557.36
+  },
+  {
+    "timestamp": 1555.0,
+    "frame_path": "data\\keyframes\\frame_1555.00.jpg",
+    "associated_text": " so there are two directions where you can try and simplify. So the next thing we asked ourselves was,",
+    "start_time": 1549.76,
+    "end_time": 1557.36
+  },
+  {
+    "timestamp": 1560.0,
+    "frame_path": "data\\keyframes\\frame_1560.00.jpg",
+    "associated_text": " okay, so from bipartite graphs, how can I go to other classes of graphs and see where token",
+    "start_time": 1557.4399999999998,
+    "end_time": 1565.6799999999998
+  },
+  {
+    "timestamp": 1565.0,
+    "frame_path": "data\\keyframes\\frame_1565.00.jpg",
+    "associated_text": " okay, so from bipartite graphs, how can I go to other classes of graphs and see where token",
+    "start_time": 1557.4399999999998,
+    "end_time": 1565.6799999999998
+  },
+  {
+    "timestamp": 1570.0,
+    "frame_path": "data\\keyframes\\frame_1570.00.jpg",
+    "associated_text": " jumping becomes hard or easy? And it turned out that if you basically exclude only C4",
+    "start_time": 1565.6799999999998,
+    "end_time": 1572.08
+  },
+  {
+    "timestamp": 1575.0,
+    "frame_path": "data\\keyframes\\frame_1575.00.jpg",
+    "associated_text": " from your graph, right? And so we, because in bipartite graphs, you're excluding all odd cycles.",
+    "start_time": 1573.6,
+    "end_time": 1581.12
+  },
+  {
+    "timestamp": 1580.0,
+    "frame_path": "data\\keyframes\\frame_1580.00.jpg",
+    "associated_text": " from your graph, right? And so we, because in bipartite graphs, you're excluding all odd cycles.",
+    "start_time": 1573.6,
+    "end_time": 1581.12
+  },
+  {
+    "timestamp": 1585.0,
+    "frame_path": "data\\keyframes\\frame_1585.00.jpg",
+    "associated_text": " Right? So, so we, and we started thinking about what kinds of cycles affect the behavior of those",
+    "start_time": 1581.6799999999998,
+    "end_time": 1588.1599999999999
+  },
+  {
+    "timestamp": 1590.0,
+    "frame_path": "data\\keyframes\\frame_1590.00.jpg",
+    "associated_text": " problems. So the first question was, what about C4 free graphs? And it turned out that both problems",
+    "start_time": 1588.1599999999999,
+    "end_time": 1594.08
+  },
+  {
+    "timestamp": 1595.0,
+    "frame_path": "data\\keyframes\\frame_1595.00.jpg",
+    "associated_text": " remained W1 hard on C4 free graphs. Now, if you exclude C3 and C4, it turns out that token jumping",
+    "start_time": 1594.08,
+    "end_time": 1603.52
+  },
+  {
+    "timestamp": 1600.0,
+    "frame_path": "data\\keyframes\\frame_1600.00.jpg",
+    "associated_text": " remained W1 hard on C4 free graphs. Now, if you exclude C3 and C4, it turns out that token jumping",
+    "start_time": 1594.08,
+    "end_time": 1603.52
+  },
+  {
+    "timestamp": 1605.0,
+    "frame_path": "data\\keyframes\\frame_1605.00.jpg",
+    "associated_text": " becomes FPT has an order K squared kernel, but for token sliding, we were not able to determine the",
+    "start_time": 1603.52,
+    "end_time": 1611.44
+  },
+  {
+    "timestamp": 1610.0,
+    "frame_path": "data\\keyframes\\frame_1610.00.jpg",
+    "associated_text": " becomes FPT has an order K squared kernel, but for token sliding, we were not able to determine the",
+    "start_time": 1603.52,
+    "end_time": 1611.44
+  },
+  {
+    "timestamp": 1615.0,
+    "frame_path": "data\\keyframes\\frame_1615.00.jpg",
+    "associated_text": " complexity. Now, if you go to the other side of that, so what if we enforce both bipartite",
+    "start_time": 1611.44,
+    "end_time": 1620.56
+  },
+  {
+    "timestamp": 1620.0,
+    "frame_path": "data\\keyframes\\frame_1620.00.jpg",
+    "associated_text": " complexity. Now, if you go to the other side of that, so what if we enforce both bipartite",
+    "start_time": 1611.44,
+    "end_time": 1620.56
+  },
+  {
+    "timestamp": 1625.0,
+    "frame_path": "data\\keyframes\\frame_1625.00.jpg",
+    "associated_text": " tightness as well as C4 freeness? So on, in that case, we were able to show that both problems became FPT.",
+    "start_time": 1620.56,
+    "end_time": 1629.6
+  },
+  {
+    "timestamp": 1630.0,
+    "frame_path": "data\\keyframes\\frame_1630.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1635.0,
+    "frame_path": "data\\keyframes\\frame_1635.00.jpg",
+    "associated_text": " Okay, and basically the bipartite bounded degree graphs was just a stepping stone to get to the",
+    "start_time": 1633.84,
+    "end_time": 1639.2
+  },
+  {
+    "timestamp": 1640.0,
+    "frame_path": "data\\keyframes\\frame_1640.00.jpg",
+    "associated_text": " bipartite C4 free graph result. So let me, let me repeat that maybe slightly more clearly. So after",
+    "start_time": 1639.2,
+    "end_time": 1647.44
+  },
+  {
+    "timestamp": 1645.0,
+    "frame_path": "data\\keyframes\\frame_1645.00.jpg",
+    "associated_text": " bipartite C4 free graph result. So let me, let me repeat that maybe slightly more clearly. So after",
+    "start_time": 1639.2,
+    "end_time": 1647.44
+  },
+  {
+    "timestamp": 1650.0,
+    "frame_path": "data\\keyframes\\frame_1650.00.jpg",
+    "associated_text": " basically answering the first question, which was bipartite graphs, we were able to show that token",
+    "start_time": 1647.52,
+    "end_time": 1652.8
+  },
+  {
+    "timestamp": 1655.0,
+    "frame_path": "data\\keyframes\\frame_1655.00.jpg",
+    "associated_text": " sliding was W1 hard, but we were not able to determine the complexity of token jumping. So then we",
+    "start_time": 1652.8,
+    "end_time": 1659.28
+  },
+  {
+    "timestamp": 1660.0,
+    "frame_path": "data\\keyframes\\frame_1660.00.jpg",
+    "associated_text": " went to C4 free graphs, and we were able to show that both problems are actually W1 hard. Then if we",
+    "start_time": 1659.28,
+    "end_time": 1666.72
+  },
+  {
+    "timestamp": 1665.0,
+    "frame_path": "data\\keyframes\\frame_1665.00.jpg",
+    "associated_text": " went to C4 free graphs, and we were able to show that both problems are actually W1 hard. Then if we",
+    "start_time": 1659.28,
+    "end_time": 1666.72
+  },
+  {
+    "timestamp": 1670.0,
+    "frame_path": "data\\keyframes\\frame_1670.00.jpg",
+    "associated_text": " added one more constraint, which was C3 C4 free graphs, we got FPT and it's for token jumping,",
+    "start_time": 1666.72,
+    "end_time": 1673.3600000000001
+  },
+  {
+    "timestamp": 1675.0,
+    "frame_path": "data\\keyframes\\frame_1675.00.jpg",
+    "associated_text": " but it remained open for token sliding. And on the other side of the spectrum, so if we keep",
+    "start_time": 1673.36,
+    "end_time": 1680.32
+  },
+  {
+    "timestamp": 1680.0,
+    "frame_path": "data\\keyframes\\frame_1680.00.jpg",
+    "associated_text": " but it remained open for token sliding. And on the other side of the spectrum, so if we keep",
+    "start_time": 1673.36,
+    "end_time": 1680.32
+  },
+  {
+    "timestamp": 1685.0,
+    "frame_path": "data\\keyframes\\frame_1685.00.jpg",
+    "associated_text": " bipartite and enforce the C4 freeness, we get FPT for both problems. And as a side note, this",
+    "start_time": 1680.32,
+    "end_time": 1689.76
+  },
+  {
+    "timestamp": 1690.0,
+    "frame_path": "data\\keyframes\\frame_1690.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1695.0,
+    "frame_path": "data\\keyframes\\frame_1695.00.jpg",
+    "associated_text": " blue result is not part of our paper. This was known prior to our paper.",
+    "start_time": 1690.24,
+    "end_time": 1696.24
+  },
+  {
+    "timestamp": 1700.0,
+    "frame_path": "data\\keyframes\\frame_1700.00.jpg",
+    "associated_text": " So any questions about the results?",
+    "start_time": 1696.48,
+    "end_time": 1702.64
+  },
+  {
+    "timestamp": 1705.0,
+    "frame_path": "data\\keyframes\\frame_1705.00.jpg",
+    "associated_text": " No questions. All right, cool. So lots of open problems.",
+    "start_time": 1702.64,
+    "end_time": 1726.16
+  },
+  {
+    "timestamp": 1710.0,
+    "frame_path": "data\\keyframes\\frame_1710.00.jpg",
+    "associated_text": " No questions. All right, cool. So lots of open problems.",
+    "start_time": 1702.64,
+    "end_time": 1726.16
+  },
+  {
+    "timestamp": 1715.0,
+    "frame_path": "data\\keyframes\\frame_1715.00.jpg",
+    "associated_text": " No questions. All right, cool. So lots of open problems.",
+    "start_time": 1702.64,
+    "end_time": 1726.16
+  },
+  {
+    "timestamp": 1720.0,
+    "frame_path": "data\\keyframes\\frame_1720.00.jpg",
+    "associated_text": " No questions. All right, cool. So lots of open problems.",
+    "start_time": 1702.64,
+    "end_time": 1726.16
+  },
+  {
+    "timestamp": 1725.0,
+    "frame_path": "data\\keyframes\\frame_1725.00.jpg",
+    "associated_text": " No questions. All right, cool. So lots of open problems.",
+    "start_time": 1702.64,
+    "end_time": 1726.16
+  },
+  {
+    "timestamp": 1730.0,
+    "frame_path": "data\\keyframes\\frame_1730.00.jpg",
+    "associated_text": " The first and obvious one is token jumping FPT, parameterized by K on bipartite graphs.",
+    "start_time": 1727.1200000000001,
+    "end_time": 1734.72
+  },
+  {
+    "timestamp": 1735.0,
+    "frame_path": "data\\keyframes\\frame_1735.00.jpg",
+    "associated_text": " And that's really, I mean, that was the initial question that we set out to answer and couldn't.",
+    "start_time": 1734.72,
+    "end_time": 1741.3600000000001
+  },
+  {
+    "timestamp": 1740.0,
+    "frame_path": "data\\keyframes\\frame_1740.00.jpg",
+    "associated_text": " And that's really, I mean, that was the initial question that we set out to answer and couldn't.",
+    "start_time": 1734.72,
+    "end_time": 1741.3600000000001
+  },
+  {
+    "timestamp": 1745.0,
+    "frame_path": "data\\keyframes\\frame_1745.00.jpg",
+    "associated_text": " So that remains open. And it's, so I will not be going over the hardness reduction for token",
+    "start_time": 1741.3600000000001,
+    "end_time": 1752.3200000000002
+  },
+  {
+    "timestamp": 1750.0,
+    "frame_path": "data\\keyframes\\frame_1750.00.jpg",
+    "associated_text": " So that remains open. And it's, so I will not be going over the hardness reduction for token",
+    "start_time": 1741.3600000000001,
+    "end_time": 1752.3200000000002
+  },
+  {
+    "timestamp": 1755.0,
+    "frame_path": "data\\keyframes\\frame_1755.00.jpg",
+    "associated_text": " sliding on bipartite graphs because it's quite technical. I don't feel a talk is the right place",
+    "start_time": 1752.32,
+    "end_time": 1757.36
+  },
+  {
+    "timestamp": 1760.0,
+    "frame_path": "data\\keyframes\\frame_1760.00.jpg",
+    "associated_text": " to go over it. But if you go over the reduction, you will see that it's the two problems really",
+    "start_time": 1757.36,
+    "end_time": 1766.8
+  },
+  {
+    "timestamp": 1765.0,
+    "frame_path": "data\\keyframes\\frame_1765.00.jpg",
+    "associated_text": " to go over it. But if you go over the reduction, you will see that it's the two problems really",
+    "start_time": 1757.36,
+    "end_time": 1766.8
+  },
+  {
+    "timestamp": 1770.0,
+    "frame_path": "data\\keyframes\\frame_1770.00.jpg",
+    "associated_text": " behave differently. And there, there's that doesn't seem to be a chance to basically make the same",
+    "start_time": 1766.8,
+    "end_time": 1771.9199999999998
+  },
+  {
+    "timestamp": 1775.0,
+    "frame_path": "data\\keyframes\\frame_1775.00.jpg",
+    "associated_text": " type of reduction work for token jumping. So the second interesting open question is how about",
+    "start_time": 1771.9199999999998,
+    "end_time": 1779.12
+  },
+  {
+    "timestamp": 1780.0,
+    "frame_path": "data\\keyframes\\frame_1780.00.jpg",
+    "associated_text": " token jumping parameterized by K on triangle free graphs? That's basically even more general than",
+    "start_time": 1779.12,
+    "end_time": 1785.36
+  },
+  {
+    "timestamp": 1785.0,
+    "frame_path": "data\\keyframes\\frame_1785.00.jpg",
+    "associated_text": " token jumping parameterized by K on triangle free graphs? That's basically even more general than",
+    "start_time": 1779.12,
+    "end_time": 1785.36
+  },
+  {
+    "timestamp": 1790.0,
+    "frame_path": "data\\keyframes\\frame_1790.00.jpg",
+    "associated_text": " question one. Right? So, and the reason why I mentioned this question separately is because almost",
+    "start_time": 1785.36,
+    "end_time": 1792.3999999999999
+  },
+  {
+    "timestamp": 1795.0,
+    "frame_path": "data\\keyframes\\frame_1795.00.jpg",
+    "associated_text": " every reduction that I know of includes large clicks. So you need to use large clicks in your",
+    "start_time": 1792.3999999999999,
+    "end_time": 1799.36
+  },
+  {
+    "timestamp": 1800.0,
+    "frame_path": "data\\keyframes\\frame_1800.00.jpg",
+    "associated_text": " reductions. So how about if we don't allow triangles and large clicks? So can we can we can we then",
+    "start_time": 1799.36,
+    "end_time": 1806.6399999999999
+  },
+  {
+    "timestamp": 1805.0,
+    "frame_path": "data\\keyframes\\frame_1805.00.jpg",
+    "associated_text": " reductions. So how about if we don't allow triangles and large clicks? So can we can we can we then",
+    "start_time": 1799.36,
+    "end_time": 1806.6399999999999
+  },
+  {
+    "timestamp": 1810.0,
+    "frame_path": "data\\keyframes\\frame_1810.00.jpg",
+    "associated_text": " say something about the problem? So that's for token jumping. Now, when when you go to token",
+    "start_time": 1806.64,
+    "end_time": 1813.0400000000002
+  },
+  {
+    "timestamp": 1815.0,
+    "frame_path": "data\\keyframes\\frame_1815.00.jpg",
+    "associated_text": " sliding. So, so the open problem is what happens for token sliding on graphs of girth at least five.",
+    "start_time": 1813.0400000000002,
+    "end_time": 1821.2800000000002
+  },
+  {
+    "timestamp": 1820.0,
+    "frame_path": "data\\keyframes\\frame_1820.00.jpg",
+    "associated_text": " sliding. So, so the open problem is what happens for token sliding on graphs of girth at least five.",
+    "start_time": 1813.0400000000002,
+    "end_time": 1821.2800000000002
+  },
+  {
+    "timestamp": 1825.0,
+    "frame_path": "data\\keyframes\\frame_1825.00.jpg",
+    "associated_text": " So if they are C3 C4 free, or you can even make that a bit weaker and ask for any girth of at",
+    "start_time": 1821.2800000000002,
+    "end_time": 1829.5200000000002
+  },
+  {
+    "timestamp": 1830.0,
+    "frame_path": "data\\keyframes\\frame_1830.00.jpg",
+    "associated_text": " least P for some constant P. And for all of these questions, of course, polynomial kernels",
+    "start_time": 1829.52,
+    "end_time": 1837.2
+  },
+  {
+    "timestamp": 1835.0,
+    "frame_path": "data\\keyframes\\frame_1835.00.jpg",
+    "associated_text": " least P for some constant P. And for all of these questions, of course, polynomial kernels",
+    "start_time": 1829.52,
+    "end_time": 1837.2
+  },
+  {
+    "timestamp": 1840.0,
+    "frame_path": "data\\keyframes\\frame_1840.00.jpg",
+    "associated_text": " would be interesting as well. Because in our case, we do get polynomial kernels for the FPT.",
+    "start_time": 1838.56,
+    "end_time": 1845.04
+  },
+  {
+    "timestamp": 1845.0,
+    "frame_path": "data\\keyframes\\frame_1845.00.jpg",
+    "associated_text": " would be interesting as well. Because in our case, we do get polynomial kernels for the FPT.",
+    "start_time": 1838.56,
+    "end_time": 1845.04
+  },
+  {
+    "timestamp": 1850.0,
+    "frame_path": "data\\keyframes\\frame_1850.00.jpg",
+    "associated_text": " And the polynomials are not great, but polynomial regardless.",
+    "start_time": 1847.6,
+    "end_time": 1853.36
+  },
+  {
+    "timestamp": 1855.0,
+    "frame_path": "data\\keyframes\\frame_1855.00.jpg",
+    "associated_text": " All right. So, and the rest of the talk, I will try to cover some of the technical stuff. And as",
+    "start_time": 1853.76,
+    "end_time": 1864.32
+  },
+  {
+    "timestamp": 1860.0,
+    "frame_path": "data\\keyframes\\frame_1860.00.jpg",
+    "associated_text": " All right. So, and the rest of the talk, I will try to cover some of the technical stuff. And as",
+    "start_time": 1853.76,
+    "end_time": 1864.32
+  },
+  {
+    "timestamp": 1865.0,
+    "frame_path": "data\\keyframes\\frame_1865.00.jpg",
+    "associated_text": " promised, I will try to keep it as light as possible so that I can give you some of a lot of the",
+    "start_time": 1864.32,
+    "end_time": 1869.6799999999998
+  },
+  {
+    "timestamp": 1870.0,
+    "frame_path": "data\\keyframes\\frame_1870.00.jpg",
+    "associated_text": " intuition and techniques that are used in this paper and that are generally used when dealing with",
+    "start_time": 1869.6799999999998,
+    "end_time": 1876.3999999999999
+  },
+  {
+    "timestamp": 1875.0,
+    "frame_path": "data\\keyframes\\frame_1875.00.jpg",
+    "associated_text": " intuition and techniques that are used in this paper and that are generally used when dealing with",
+    "start_time": 1869.6799999999998,
+    "end_time": 1876.3999999999999
+  },
+  {
+    "timestamp": 1880.0,
+    "frame_path": "data\\keyframes\\frame_1880.00.jpg",
+    "associated_text": " the reconfiguration problems. So the first result that we will go over is this W hardness on C4 free",
+    "start_time": 1876.4,
+    "end_time": 1883.0400000000002
+  },
+  {
+    "timestamp": 1885.0,
+    "frame_path": "data\\keyframes\\frame_1885.00.jpg",
+    "associated_text": " graphs. Right? For both token sliding and token jumping, it's the same reduction and and",
+    "start_time": 1883.0400000000002,
+    "end_time": 1888.64
+  },
+  {
+    "timestamp": 1890.0,
+    "frame_path": "data\\keyframes\\frame_1890.00.jpg",
+    "associated_text": " you will get both results because we will be using maximum independent sets. So if you're trying to",
+    "start_time": 1889.6000000000001,
+    "end_time": 1898.0800000000002
+  },
+  {
+    "timestamp": 1895.0,
+    "frame_path": "data\\keyframes\\frame_1895.00.jpg",
+    "associated_text": " you will get both results because we will be using maximum independent sets. So if you're trying to",
+    "start_time": 1889.6000000000001,
+    "end_time": 1898.0800000000002
+  },
+  {
+    "timestamp": 1900.0,
+    "frame_path": "data\\keyframes\\frame_1900.00.jpg",
+    "associated_text": " basically do token sliding from one maximum independent set to the other or token jumping,",
+    "start_time": 1898.0800000000002,
+    "end_time": 1905.2800000000002
+  },
+  {
+    "timestamp": 1905.0,
+    "frame_path": "data\\keyframes\\frame_1905.00.jpg",
+    "associated_text": " basically do token sliding from one maximum independent set to the other or token jumping,",
+    "start_time": 1898.0800000000002,
+    "end_time": 1905.2800000000002
+  },
+  {
+    "timestamp": 1910.0,
+    "frame_path": "data\\keyframes\\frame_1910.00.jpg",
+    "associated_text": " these two rules become equivalent, jumping becomes equivalent to sliding. So when you're dealing",
+    "start_time": 1905.28,
+    "end_time": 1910.3999999999999
+  },
+  {
+    "timestamp": 1915.0,
+    "frame_path": "data\\keyframes\\frame_1915.00.jpg",
+    "associated_text": " with maximum independent sets, these two basically rules are the same. And that's what we're going",
+    "start_time": 1910.3999999999999,
+    "end_time": 1916.24
+  },
+  {
+    "timestamp": 1920.0,
+    "frame_path": "data\\keyframes\\frame_1920.00.jpg",
+    "associated_text": " to do. But what we're going to prove actually is a stronger theorem. What we're going to prove",
+    "start_time": 1916.24,
+    "end_time": 1921.52
+  },
+  {
+    "timestamp": 1925.0,
+    "frame_path": "data\\keyframes\\frame_1925.00.jpg",
+    "associated_text": " is the following theorem. If you take any P greater than or equal to 4, then both problems are",
+    "start_time": 1921.52,
+    "end_time": 1928.48
+  },
+  {
+    "timestamp": 1930.0,
+    "frame_path": "data\\keyframes\\frame_1930.00.jpg",
+    "associated_text": " W hard on C4, C5 dot dot dot up to Cp free graphs, which implies of course C4 free graphs.",
+    "start_time": 1928.48,
+    "end_time": 1939.44
+  },
+  {
+    "timestamp": 1935.0,
+    "frame_path": "data\\keyframes\\frame_1935.00.jpg",
+    "associated_text": " W hard on C4, C5 dot dot dot up to Cp free graphs, which implies of course C4 free graphs.",
+    "start_time": 1928.48,
+    "end_time": 1939.44
+  },
+  {
+    "timestamp": 1940.0,
+    "frame_path": "data\\keyframes\\frame_1940.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 1945.0,
+    "frame_path": "data\\keyframes\\frame_1945.00.jpg",
+    "associated_text": " But you can basically exclude any cycles from C4 up to Cp for constant P and the problems will",
+    "start_time": 1940.88,
+    "end_time": 1949.52
+  },
+  {
+    "timestamp": 1950.0,
+    "frame_path": "data\\keyframes\\frame_1950.00.jpg",
+    "associated_text": " remain W1 hard. So how do we prove this result? In fact, we use a known reduction from a problem",
+    "start_time": 1949.52,
+    "end_time": 1962.72
+  },
+  {
+    "timestamp": 1955.0,
+    "frame_path": "data\\keyframes\\frame_1955.00.jpg",
+    "associated_text": " remain W1 hard. So how do we prove this result? In fact, we use a known reduction from a problem",
+    "start_time": 1949.52,
+    "end_time": 1962.72
+  },
+  {
+    "timestamp": 1960.0,
+    "frame_path": "data\\keyframes\\frame_1960.00.jpg",
+    "associated_text": " remain W1 hard. So how do we prove this result? In fact, we use a known reduction from a problem",
+    "start_time": 1949.52,
+    "end_time": 1962.72
+  },
+  {
+    "timestamp": 1965.0,
+    "frame_path": "data\\keyframes\\frame_1965.00.jpg",
+    "associated_text": " known as grid tiling, which is a W1 hard problem. And grid tiling is reduced to the independent set",
+    "start_time": 1962.72,
+    "end_time": 1970.8
+  },
+  {
+    "timestamp": 1970.0,
+    "frame_path": "data\\keyframes\\frame_1970.00.jpg",
+    "associated_text": " known as grid tiling, which is a W1 hard problem. And grid tiling is reduced to the independent set",
+    "start_time": 1962.72,
+    "end_time": 1970.8
+  },
+  {
+    "timestamp": 1975.0,
+    "frame_path": "data\\keyframes\\frame_1975.00.jpg",
+    "associated_text": " problem on C4 up to Cp free graphs. And that reduction was used to show that independent set",
+    "start_time": 1970.8,
+    "end_time": 1979.6
+  },
+  {
+    "timestamp": 1980.0,
+    "frame_path": "data\\keyframes\\frame_1980.00.jpg",
+    "associated_text": " remains W1 hard if you exclude C4 up to Cp for any constant P. But what is interesting and useful",
+    "start_time": 1979.6,
+    "end_time": 1988.56
+  },
+  {
+    "timestamp": 1985.0,
+    "frame_path": "data\\keyframes\\frame_1985.00.jpg",
+    "associated_text": " remains W1 hard if you exclude C4 up to Cp for any constant P. But what is interesting and useful",
+    "start_time": 1979.6,
+    "end_time": 1988.56
+  },
+  {
+    "timestamp": 1990.0,
+    "frame_path": "data\\keyframes\\frame_1990.00.jpg",
+    "associated_text": " in that reduction is the graph that is obtained from the reduction. So the graph that is obtained",
+    "start_time": 1988.56,
+    "end_time": 1996.0
+  },
+  {
+    "timestamp": 1995.0,
+    "frame_path": "data\\keyframes\\frame_1995.00.jpg",
+    "associated_text": " in that reduction is the graph that is obtained from the reduction. So the graph that is obtained",
+    "start_time": 1988.56,
+    "end_time": 1996.0
+  },
+  {
+    "timestamp": 2000.0,
+    "frame_path": "data\\keyframes\\frame_2000.00.jpg",
+    "associated_text": " from the reduction has three properties that are going to be useful to us. The first property is",
+    "start_time": 1996.0,
+    "end_time": 2002.48
+  },
+  {
+    "timestamp": 2005.0,
+    "frame_path": "data\\keyframes\\frame_2005.00.jpg",
+    "associated_text": " that you can partition the graph into basically 8k squared into P plus 1 clicks. So you have a bunch",
+    "start_time": 2002.48,
+    "end_time": 2011.6
+  },
+  {
+    "timestamp": 2010.0,
+    "frame_path": "data\\keyframes\\frame_2010.00.jpg",
+    "associated_text": " that you can partition the graph into basically 8k squared into P plus 1 clicks. So you have a bunch",
+    "start_time": 2002.48,
+    "end_time": 2011.6
+  },
+  {
+    "timestamp": 2015.0,
+    "frame_path": "data\\keyframes\\frame_2015.00.jpg",
+    "associated_text": " of clicks each of size n and all of the edges basically are between the clicks. But that's it,",
+    "start_time": 2011.6,
+    "end_time": 2019.92
+  },
+  {
+    "timestamp": 2020.0,
+    "frame_path": "data\\keyframes\\frame_2020.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2025.0,
+    "frame_path": "data\\keyframes\\frame_2025.00.jpg",
+    "associated_text": " that's the whole of the graph. It's a bunch of clicks and edges between them. Of course,",
+    "start_time": 2020.24,
+    "end_time": 2026.24
+  },
+  {
+    "timestamp": 2030.0,
+    "frame_path": "data\\keyframes\\frame_2030.00.jpg",
+    "associated_text": " the more important property as well here is that this graph is going to be C4 up to Cp free.",
+    "start_time": 2026.72,
+    "end_time": 2032.48
+  },
+  {
+    "timestamp": 2035.0,
+    "frame_path": "data\\keyframes\\frame_2035.00.jpg",
+    "associated_text": " It will not have any of those cycles as an induced subgraph. And it's an equivalent instance",
+    "start_time": 2034.88,
+    "end_time": 2042.96
+  },
+  {
+    "timestamp": 2040.0,
+    "frame_path": "data\\keyframes\\frame_2040.00.jpg",
+    "associated_text": " It will not have any of those cycles as an induced subgraph. And it's an equivalent instance",
+    "start_time": 2034.88,
+    "end_time": 2042.96
+  },
+  {
+    "timestamp": 2045.0,
+    "frame_path": "data\\keyframes\\frame_2045.00.jpg",
+    "associated_text": " to the grid tiling. And that basically gives you W1 hardness of independent set on this class of",
+    "start_time": 2042.96,
+    "end_time": 2050.96
+  },
+  {
+    "timestamp": 2050.0,
+    "frame_path": "data\\keyframes\\frame_2050.00.jpg",
+    "associated_text": " to the grid tiling. And that basically gives you W1 hardness of independent set on this class of",
+    "start_time": 2042.96,
+    "end_time": 2050.96
+  },
+  {
+    "timestamp": 2055.0,
+    "frame_path": "data\\keyframes\\frame_2055.00.jpg",
+    "associated_text": " graphs. So notice in this case that an independent set of size 8k squared into P plus 1 will have to be",
+    "start_time": 2050.96,
+    "end_time": 2059.76
+  },
+  {
+    "timestamp": 2060.0,
+    "frame_path": "data\\keyframes\\frame_2060.00.jpg",
+    "associated_text": " a maximum independent set because that's how many clicks we get in the resulting graph. And that's",
+    "start_time": 2059.76,
+    "end_time": 2064.96
+  },
+  {
+    "timestamp": 2065.0,
+    "frame_path": "data\\keyframes\\frame_2065.00.jpg",
+    "associated_text": " basically the sizes that we will be working with, more or less up to some modifications. But this",
+    "start_time": 2064.96,
+    "end_time": 2070.8
+  },
+  {
+    "timestamp": 2070.0,
+    "frame_path": "data\\keyframes\\frame_2070.00.jpg",
+    "associated_text": " basically the sizes that we will be working with, more or less up to some modifications. But this",
+    "start_time": 2064.96,
+    "end_time": 2070.8
+  },
+  {
+    "timestamp": 2075.0,
+    "frame_path": "data\\keyframes\\frame_2075.00.jpg",
+    "associated_text": " will allow us to basically conclude that both sliding and jumping are hard on this class of graphs.",
+    "start_time": 2070.8,
+    "end_time": 2078.4
+  },
+  {
+    "timestamp": 2080.0,
+    "frame_path": "data\\keyframes\\frame_2080.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2085.0,
+    "frame_path": "data\\keyframes\\frame_2085.00.jpg",
+    "associated_text": " So how do we use this for showing hardness of token sliding and token jumping? And let's focus",
+    "start_time": 2081.36,
+    "end_time": 2088.88
+  },
+  {
+    "timestamp": 2090.0,
+    "frame_path": "data\\keyframes\\frame_2090.00.jpg",
+    "associated_text": " on token sliding for now because it's going to be the same anyway. So we have those clicks and some",
+    "start_time": 2088.88,
+    "end_time": 2095.6800000000003
+  },
+  {
+    "timestamp": 2095.0,
+    "frame_path": "data\\keyframes\\frame_2095.00.jpg",
+    "associated_text": " on token sliding for now because it's going to be the same anyway. So we have those clicks and some",
+    "start_time": 2088.88,
+    "end_time": 2095.6800000000003
+  },
+  {
+    "timestamp": 2100.0,
+    "frame_path": "data\\keyframes\\frame_2100.00.jpg",
+    "associated_text": " edges that go between the clicks. So the first attempt would be as follows. We will add a universal",
+    "start_time": 2095.68,
+    "end_time": 2103.68
+  },
+  {
+    "timestamp": 2105.0,
+    "frame_path": "data\\keyframes\\frame_2105.00.jpg",
+    "associated_text": " vertex to each one of the clicks and we will call this the starting set or the starting independent set.",
+    "start_time": 2103.68,
+    "end_time": 2109.44
+  },
+  {
+    "timestamp": 2110.0,
+    "frame_path": "data\\keyframes\\frame_2110.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2115.0,
+    "frame_path": "data\\keyframes\\frame_2115.00.jpg",
+    "associated_text": " And then we add another universal vertex to each one of the clicks and call this the target",
+    "start_time": 2110.48,
+    "end_time": 2115.2799999999997
+  },
+  {
+    "timestamp": 2120.0,
+    "frame_path": "data\\keyframes\\frame_2120.00.jpg",
+    "associated_text": " independent set. And now basically we have our instance of token sliding. We want to slide everybody",
+    "start_time": 2115.2799999999997,
+    "end_time": 2121.44
+  },
+  {
+    "timestamp": 2125.0,
+    "frame_path": "data\\keyframes\\frame_2125.00.jpg",
+    "associated_text": " in S down to T. So notice that this is useful because we don't introduce any of the forbidden cycles.",
+    "start_time": 2121.44,
+    "end_time": 2131.36
+  },
+  {
+    "timestamp": 2130.0,
+    "frame_path": "data\\keyframes\\frame_2130.00.jpg",
+    "associated_text": " in S down to T. So notice that this is useful because we don't introduce any of the forbidden cycles.",
+    "start_time": 2121.44,
+    "end_time": 2131.36
+  },
+  {
+    "timestamp": 2135.0,
+    "frame_path": "data\\keyframes\\frame_2135.00.jpg",
+    "associated_text": " So we are still fine. And if we could guarantee that all of the tokens will be on the on the clicks",
+    "start_time": 2131.76,
+    "end_time": 2140.2400000000002
+  },
+  {
+    "timestamp": 2140.0,
+    "frame_path": "data\\keyframes\\frame_2140.00.jpg",
+    "associated_text": " So we are still fine. And if we could guarantee that all of the tokens will be on the on the clicks",
+    "start_time": 2131.76,
+    "end_time": 2140.2400000000002
+  },
+  {
+    "timestamp": 2145.0,
+    "frame_path": "data\\keyframes\\frame_2145.00.jpg",
+    "associated_text": " simultaneously, then this will imply an independent set in the original graph, which concludes our",
+    "start_time": 2140.2400000000002,
+    "end_time": 2147.12
+  },
+  {
+    "timestamp": 2150.0,
+    "frame_path": "data\\keyframes\\frame_2150.00.jpg",
+    "associated_text": " proof. But unfortunately, in this case, we definitely cannot conclude that because each red token can",
+    "start_time": 2147.12,
+    "end_time": 2155.68
+  },
+  {
+    "timestamp": 2155.0,
+    "frame_path": "data\\keyframes\\frame_2155.00.jpg",
+    "associated_text": " proof. But unfortunately, in this case, we definitely cannot conclude that because each red token can",
+    "start_time": 2147.12,
+    "end_time": 2155.68
+  },
+  {
+    "timestamp": 2160.0,
+    "frame_path": "data\\keyframes\\frame_2160.00.jpg",
+    "associated_text": " slide independently here and then here and then the next one can follow, etc, etc, etc. So you need",
+    "start_time": 2155.68,
+    "end_time": 2162.96
+  },
+  {
+    "timestamp": 2165.0,
+    "frame_path": "data\\keyframes\\frame_2165.00.jpg",
+    "associated_text": " some way of forbidden, are forbidding these tokens to behave freely. We want to make",
+    "start_time": 2162.96,
+    "end_time": 2169.52
+  },
+  {
+    "timestamp": 2170.0,
+    "frame_path": "data\\keyframes\\frame_2170.00.jpg",
+    "associated_text": " ensure that they will all be inside the clicks simultaneously and we will be done. And notice",
+    "start_time": 2169.52,
+    "end_time": 2176.72
+  },
+  {
+    "timestamp": 2175.0,
+    "frame_path": "data\\keyframes\\frame_2175.00.jpg",
+    "associated_text": " ensure that they will all be inside the clicks simultaneously and we will be done. And notice",
+    "start_time": 2169.52,
+    "end_time": 2176.72
+  },
+  {
+    "timestamp": 2180.0,
+    "frame_path": "data\\keyframes\\frame_2180.00.jpg",
+    "associated_text": " that we're going to have 8k squared and 2p plus 1 tokens, right? 1 for each click and 2 universal vertices",
+    "start_time": 2176.72,
+    "end_time": 2183.4399999999996
+  },
+  {
+    "timestamp": 2185.0,
+    "frame_path": "data\\keyframes\\frame_2185.00.jpg",
+    "associated_text": " for each click. So how do we fix this time of 1080 to issue? Well, here's how we can do it. So",
+    "start_time": 2183.4399999999996,
+    "end_time": 2192.56
+  },
+  {
+    "timestamp": 2190.0,
+    "frame_path": "data\\keyframes\\frame_2190.00.jpg",
+    "associated_text": " for each click. So how do we fix this time of 1080 to issue? Well, here's how we can do it. So",
+    "start_time": 2183.4399999999996,
+    "end_time": 2192.56
+  },
+  {
+    "timestamp": 2195.0,
+    "frame_path": "data\\keyframes\\frame_2195.00.jpg",
+    "associated_text": " instead of simply adding universal vertices, we're also going to add an edge between every 2",
+    "start_time": 2193.2799999999997,
+    "end_time": 2199.4399999999996
+  },
+  {
+    "timestamp": 2200.0,
+    "frame_path": "data\\keyframes\\frame_2200.00.jpg",
+    "associated_text": " universal vertices of a click. And then we're going to add something that we call a switch.",
+    "start_time": 2199.4399999999996,
+    "end_time": 2204.48
+  },
+  {
+    "timestamp": 2205.0,
+    "frame_path": "data\\keyframes\\frame_2205.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2210.0,
+    "frame_path": "data\\keyframes\\frame_2210.00.jpg",
+    "associated_text": " And in this case, it's a simple edge and the red token here needs to go to the blue position.",
+    "start_time": 2205.36,
+    "end_time": 2211.92
+  },
+  {
+    "timestamp": 2215.0,
+    "frame_path": "data\\keyframes\\frame_2215.00.jpg",
+    "associated_text": " Right? So now we have one extra token inside our graph. But now notice what happens. If",
+    "start_time": 2213.12,
+    "end_time": 2220.0
+  },
+  {
+    "timestamp": 2220.0,
+    "frame_path": "data\\keyframes\\frame_2220.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2225.0,
+    "frame_path": "data\\keyframes\\frame_2225.00.jpg",
+    "associated_text": " any red token wants to come to the blue position, then this red token needs to be moved to",
+    "start_time": 2221.52,
+    "end_time": 2229.76
+  },
+  {
+    "timestamp": 2230.0,
+    "frame_path": "data\\keyframes\\frame_2230.00.jpg",
+    "associated_text": " this position before. And if you move that token up to the blue position, then you can no longer have",
+    "start_time": 2229.84,
+    "end_time": 2236.32
+  },
+  {
+    "timestamp": 2235.0,
+    "frame_path": "data\\keyframes\\frame_2235.00.jpg",
+    "associated_text": " this position before. And if you move that token up to the blue position, then you can no longer have",
+    "start_time": 2229.84,
+    "end_time": 2236.32
+  },
+  {
+    "timestamp": 2240.0,
+    "frame_path": "data\\keyframes\\frame_2240.00.jpg",
+    "associated_text": " any of the red tokens on the universal vertices, which means that they will all have to be simultaneously",
+    "start_time": 2236.32,
+    "end_time": 2242.8
+  },
+  {
+    "timestamp": 2245.0,
+    "frame_path": "data\\keyframes\\frame_2245.00.jpg",
+    "associated_text": " inside the clicks. And now we get the behavior that we want. So now we can guarantee that if there is",
+    "start_time": 2242.8,
+    "end_time": 2251.5200000000004
+  },
+  {
+    "timestamp": 2250.0,
+    "frame_path": "data\\keyframes\\frame_2250.00.jpg",
+    "associated_text": " inside the clicks. And now we get the behavior that we want. So now we can guarantee that if there is",
+    "start_time": 2242.8,
+    "end_time": 2251.5200000000004
+  },
+  {
+    "timestamp": 2255.0,
+    "frame_path": "data\\keyframes\\frame_2255.00.jpg",
+    "associated_text": " a sequence that takes the red tokens to the blue position, then somewhere along that sequence,",
+    "start_time": 2251.52,
+    "end_time": 2258.48
+  },
+  {
+    "timestamp": 2260.0,
+    "frame_path": "data\\keyframes\\frame_2260.00.jpg",
+    "associated_text": " the tokens are all going to be within the clicks. Unfortunately, what happened here is we might",
+    "start_time": 2259.36,
+    "end_time": 2264.72
+  },
+  {
+    "timestamp": 2265.0,
+    "frame_path": "data\\keyframes\\frame_2265.00.jpg",
+    "associated_text": " have introduced some of the forbidden cycles. We can no longer guarantee that this is C4 up to CP3.",
+    "start_time": 2264.72,
+    "end_time": 2272.64
+  },
+  {
+    "timestamp": 2270.0,
+    "frame_path": "data\\keyframes\\frame_2270.00.jpg",
+    "associated_text": " have introduced some of the forbidden cycles. We can no longer guarantee that this is C4 up to CP3.",
+    "start_time": 2264.72,
+    "end_time": 2272.64
+  },
+  {
+    "timestamp": 2275.0,
+    "frame_path": "data\\keyframes\\frame_2275.00.jpg",
+    "associated_text": " So what you can do in this case to solve this problem, and I'm not going to go into the details,",
+    "start_time": 2274.16,
+    "end_time": 2278.72
+  },
+  {
+    "timestamp": 2280.0,
+    "frame_path": "data\\keyframes\\frame_2280.00.jpg",
+    "associated_text": " but the intuition should be pretty clear is that you can subdivide those edges, make them long enough",
+    "start_time": 2279.4399999999996,
+    "end_time": 2286.72
+  },
+  {
+    "timestamp": 2285.0,
+    "frame_path": "data\\keyframes\\frame_2285.00.jpg",
+    "associated_text": " but the intuition should be pretty clear is that you can subdivide those edges, make them long enough",
+    "start_time": 2279.4399999999996,
+    "end_time": 2286.72
+  },
+  {
+    "timestamp": 2290.0,
+    "frame_path": "data\\keyframes\\frame_2290.00.jpg",
+    "associated_text": " so that you don't introduce any forbidden cycles and add appropriate tokens inside of them to get",
+    "start_time": 2286.72,
+    "end_time": 2292.24
+  },
+  {
+    "timestamp": 2295.0,
+    "frame_path": "data\\keyframes\\frame_2295.00.jpg",
+    "associated_text": " the same behavior. Because notice that the number of such edges is bounded by a function of K,",
+    "start_time": 2292.24,
+    "end_time": 2299.7599999999998
+  },
+  {
+    "timestamp": 2300.0,
+    "frame_path": "data\\keyframes\\frame_2300.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2305.0,
+    "frame_path": "data\\keyframes\\frame_2305.00.jpg",
+    "associated_text": " by a function of yes K and P. So you can make these edges subdivide them as many times as needed,",
+    "start_time": 2300.6400000000003,
+    "end_time": 2311.28
+  },
+  {
+    "timestamp": 2310.0,
+    "frame_path": "data\\keyframes\\frame_2310.00.jpg",
+    "associated_text": " by a function of yes K and P. So you can make these edges subdivide them as many times as needed,",
+    "start_time": 2300.6400000000003,
+    "end_time": 2311.28
+  },
+  {
+    "timestamp": 2315.0,
+    "frame_path": "data\\keyframes\\frame_2315.00.jpg",
+    "associated_text": " add as many tokens as needed to maintain all the properties that we need and to maintain that we're",
+    "start_time": 2311.28,
+    "end_time": 2317.28
+  },
+  {
+    "timestamp": 2320.0,
+    "frame_path": "data\\keyframes\\frame_2320.00.jpg",
+    "associated_text": " going from one maximum independent set to the other, which will give you W1 hardness for both",
+    "start_time": 2317.28,
+    "end_time": 2323.6000000000004
+  },
+  {
+    "timestamp": 2325.0,
+    "frame_path": "data\\keyframes\\frame_2325.00.jpg",
+    "associated_text": " token sliding as well as token jumping. All right, questions?",
+    "start_time": 2323.6,
+    "end_time": 2335.2
+  },
+  {
+    "timestamp": 2330.0,
+    "frame_path": "data\\keyframes\\frame_2330.00.jpg",
+    "associated_text": " token sliding as well as token jumping. All right, questions?",
+    "start_time": 2323.6,
+    "end_time": 2335.2
+  },
+  {
+    "timestamp": 2335.0,
+    "frame_path": "data\\keyframes\\frame_2335.00.jpg",
+    "associated_text": " token sliding as well as token jumping. All right, questions?",
+    "start_time": 2323.6,
+    "end_time": 2335.2
+  },
+  {
+    "timestamp": 2340.0,
+    "frame_path": "data\\keyframes\\frame_2340.00.jpg",
+    "associated_text": " No questions? All right, so let's keep going. So now I'm going to talk about some positive result.",
+    "start_time": 2335.3599999999997,
+    "end_time": 2357.6
+  },
+  {
+    "timestamp": 2345.0,
+    "frame_path": "data\\keyframes\\frame_2345.00.jpg",
+    "associated_text": " No questions? All right, so let's keep going. So now I'm going to talk about some positive result.",
+    "start_time": 2335.3599999999997,
+    "end_time": 2357.6
+  },
+  {
+    "timestamp": 2350.0,
+    "frame_path": "data\\keyframes\\frame_2350.00.jpg",
+    "associated_text": " No questions? All right, so let's keep going. So now I'm going to talk about some positive result.",
+    "start_time": 2335.3599999999997,
+    "end_time": 2357.6
+  },
+  {
+    "timestamp": 2355.0,
+    "frame_path": "data\\keyframes\\frame_2355.00.jpg",
+    "associated_text": " No questions? All right, so let's keep going. So now I'm going to talk about some positive result.",
+    "start_time": 2335.3599999999997,
+    "end_time": 2357.6
+  },
+  {
+    "timestamp": 2360.0,
+    "frame_path": "data\\keyframes\\frame_2360.00.jpg",
+    "associated_text": " So the result that I'm going to talk about is this one here.",
+    "start_time": 2358.08,
+    "end_time": 2363.12
+  },
+  {
+    "timestamp": 2365.0,
+    "frame_path": "data\\keyframes\\frame_2365.00.jpg",
+    "associated_text": " All right, so I'm going to show you that on C3, C4 free rafts token jumping is actually",
+    "start_time": 2363.92,
+    "end_time": 2371.92
+  },
+  {
+    "timestamp": 2370.0,
+    "frame_path": "data\\keyframes\\frame_2370.00.jpg",
+    "associated_text": " All right, so I'm going to show you that on C3, C4 free rafts token jumping is actually",
+    "start_time": 2363.92,
+    "end_time": 2371.92
+  },
+  {
+    "timestamp": 2375.0,
+    "frame_path": "data\\keyframes\\frame_2375.00.jpg",
+    "associated_text": " FPT and has a quadratic kernel, but again, what we will show is a stronger result.",
+    "start_time": 2371.92,
+    "end_time": 2378.48
+  },
+  {
+    "timestamp": 2380.0,
+    "frame_path": "data\\keyframes\\frame_2380.00.jpg",
+    "associated_text": " So what we will show is the following theorem. What we will show is can be summarized as follows.",
+    "start_time": 2379.44,
+    "end_time": 2388.96
+  },
+  {
+    "timestamp": 2385.0,
+    "frame_path": "data\\keyframes\\frame_2385.00.jpg",
+    "associated_text": " So what we will show is the following theorem. What we will show is can be summarized as follows.",
+    "start_time": 2379.44,
+    "end_time": 2388.96
+  },
+  {
+    "timestamp": 2390.0,
+    "frame_path": "data\\keyframes\\frame_2390.00.jpg",
+    "associated_text": " So if you look at any graph or at any instance of the token jumping problem. So remember, an instance",
+    "start_time": 2388.96,
+    "end_time": 2396.56
+  },
+  {
+    "timestamp": 2395.0,
+    "frame_path": "data\\keyframes\\frame_2395.00.jpg",
+    "associated_text": " So if you look at any graph or at any instance of the token jumping problem. So remember, an instance",
+    "start_time": 2388.96,
+    "end_time": 2396.56
+  },
+  {
+    "timestamp": 2400.0,
+    "frame_path": "data\\keyframes\\frame_2400.00.jpg",
+    "associated_text": " of token jumping has the input graph, the starting set, the target set, and K as the number of tokens.",
+    "start_time": 2396.56,
+    "end_time": 2402.8
+  },
+  {
+    "timestamp": 2405.0,
+    "frame_path": "data\\keyframes\\frame_2405.00.jpg",
+    "associated_text": " So let me try and draw something here. So if you look at your graph, you can kind of decompose it",
+    "start_time": 2403.52,
+    "end_time": 2413.6800000000003
+  },
+  {
+    "timestamp": 2410.0,
+    "frame_path": "data\\keyframes\\frame_2410.00.jpg",
+    "associated_text": " So let me try and draw something here. So if you look at your graph, you can kind of decompose it",
+    "start_time": 2403.52,
+    "end_time": 2413.6800000000003
+  },
+  {
+    "timestamp": 2415.0,
+    "frame_path": "data\\keyframes\\frame_2415.00.jpg",
+    "associated_text": " into something which is more or less as follows. So you have S, you have T, the intersection need not",
+    "start_time": 2413.6800000000003,
+    "end_time": 2421.28
+  },
+  {
+    "timestamp": 2420.0,
+    "frame_path": "data\\keyframes\\frame_2420.00.jpg",
+    "associated_text": " into something which is more or less as follows. So you have S, you have T, the intersection need not",
+    "start_time": 2413.6800000000003,
+    "end_time": 2421.28
+  },
+  {
+    "timestamp": 2425.0,
+    "frame_path": "data\\keyframes\\frame_2425.00.jpg",
+    "associated_text": " be empty. And then you have the neighborhood of S union T. And then you have the rest of the graph.",
+    "start_time": 2421.28,
+    "end_time": 2430.5600000000004
+  },
+  {
+    "timestamp": 2430.0,
+    "frame_path": "data\\keyframes\\frame_2430.00.jpg",
+    "associated_text": " be empty. And then you have the neighborhood of S union T. And then you have the rest of the graph.",
+    "start_time": 2421.28,
+    "end_time": 2430.5600000000004
+  },
+  {
+    "timestamp": 2435.0,
+    "frame_path": "data\\keyframes\\frame_2435.00.jpg",
+    "associated_text": " So we're going to call the rest of the graph H. And we're going to call the close neighborhood",
+    "start_time": 2433.1200000000003,
+    "end_time": 2439.44
+  },
+  {
+    "timestamp": 2440.0,
+    "frame_path": "data\\keyframes\\frame_2440.00.jpg",
+    "associated_text": " of S union T. Or if you will, this yellow part here, we call that J. So we can think of our problem",
+    "start_time": 2439.44,
+    "end_time": 2449.2000000000003
+  },
+  {
+    "timestamp": 2445.0,
+    "frame_path": "data\\keyframes\\frame_2445.00.jpg",
+    "associated_text": " of S union T. Or if you will, this yellow part here, we call that J. So we can think of our problem",
+    "start_time": 2439.44,
+    "end_time": 2449.2000000000003
+  },
+  {
+    "timestamp": 2450.0,
+    "frame_path": "data\\keyframes\\frame_2450.00.jpg",
+    "associated_text": " of our graph as being decomposed into those two areas. H and J.",
+    "start_time": 2449.2,
+    "end_time": 2453.52
+  },
+  {
+    "timestamp": 2455.0,
+    "frame_path": "data\\keyframes\\frame_2455.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2460.0,
+    "frame_path": "data\\keyframes\\frame_2460.00.jpg",
+    "associated_text": " Okay, so the theorem states the following. If H is epsilon sparse, where epsilon sparse means",
+    "start_time": 2455.6,
+    "end_time": 2464.56
+  },
+  {
+    "timestamp": 2465.0,
+    "frame_path": "data\\keyframes\\frame_2465.00.jpg",
+    "associated_text": " that the number of edges is at most n squared minus epsilon positive epsilon. So if H is epsilon sparse,",
+    "start_time": 2464.56,
+    "end_time": 2471.9199999999996
+  },
+  {
+    "timestamp": 2470.0,
+    "frame_path": "data\\keyframes\\frame_2470.00.jpg",
+    "associated_text": " that the number of edges is at most n squared minus epsilon positive epsilon. So if H is epsilon sparse,",
+    "start_time": 2464.56,
+    "end_time": 2471.9199999999996
+  },
+  {
+    "timestamp": 2475.0,
+    "frame_path": "data\\keyframes\\frame_2475.00.jpg",
+    "associated_text": " and J is C3 C4 free, then the problem admits a kernel, which is that big, K squared plus K into",
+    "start_time": 2472.7200000000003,
+    "end_time": 2483.2000000000003
+  },
+  {
+    "timestamp": 2480.0,
+    "frame_path": "data\\keyframes\\frame_2480.00.jpg",
+    "associated_text": " and J is C3 C4 free, then the problem admits a kernel, which is that big, K squared plus K into",
+    "start_time": 2472.7200000000003,
+    "end_time": 2483.2000000000003
+  },
+  {
+    "timestamp": 2485.0,
+    "frame_path": "data\\keyframes\\frame_2485.00.jpg",
+    "associated_text": " one plus one over epsilon. So notice now that we only need that H is epsilon sparse.",
+    "start_time": 2483.2000000000003,
+    "end_time": 2490.16
+  },
+  {
+    "timestamp": 2490.0,
+    "frame_path": "data\\keyframes\\frame_2490.00.jpg",
+    "associated_text": " one plus one over epsilon. So notice now that we only need that H is epsilon sparse.",
+    "start_time": 2483.2000000000003,
+    "end_time": 2490.16
+  },
+  {
+    "timestamp": 2495.0,
+    "frame_path": "data\\keyframes\\frame_2495.00.jpg",
+    "associated_text": " And we only require C3 C4 freeness inside J, which is S union T close neighborhood.",
+    "start_time": 2491.76,
+    "end_time": 2498.8
+  },
+  {
+    "timestamp": 2500.0,
+    "frame_path": "data\\keyframes\\frame_2500.00.jpg",
+    "associated_text": " Close neighborhood of S union T. And this idea is actually is not a new idea. So this idea is",
+    "start_time": 2499.76,
+    "end_time": 2510.32
+  },
+  {
+    "timestamp": 2505.0,
+    "frame_path": "data\\keyframes\\frame_2505.00.jpg",
+    "associated_text": " Close neighborhood of S union T. And this idea is actually is not a new idea. So this idea is",
+    "start_time": 2499.76,
+    "end_time": 2510.32
+  },
+  {
+    "timestamp": 2510.0,
+    "frame_path": "data\\keyframes\\frame_2510.00.jpg",
+    "associated_text": " Close neighborhood of S union T. And this idea is actually is not a new idea. So this idea is",
+    "start_time": 2499.76,
+    "end_time": 2510.32
+  },
+  {
+    "timestamp": 2515.0,
+    "frame_path": "data\\keyframes\\frame_2515.00.jpg",
+    "associated_text": " okay, I had the drawing here. I should have used it. So the idea comes from has been used before.",
+    "start_time": 2511.6000000000004,
+    "end_time": 2517.76
+  },
+  {
+    "timestamp": 2520.0,
+    "frame_path": "data\\keyframes\\frame_2520.00.jpg",
+    "associated_text": " And it's what we call the buffer technique for the token jumping problem. And then the",
+    "start_time": 2518.4,
+    "end_time": 2523.04
+  },
+  {
+    "timestamp": 2525.0,
+    "frame_path": "data\\keyframes\\frame_2525.00.jpg",
+    "associated_text": " solution behind the buffer technique is very simple. So if I have S union T, but somewhere in the",
+    "start_time": 2523.04,
+    "end_time": 2530.08
+  },
+  {
+    "timestamp": 2530.0,
+    "frame_path": "data\\keyframes\\frame_2530.00.jpg",
+    "associated_text": " solution behind the buffer technique is very simple. So if I have S union T, but somewhere in the",
+    "start_time": 2523.04,
+    "end_time": 2530.08
+  },
+  {
+    "timestamp": 2535.0,
+    "frame_path": "data\\keyframes\\frame_2535.00.jpg",
+    "associated_text": " graph, which is not in the close neighborhood of S union T, I have a K sized independent set,",
+    "start_time": 2530.08,
+    "end_time": 2536.4
+  },
+  {
+    "timestamp": 2540.0,
+    "frame_path": "data\\keyframes\\frame_2540.00.jpg",
+    "associated_text": " then you are done. Right? If I have a K sized independent set in H, then you're done. You can",
+    "start_time": 2536.4,
+    "end_time": 2544.16
+  },
+  {
+    "timestamp": 2545.0,
+    "frame_path": "data\\keyframes\\frame_2545.00.jpg",
+    "associated_text": " basically take all the tokens on S, jump them into those independent yellow vertices in H,",
+    "start_time": 2544.16,
+    "end_time": 2551.44
+  },
+  {
+    "timestamp": 2550.0,
+    "frame_path": "data\\keyframes\\frame_2550.00.jpg",
+    "associated_text": " basically take all the tokens on S, jump them into those independent yellow vertices in H,",
+    "start_time": 2544.16,
+    "end_time": 2551.44
+  },
+  {
+    "timestamp": 2555.0,
+    "frame_path": "data\\keyframes\\frame_2555.00.jpg",
+    "associated_text": " and then jump them back to T. So in some sense, when H has a large independent set, that's the easy",
+    "start_time": 2551.44,
+    "end_time": 2558.88
+  },
+  {
+    "timestamp": 2560.0,
+    "frame_path": "data\\keyframes\\frame_2560.00.jpg",
+    "associated_text": " case. Right? You're done. If you can find a large enough independent set in H, you're done.",
+    "start_time": 2558.88,
+    "end_time": 2565.04
+  },
+  {
+    "timestamp": 2565.0,
+    "frame_path": "data\\keyframes\\frame_2565.00.jpg",
+    "associated_text": " case. Right? You're done. If you can find a large enough independent set in H, you're done.",
+    "start_time": 2558.88,
+    "end_time": 2565.04
+  },
+  {
+    "timestamp": 2570.0,
+    "frame_path": "data\\keyframes\\frame_2570.00.jpg",
+    "associated_text": " And that's what we call the buffer technique, because it's been also used to show that the problem",
+    "start_time": 2566.2400000000002,
+    "end_time": 2571.04
+  },
+  {
+    "timestamp": 2575.0,
+    "frame_path": "data\\keyframes\\frame_2575.00.jpg",
+    "associated_text": " is FBT on planar graphs, for example, or K3J free graphs. So graphs without large bytes.",
+    "start_time": 2571.04,
+    "end_time": 2578.16
+  },
+  {
+    "timestamp": 2580.0,
+    "frame_path": "data\\keyframes\\frame_2580.00.jpg",
+    "associated_text": " So it's a well known technique. All right. So what do we show? So we're going to use the buffer",
+    "start_time": 2578.7999999999997,
+    "end_time": 2592.48
+  },
+  {
+    "timestamp": 2585.0,
+    "frame_path": "data\\keyframes\\frame_2585.00.jpg",
+    "associated_text": " So it's a well known technique. All right. So what do we show? So we're going to use the buffer",
+    "start_time": 2578.7999999999997,
+    "end_time": 2592.48
+  },
+  {
+    "timestamp": 2590.0,
+    "frame_path": "data\\keyframes\\frame_2590.00.jpg",
+    "associated_text": " So it's a well known technique. All right. So what do we show? So we're going to use the buffer",
+    "start_time": 2578.7999999999997,
+    "end_time": 2592.48
+  },
+  {
+    "timestamp": 2595.0,
+    "frame_path": "data\\keyframes\\frame_2595.00.jpg",
+    "associated_text": " technique, and we're going to combine it with something else. So we show that you have a yes",
+    "start_time": 2592.48,
+    "end_time": 2600.0
+  },
+  {
+    "timestamp": 2600.0,
+    "frame_path": "data\\keyframes\\frame_2600.00.jpg",
+    "associated_text": " instance, whenever one of those two conditions is true. The first condition is that",
+    "start_time": 2600.0,
+    "end_time": 2607.7599999999998
+  },
+  {
+    "timestamp": 2605.0,
+    "frame_path": "data\\keyframes\\frame_2605.00.jpg",
+    "associated_text": " instance, whenever one of those two conditions is true. The first condition is that",
+    "start_time": 2600.0,
+    "end_time": 2607.7599999999998
+  },
+  {
+    "timestamp": 2610.0,
+    "frame_path": "data\\keyframes\\frame_2610.00.jpg",
+    "associated_text": " H is epsilon sparse and contains more than this many vertices. And this is relatively easy.",
+    "start_time": 2607.84,
+    "end_time": 2617.2000000000003
+  },
+  {
+    "timestamp": 2615.0,
+    "frame_path": "data\\keyframes\\frame_2615.00.jpg",
+    "associated_text": " H is epsilon sparse and contains more than this many vertices. And this is relatively easy.",
+    "start_time": 2607.84,
+    "end_time": 2617.2000000000003
+  },
+  {
+    "timestamp": 2620.0,
+    "frame_path": "data\\keyframes\\frame_2620.00.jpg",
+    "associated_text": " When you contain this many vertices and you are epsilon sparse, then you will have a K size",
+    "start_time": 2617.2000000000003,
+    "end_time": 2622.4
+  },
+  {
+    "timestamp": 2625.0,
+    "frame_path": "data\\keyframes\\frame_2625.00.jpg",
+    "associated_text": " independent set. And that's basically the buffer technique. When H is epsilon sparse and has",
+    "start_time": 2622.4,
+    "end_time": 2628.48
+  },
+  {
+    "timestamp": 2630.0,
+    "frame_path": "data\\keyframes\\frame_2630.00.jpg",
+    "associated_text": " that many vertices or more, then H is guaranteed to have an independent set of size K and you're done.",
+    "start_time": 2628.48,
+    "end_time": 2634.0
+  },
+  {
+    "timestamp": 2635.0,
+    "frame_path": "data\\keyframes\\frame_2635.00.jpg",
+    "associated_text": " So now you are stuck with what happens inside J or the closed neighborhood of S unity.",
+    "start_time": 2634.64,
+    "end_time": 2642.0
+  },
+  {
+    "timestamp": 2640.0,
+    "frame_path": "data\\keyframes\\frame_2640.00.jpg",
+    "associated_text": " So now you are stuck with what happens inside J or the closed neighborhood of S unity.",
+    "start_time": 2634.64,
+    "end_time": 2642.0
+  },
+  {
+    "timestamp": 2645.0,
+    "frame_path": "data\\keyframes\\frame_2645.00.jpg",
+    "associated_text": " And it turns out there, if you have C3C for freeness, the only thing you need on top of that to",
+    "start_time": 2642.0,
+    "end_time": 2650.08
+  },
+  {
+    "timestamp": 2650.0,
+    "frame_path": "data\\keyframes\\frame_2650.00.jpg",
+    "associated_text": " And it turns out there, if you have C3C for freeness, the only thing you need on top of that to",
+    "start_time": 2642.0,
+    "end_time": 2650.08
+  },
+  {
+    "timestamp": 2655.0,
+    "frame_path": "data\\keyframes\\frame_2655.00.jpg",
+    "associated_text": " guarantee a yes instance is a vertex of degree at least 3K. So if you have C3C for freeness inside J",
+    "start_time": 2650.08,
+    "end_time": 2660.24
+  },
+  {
+    "timestamp": 2660.0,
+    "frame_path": "data\\keyframes\\frame_2660.00.jpg",
+    "associated_text": " guarantee a yes instance is a vertex of degree at least 3K. So if you have C3C for freeness inside J",
+    "start_time": 2650.08,
+    "end_time": 2660.24
+  },
+  {
+    "timestamp": 2665.0,
+    "frame_path": "data\\keyframes\\frame_2665.00.jpg",
+    "associated_text": " and the vertex of degree 3K, then again you get a yes instance. So let me prove",
+    "start_time": 2661.2,
+    "end_time": 2666.64
+  },
+  {
+    "timestamp": 2670.0,
+    "frame_path": "data\\keyframes\\frame_2670.00.jpg",
+    "associated_text": " those two statements separately because they will be basically what we need for the",
+    "start_time": 2668.9599999999996,
+    "end_time": 2674.9599999999996
+  },
+  {
+    "timestamp": 2675.0,
+    "frame_path": "data\\keyframes\\frame_2675.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2680.0,
+    "frame_path": "data\\keyframes\\frame_2680.00.jpg",
+    "associated_text": " final theorem for the final theorem. So the first lemma as I told you, if H is epsilon sparse and",
+    "start_time": 2677.12,
+    "end_time": 2684.08
+  },
+  {
+    "timestamp": 2685.0,
+    "frame_path": "data\\keyframes\\frame_2685.00.jpg",
+    "associated_text": " has more than this many vertices, then it's a yes instance because you have a K size independent",
+    "start_time": 2684.08,
+    "end_time": 2690.16
+  },
+  {
+    "timestamp": 2690.0,
+    "frame_path": "data\\keyframes\\frame_2690.00.jpg",
+    "associated_text": " has more than this many vertices, then it's a yes instance because you have a K size independent",
+    "start_time": 2684.08,
+    "end_time": 2690.16
+  },
+  {
+    "timestamp": 2695.0,
+    "frame_path": "data\\keyframes\\frame_2695.00.jpg",
+    "associated_text": " set in H. The idea of this proof is simple, it's a counting argument. And what you need to do",
+    "start_time": 2690.16,
+    "end_time": 2697.2799999999997
+  },
+  {
+    "timestamp": 2700.0,
+    "frame_path": "data\\keyframes\\frame_2700.00.jpg",
+    "associated_text": " basically first is to show that H must contain a vertex of degree less than and over K.",
+    "start_time": 2697.2799999999997,
+    "end_time": 2702.72
+  },
+  {
+    "timestamp": 2705.0,
+    "frame_path": "data\\keyframes\\frame_2705.00.jpg",
+    "associated_text": " And then basically you apply the standard greedy packing algorithm for constructing an independent",
+    "start_time": 2703.8399999999997,
+    "end_time": 2709.12
+  },
+  {
+    "timestamp": 2710.0,
+    "frame_path": "data\\keyframes\\frame_2710.00.jpg",
+    "associated_text": " set of size K. And the reason you show that the way you show that H has a vertex of degree less",
+    "start_time": 2709.12,
+    "end_time": 2715.52
+  },
+  {
+    "timestamp": 2715.0,
+    "frame_path": "data\\keyframes\\frame_2715.00.jpg",
+    "associated_text": " set of size K. And the reason you show that the way you show that H has a vertex of degree less",
+    "start_time": 2709.12,
+    "end_time": 2715.52
+  },
+  {
+    "timestamp": 2720.0,
+    "frame_path": "data\\keyframes\\frame_2720.00.jpg",
+    "associated_text": " than and over K is again standard counting argument and the handshaking lemma. So if the minimum",
+    "start_time": 2715.52,
+    "end_time": 2722.64
+  },
+  {
+    "timestamp": 2725.0,
+    "frame_path": "data\\keyframes\\frame_2725.00.jpg",
+    "associated_text": " degree in H was at least n over K, then the number of edges would be at least n squared over 2K,",
+    "start_time": 2722.64,
+    "end_time": 2728.8
+  },
+  {
+    "timestamp": 2730.0,
+    "frame_path": "data\\keyframes\\frame_2730.00.jpg",
+    "associated_text": " which will only happen in an epsilon sparse graph when n is less than or equal 2K to the power 1 over",
+    "start_time": 2729.52,
+    "end_time": 2737.2
+  },
+  {
+    "timestamp": 2735.0,
+    "frame_path": "data\\keyframes\\frame_2735.00.jpg",
+    "associated_text": " which will only happen in an epsilon sparse graph when n is less than or equal 2K to the power 1 over",
+    "start_time": 2729.52,
+    "end_time": 2737.2
+  },
+  {
+    "timestamp": 2740.0,
+    "frame_path": "data\\keyframes\\frame_2740.00.jpg",
+    "associated_text": " F. And the rest of the proof is basically an induction on K. Okay, and so that shows you that when",
+    "start_time": 2737.7599999999998,
+    "end_time": 2746.8799999999997
+  },
+  {
+    "timestamp": 2745.0,
+    "frame_path": "data\\keyframes\\frame_2745.00.jpg",
+    "associated_text": " F. And the rest of the proof is basically an induction on K. Okay, and so that shows you that when",
+    "start_time": 2737.7599999999998,
+    "end_time": 2746.8799999999997
+  },
+  {
+    "timestamp": 2750.0,
+    "frame_path": "data\\keyframes\\frame_2750.00.jpg",
+    "associated_text": " you do have an epsilon sparse graph with more than this many vertices, then we have a yes instance.",
+    "start_time": 2746.8799999999997,
+    "end_time": 2754.16
+  },
+  {
+    "timestamp": 2755.0,
+    "frame_path": "data\\keyframes\\frame_2755.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2760.0,
+    "frame_path": "data\\keyframes\\frame_2760.00.jpg",
+    "associated_text": " All right, so how about the second part of the claim? So now what happens if we have a C3 C4",
+    "start_time": 2756.3199999999997,
+    "end_time": 2763.2
+  },
+  {
+    "timestamp": 2765.0,
+    "frame_path": "data\\keyframes\\frame_2765.00.jpg",
+    "associated_text": " free J that has a vertex of degree 3K? Well, let's see what happens. So if we have a vertex of",
+    "start_time": 2763.2,
+    "end_time": 2770.48
+  },
+  {
+    "timestamp": 2770.0,
+    "frame_path": "data\\keyframes\\frame_2770.00.jpg",
+    "associated_text": " free J that has a vertex of degree 3K? Well, let's see what happens. So if we have a vertex of",
+    "start_time": 2763.2,
+    "end_time": 2770.48
+  },
+  {
+    "timestamp": 2775.0,
+    "frame_path": "data\\keyframes\\frame_2775.00.jpg",
+    "associated_text": " degree 3K and I'm going to circle it here in yellow. So how can the neighborhood of that vertex look?",
+    "start_time": 2770.48,
+    "end_time": 2778.56
+  },
+  {
+    "timestamp": 2780.0,
+    "frame_path": "data\\keyframes\\frame_2780.00.jpg",
+    "associated_text": " Well, we know that J is C3 free. So the blue edges cannot exist, which means that the neighborhood",
+    "start_time": 2778.56,
+    "end_time": 2785.52
+  },
+  {
+    "timestamp": 2785.0,
+    "frame_path": "data\\keyframes\\frame_2785.00.jpg",
+    "associated_text": " Well, we know that J is C3 free. So the blue edges cannot exist, which means that the neighborhood",
+    "start_time": 2778.56,
+    "end_time": 2785.52
+  },
+  {
+    "timestamp": 2790.0,
+    "frame_path": "data\\keyframes\\frame_2790.00.jpg",
+    "associated_text": " of the yellow vertex is an independent set inside J, not in the whole graph. Well, in fact,",
+    "start_time": 2785.52,
+    "end_time": 2793.36
+  },
+  {
+    "timestamp": 2795.0,
+    "frame_path": "data\\keyframes\\frame_2795.00.jpg",
+    "associated_text": " in the whole well known, because we're only talking about J as a subgratio. Right, so the blue edges",
+    "start_time": 2793.36,
+    "end_time": 2801.28
+  },
+  {
+    "timestamp": 2800.0,
+    "frame_path": "data\\keyframes\\frame_2800.00.jpg",
+    "associated_text": " in the whole well known, because we're only talking about J as a subgratio. Right, so the blue edges",
+    "start_time": 2793.36,
+    "end_time": 2801.28
+  },
+  {
+    "timestamp": 2805.0,
+    "frame_path": "data\\keyframes\\frame_2805.00.jpg",
+    "associated_text": " cannot exist, because otherwise we will get a C3 inside J. All right, so now let's look at the",
+    "start_time": 2801.28,
+    "end_time": 2812.8
+  },
+  {
+    "timestamp": 2810.0,
+    "frame_path": "data\\keyframes\\frame_2810.00.jpg",
+    "associated_text": " cannot exist, because otherwise we will get a C3 inside J. All right, so now let's look at the",
+    "start_time": 2801.28,
+    "end_time": 2812.8
+  },
+  {
+    "timestamp": 2815.0,
+    "frame_path": "data\\keyframes\\frame_2815.00.jpg",
+    "associated_text": " other vertices in S-Union T. The other the second observation that you need is that any vertex",
+    "start_time": 2812.8,
+    "end_time": 2821.04
+  },
+  {
+    "timestamp": 2820.0,
+    "frame_path": "data\\keyframes\\frame_2820.00.jpg",
+    "associated_text": " other vertices in S-Union T. The other the second observation that you need is that any vertex",
+    "start_time": 2812.8,
+    "end_time": 2821.04
+  },
+  {
+    "timestamp": 2825.0,
+    "frame_path": "data\\keyframes\\frame_2825.00.jpg",
+    "associated_text": " other than the yellow vertex can have at most one neighbor in common with the yellow vertex.",
+    "start_time": 2821.04,
+    "end_time": 2825.44
+  },
+  {
+    "timestamp": 2830.0,
+    "frame_path": "data\\keyframes\\frame_2830.00.jpg",
+    "associated_text": " Because if you do have two neighbors in common, then you will get a C4.",
+    "start_time": 2826.96,
+    "end_time": 2831.6000000000004
+  },
+  {
+    "timestamp": 2835.0,
+    "frame_path": "data\\keyframes\\frame_2835.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2840.0,
+    "frame_path": "data\\keyframes\\frame_2840.00.jpg",
+    "associated_text": " So now what happens if we have three K vertices in the neighborhood of the yellow vertex? Well,",
+    "start_time": 2836.0,
+    "end_time": 2841.76
+  },
+  {
+    "timestamp": 2845.0,
+    "frame_path": "data\\keyframes\\frame_2845.00.jpg",
+    "associated_text": " at most two K of them can be connected to some vertex in S-Union T, and you will get at least K",
+    "start_time": 2842.96,
+    "end_time": 2850.4
+  },
+  {
+    "timestamp": 2850.0,
+    "frame_path": "data\\keyframes\\frame_2850.00.jpg",
+    "associated_text": " at most two K of them can be connected to some vertex in S-Union T, and you will get at least K",
+    "start_time": 2842.96,
+    "end_time": 2850.4
+  },
+  {
+    "timestamp": 2855.0,
+    "frame_path": "data\\keyframes\\frame_2855.00.jpg",
+    "associated_text": " of them, some K of them here that are only connected to the yellow vertex. And so now basically,",
+    "start_time": 2850.4,
+    "end_time": 2860.2400000000002
+  },
+  {
+    "timestamp": 2860.0,
+    "frame_path": "data\\keyframes\\frame_2860.00.jpg",
+    "associated_text": " of them, some K of them here that are only connected to the yellow vertex. And so now basically,",
+    "start_time": 2850.4,
+    "end_time": 2860.2400000000002
+  },
+  {
+    "timestamp": 2865.0,
+    "frame_path": "data\\keyframes\\frame_2865.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2870.0,
+    "frame_path": "data\\keyframes\\frame_2870.00.jpg",
+    "associated_text": " and we can use the same strategy. We can jump all the tokens here, starting of course by the yellow",
+    "start_time": 2866.48,
+    "end_time": 2872.7200000000003
+  },
+  {
+    "timestamp": 2875.0,
+    "frame_path": "data\\keyframes\\frame_2875.00.jpg",
+    "associated_text": " token, and then jump them to where they need to go. So now combining those two",
+    "start_time": 2872.72,
+    "end_time": 2885.68
+  },
+  {
+    "timestamp": 2880.0,
+    "frame_path": "data\\keyframes\\frame_2880.00.jpg",
+    "associated_text": " token, and then jump them to where they need to go. So now combining those two",
+    "start_time": 2872.72,
+    "end_time": 2885.68
+  },
+  {
+    "timestamp": 2885.0,
+    "frame_path": "data\\keyframes\\frame_2885.00.jpg",
+    "associated_text": " token, and then jump them to where they need to go. So now combining those two",
+    "start_time": 2872.72,
+    "end_time": 2885.68
+  },
+  {
+    "timestamp": 2890.0,
+    "frame_path": "data\\keyframes\\frame_2890.00.jpg",
+    "associated_text": " observations together, if you will, we get the following theorem. So if H is alpha sparse,",
+    "start_time": 2888.7999999999997,
+    "end_time": 2895.9199999999996
+  },
+  {
+    "timestamp": 2895.0,
+    "frame_path": "data\\keyframes\\frame_2895.00.jpg",
+    "associated_text": " observations together, if you will, we get the following theorem. So if H is alpha sparse,",
+    "start_time": 2888.7999999999997,
+    "end_time": 2895.9199999999996
+  },
+  {
+    "timestamp": 2900.0,
+    "frame_path": "data\\keyframes\\frame_2900.00.jpg",
+    "associated_text": " and J is C3, C4, free, then the problem admits a kernel on this maneuver to C's.",
+    "start_time": 2896.0,
+    "end_time": 2901.28
+  },
+  {
+    "timestamp": 2905.0,
+    "frame_path": "data\\keyframes\\frame_2905.00.jpg",
+    "associated_text": " And it's basically a simple application of the previous two lemmas. If we have more than this",
+    "start_time": 2902.16,
+    "end_time": 2907.36
+  },
+  {
+    "timestamp": 2910.0,
+    "frame_path": "data\\keyframes\\frame_2910.00.jpg",
+    "associated_text": " maneuver to C's in H, it's a trivial S instance. If J has a vertex of degree 3K or more,",
+    "start_time": 2907.36,
+    "end_time": 2914.4
+  },
+  {
+    "timestamp": 2915.0,
+    "frame_path": "data\\keyframes\\frame_2915.00.jpg",
+    "associated_text": " it's trivial S instance, and now you combine all of this together, we know that S-Union T is",
+    "start_time": 2914.4,
+    "end_time": 2919.92
+  },
+  {
+    "timestamp": 2920.0,
+    "frame_path": "data\\keyframes\\frame_2920.00.jpg",
+    "associated_text": " of size at most 2K. We know that the neighborhood of S-Union T is of size at most 2K times 3K,",
+    "start_time": 2919.92,
+    "end_time": 2926.96
+  },
+  {
+    "timestamp": 2925.0,
+    "frame_path": "data\\keyframes\\frame_2925.00.jpg",
+    "associated_text": " of size at most 2K. We know that the neighborhood of S-Union T is of size at most 2K times 3K,",
+    "start_time": 2919.92,
+    "end_time": 2926.96
+  },
+  {
+    "timestamp": 2930.0,
+    "frame_path": "data\\keyframes\\frame_2930.00.jpg",
+    "associated_text": " which is roughly 6K squared. And now we know that the rest of the graph has at most that",
+    "start_time": 2926.96,
+    "end_time": 2932.48
+  },
+  {
+    "timestamp": 2935.0,
+    "frame_path": "data\\keyframes\\frame_2935.00.jpg",
+    "associated_text": " maneuver to C's. So basically, you sum up those numbers and you get this bound.",
+    "start_time": 2932.48,
+    "end_time": 2938.16
+  },
+  {
+    "timestamp": 2940.0,
+    "frame_path": "data\\keyframes\\frame_2940.00.jpg",
+    "associated_text": " All right. So how does this theorem imply the result that I promised you to start with?",
+    "start_time": 2938.3999999999996,
+    "end_time": 2952.3199999999997
+  },
+  {
+    "timestamp": 2945.0,
+    "frame_path": "data\\keyframes\\frame_2945.00.jpg",
+    "associated_text": " All right. So how does this theorem imply the result that I promised you to start with?",
+    "start_time": 2938.3999999999996,
+    "end_time": 2952.3199999999997
+  },
+  {
+    "timestamp": 2950.0,
+    "frame_path": "data\\keyframes\\frame_2950.00.jpg",
+    "associated_text": " All right. So how does this theorem imply the result that I promised you to start with?",
+    "start_time": 2938.3999999999996,
+    "end_time": 2952.3199999999997
+  },
+  {
+    "timestamp": 2955.0,
+    "frame_path": "data\\keyframes\\frame_2955.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2960.0,
+    "frame_path": "data\\keyframes\\frame_2960.00.jpg",
+    "associated_text": " So that token jumping and token sliding admit kernel with order K squared C's,",
+    "start_time": 2955.52,
+    "end_time": 2962.0
+  },
+  {
+    "timestamp": 2965.0,
+    "frame_path": "data\\keyframes\\frame_2965.00.jpg",
+    "associated_text": " I mean, it also holds for bipartite C4 free graphs, right? Obviously, because they are C3, C4, free.",
+    "start_time": 2962.4,
+    "end_time": 2969.52
+  },
+  {
+    "timestamp": 2970.0,
+    "frame_path": "data\\keyframes\\frame_2970.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 2975.0,
+    "frame_path": "data\\keyframes\\frame_2975.00.jpg",
+    "associated_text": " So how do you get the kernel? Well, we know that J cannot contain more than 6K squared minus 2K",
+    "start_time": 2970.24,
+    "end_time": 2978.08
+  },
+  {
+    "timestamp": 2980.0,
+    "frame_path": "data\\keyframes\\frame_2980.00.jpg",
+    "associated_text": " vertices. And we know from another paper that C3 free graphs with K squared over log",
+    "start_time": 2978.08,
+    "end_time": 2989.2
+  },
+  {
+    "timestamp": 2985.0,
+    "frame_path": "data\\keyframes\\frame_2985.00.jpg",
+    "associated_text": " vertices. And we know from another paper that C3 free graphs with K squared over log",
+    "start_time": 2978.08,
+    "end_time": 2989.2
+  },
+  {
+    "timestamp": 2990.0,
+    "frame_path": "data\\keyframes\\frame_2990.00.jpg",
+    "associated_text": " k vertices must have an independent set of size at least K. And now we know that if H contains more",
+    "start_time": 2989.2,
+    "end_time": 2995.68
+  },
+  {
+    "timestamp": 2995.0,
+    "frame_path": "data\\keyframes\\frame_2995.00.jpg",
+    "associated_text": " k vertices must have an independent set of size at least K. And now we know that if H contains more",
+    "start_time": 2989.2,
+    "end_time": 2995.68
+  },
+  {
+    "timestamp": 3000.0,
+    "frame_path": "data\\keyframes\\frame_3000.00.jpg",
+    "associated_text": " than this many vertices, then we will get the S instance as well. Right? So it becomes an immediate",
+    "start_time": 2995.68,
+    "end_time": 3004.0
+  },
+  {
+    "timestamp": 3005.0,
+    "frame_path": "data\\keyframes\\frame_3005.00.jpg",
+    "associated_text": " consequence of the previous theorem, but the previous theorem is even more general than this",
+    "start_time": 3004.0,
+    "end_time": 3008.16
+  },
+  {
+    "timestamp": 3010.0,
+    "frame_path": "data\\keyframes\\frame_3010.00.jpg",
+    "associated_text": " corollary. So this corollary does not really use the full power of this theorem.",
+    "start_time": 3008.16,
+    "end_time": 3012.56
+  },
+  {
+    "timestamp": 3015.0,
+    "frame_path": "data\\keyframes\\frame_3015.00.jpg",
+    "associated_text": " All right. That's it. I think I'm fine. If you have questions, I will take them now.",
+    "start_time": 3013.52,
+    "end_time": 3023.2799999999997
+  },
+  {
+    "timestamp": 3020.0,
+    "frame_path": "data\\keyframes\\frame_3020.00.jpg",
+    "associated_text": " All right. That's it. I think I'm fine. If you have questions, I will take them now.",
+    "start_time": 3013.52,
+    "end_time": 3023.2799999999997
+  },
+  {
+    "timestamp": 3025.0,
+    "frame_path": "data\\keyframes\\frame_3025.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3030.0,
+    "frame_path": "data\\keyframes\\frame_3030.00.jpg",
+    "associated_text": " So it was 55 minutes, right? For the talk. I did not go under the talk.",
+    "start_time": 3029.92,
+    "end_time": 3035.2
+  },
+  {
+    "timestamp": 3035.0,
+    "frame_path": "data\\keyframes\\frame_3035.00.jpg",
+    "associated_text": " So it was 55 minutes, right? For the talk. I did not go under the talk.",
+    "start_time": 3029.92,
+    "end_time": 3035.2
+  },
+  {
+    "timestamp": 3040.0,
+    "frame_path": "data\\keyframes\\frame_3040.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3045.0,
+    "frame_path": "data\\keyframes\\frame_3045.00.jpg",
+    "associated_text": " So I have a question about token sliding. Yes. So how crucial, what happens if one does not restrict",
+    "start_time": 3042.3999999999996,
+    "end_time": 3051.2
+  },
+  {
+    "timestamp": 3050.0,
+    "frame_path": "data\\keyframes\\frame_3050.00.jpg",
+    "associated_text": " So I have a question about token sliding. Yes. So how crucial, what happens if one does not restrict",
+    "start_time": 3042.3999999999996,
+    "end_time": 3051.2
+  },
+  {
+    "timestamp": 3055.0,
+    "frame_path": "data\\keyframes\\frame_3055.00.jpg",
+    "associated_text": " the independent sets during the configuration to be not of the same size,",
+    "start_time": 3051.7599999999998,
+    "end_time": 3057.2
+  },
+  {
+    "timestamp": 3060.0,
+    "frame_path": "data\\keyframes\\frame_3060.00.jpg",
+    "associated_text": " is that is that very critical for the difficulty or the easiness of the problem?",
+    "start_time": 3057.8399999999997,
+    "end_time": 3062.64
+  },
+  {
+    "timestamp": 3065.0,
+    "frame_path": "data\\keyframes\\frame_3065.00.jpg",
+    "associated_text": " Well, you have to be careful how you define that because in token sliding,",
+    "start_time": 3063.6,
+    "end_time": 3068.56
+  },
+  {
+    "timestamp": 3070.0,
+    "frame_path": "data\\keyframes\\frame_3070.00.jpg",
+    "associated_text": " sliding tokens cannot leave the graph. That's correct, but the independent set sequence,",
+    "start_time": 3068.56,
+    "end_time": 3075.68
+  },
+  {
+    "timestamp": 3075.0,
+    "frame_path": "data\\keyframes\\frame_3075.00.jpg",
+    "associated_text": " sliding tokens cannot leave the graph. That's correct, but the independent set sequence,",
+    "start_time": 3068.56,
+    "end_time": 3075.68
+  },
+  {
+    "timestamp": 3080.0,
+    "frame_path": "data\\keyframes\\frame_3080.00.jpg",
+    "associated_text": " Well, if not some token disappeared at some point, and I'm not sure how it disappeared.",
+    "start_time": 3078.3199999999997,
+    "end_time": 3084.08
+  },
+  {
+    "timestamp": 3085.0,
+    "frame_path": "data\\keyframes\\frame_3085.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3090.0,
+    "frame_path": "data\\keyframes\\frame_3090.00.jpg",
+    "associated_text": " Right? Because you start with something of size K, and you're going to something of size K,",
+    "start_time": 3086.4,
+    "end_time": 3091.7599999999998
+  },
+  {
+    "timestamp": 3095.0,
+    "frame_path": "data\\keyframes\\frame_3095.00.jpg",
+    "associated_text": " you cannot leave the graph unless you define it in some way.",
+    "start_time": 3091.76,
+    "end_time": 3097.0400000000004
+  },
+  {
+    "timestamp": 3100.0,
+    "frame_path": "data\\keyframes\\frame_3100.00.jpg",
+    "associated_text": " So you will remain of size K throughout. But you can become slightly larger in K.",
+    "start_time": 3097.84,
+    "end_time": 3103.44
+  },
+  {
+    "timestamp": 3105.0,
+    "frame_path": "data\\keyframes\\frame_3105.00.jpg",
+    "associated_text": " But where does the new token come from?",
+    "start_time": 3104.4,
+    "end_time": 3106.1600000000003
+  },
+  {
+    "timestamp": 3110.0,
+    "frame_path": "data\\keyframes\\frame_3110.00.jpg",
+    "associated_text": " So there is a third rule that I did not tell you about, which is called token addition and removal.",
+    "start_time": 3109.1200000000003,
+    "end_time": 3115.2000000000003
+  },
+  {
+    "timestamp": 3115.0,
+    "frame_path": "data\\keyframes\\frame_3115.00.jpg",
+    "associated_text": " So there is a third rule that I did not tell you about, which is called token addition and removal.",
+    "start_time": 3109.1200000000003,
+    "end_time": 3115.2000000000003
+  },
+  {
+    "timestamp": 3120.0,
+    "frame_path": "data\\keyframes\\frame_3120.00.jpg",
+    "associated_text": " So under that rule, we actually allow you to remove vertices and adversities as long as you remain",
+    "start_time": 3116.08,
+    "end_time": 3123.52
+  },
+  {
+    "timestamp": 3125.0,
+    "frame_path": "data\\keyframes\\frame_3125.00.jpg",
+    "associated_text": " an independent set of size at least K.",
+    "start_time": 3123.52,
+    "end_time": 3125.68
+  },
+  {
+    "timestamp": 3130.0,
+    "frame_path": "data\\keyframes\\frame_3130.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3135.0,
+    "frame_path": "data\\keyframes\\frame_3135.00.jpg",
+    "associated_text": " But in fact, it was shown that it was shown that, so addition and removal is equivalent to token jumping.",
+    "start_time": 3134.24,
+    "end_time": 3143.7599999999998
+  },
+  {
+    "timestamp": 3140.0,
+    "frame_path": "data\\keyframes\\frame_3140.00.jpg",
+    "associated_text": " But in fact, it was shown that it was shown that, so addition and removal is equivalent to token jumping.",
+    "start_time": 3134.24,
+    "end_time": 3143.7599999999998
+  },
+  {
+    "timestamp": 3145.0,
+    "frame_path": "data\\keyframes\\frame_3145.00.jpg",
+    "associated_text": " I see.",
+    "start_time": 3144.0,
+    "end_time": 3145.2000000000003
+  },
+  {
+    "timestamp": 3150.0,
+    "frame_path": "data\\keyframes\\frame_3150.00.jpg",
+    "associated_text": " But it doesn't, it never makes sense to add more tokens to your graph if you don't need them.",
+    "start_time": 3146.0,
+    "end_time": 3150.5600000000004
+  },
+  {
+    "timestamp": 3155.0,
+    "frame_path": "data\\keyframes\\frame_3155.00.jpg",
+    "associated_text": " You're only making your life harder into it if he's speaking.",
+    "start_time": 3154.48,
+    "end_time": 3157.44
+  },
+  {
+    "timestamp": 3160.0,
+    "frame_path": "data\\keyframes\\frame_3160.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3165.0,
+    "frame_path": "data\\keyframes\\frame_3165.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3170.0,
+    "frame_path": "data\\keyframes\\frame_3170.00.jpg",
+    "associated_text": " so is it possible to view this whole problem on an exponential size graph,",
+    "start_time": 3166.7200000000003,
+    "end_time": 3172.7200000000003
+  },
+  {
+    "timestamp": 3175.0,
+    "frame_path": "data\\keyframes\\frame_3175.00.jpg",
+    "associated_text": " where every vertex corresponds to an independent set in the original graph.",
+    "start_time": 3173.3599999999997,
+    "end_time": 3179.68
+  },
+  {
+    "timestamp": 3180.0,
+    "frame_path": "data\\keyframes\\frame_3180.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3185.0,
+    "frame_path": "data\\keyframes\\frame_3185.00.jpg",
+    "associated_text": " If there is an edge between two vertices of the independent set.",
+    "start_time": 3184.8799999999997,
+    "end_time": 3187.9199999999996
+  },
+  {
+    "timestamp": 3190.0,
+    "frame_path": "data\\keyframes\\frame_3190.00.jpg",
+    "associated_text": " And now you're doing a reachability question.",
+    "start_time": 3187.9199999999996,
+    "end_time": 3190.08
+  },
+  {
+    "timestamp": 3195.0,
+    "frame_path": "data\\keyframes\\frame_3195.00.jpg",
+    "associated_text": " But that's exactly what we're doing.",
+    "start_time": 3194.0,
+    "end_time": 3195.52
+  },
+  {
+    "timestamp": 3200.0,
+    "frame_path": "data\\keyframes\\frame_3200.00.jpg",
+    "associated_text": " So the way you define your adjacency, I think, so you mean you define,",
+    "start_time": 3197.4399999999996,
+    "end_time": 3201.2
+  },
+  {
+    "timestamp": 3205.0,
+    "frame_path": "data\\keyframes\\frame_3205.00.jpg",
+    "associated_text": " you make two independent sets adjacent if one can be reached from the other via a single slide or",
+    "start_time": 3201.68,
+    "end_time": 3206.72
+  },
+  {
+    "timestamp": 3210.0,
+    "frame_path": "data\\keyframes\\frame_3210.00.jpg",
+    "associated_text": " Exactly. Yeah, one edge here. There is one pair, you and V, which is adjacent.",
+    "start_time": 3207.52,
+    "end_time": 3211.3599999999997
+  },
+  {
+    "timestamp": 3215.0,
+    "frame_path": "data\\keyframes\\frame_3215.00.jpg",
+    "associated_text": " Okay, okay.",
+    "start_time": 3214.48,
+    "end_time": 3215.2799999999997
+  },
+  {
+    "timestamp": 3220.0,
+    "frame_path": "data\\keyframes\\frame_3220.00.jpg",
+    "associated_text": " I mean, if you, because we're looking at algorithms here, we kind of forget the structural picture behind it.",
+    "start_time": 3216.48,
+    "end_time": 3223.7599999999998
+  },
+  {
+    "timestamp": 3225.0,
+    "frame_path": "data\\keyframes\\frame_3225.00.jpg",
+    "associated_text": " But this algorithm is finding a path in this graph that you're describing.",
+    "start_time": 3224.0,
+    "end_time": 3227.6
+  },
+  {
+    "timestamp": 3230.0,
+    "frame_path": "data\\keyframes\\frame_3230.00.jpg",
+    "associated_text": " Yeah, yeah, that's it.",
+    "start_time": 3228.72,
+    "end_time": 3230.16
+  },
+  {
+    "timestamp": 3235.0,
+    "frame_path": "data\\keyframes\\frame_3235.00.jpg",
+    "associated_text": " And what we're saying is you can do it in FBT time or not, depending on the problem we're talking about.",
+    "start_time": 3230.24,
+    "end_time": 3235.7599999999998
+  },
+  {
+    "timestamp": 3240.0,
+    "frame_path": "data\\keyframes\\frame_3240.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3245.0,
+    "frame_path": "data\\keyframes\\frame_3245.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3250.0,
+    "frame_path": "data\\keyframes\\frame_3250.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3255.0,
+    "frame_path": "data\\keyframes\\frame_3255.00.jpg",
+    "associated_text": " So do problems remain equally hard if we bound the, if we have a restriction on the",
+    "start_time": 3253.2,
+    "end_time": 3259.92
+  },
+  {
+    "timestamp": 3260.0,
+    "frame_path": "data\\keyframes\\frame_3260.00.jpg",
+    "associated_text": " number of times, we can move the token to a particular vertex.",
+    "start_time": 3259.92,
+    "end_time": 3264.7200000000003
+  },
+  {
+    "timestamp": 3265.0,
+    "frame_path": "data\\keyframes\\frame_3265.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3270.0,
+    "frame_path": "data\\keyframes\\frame_3270.00.jpg",
+    "associated_text": " The number of times you can move a token to a particular vertex.",
+    "start_time": 3268.2400000000002,
+    "end_time": 3272.0
+  },
+  {
+    "timestamp": 3275.0,
+    "frame_path": "data\\keyframes\\frame_3275.00.jpg",
+    "associated_text": " And sometimes the tokens can be moved to a vertex.",
+    "start_time": 3273.44,
+    "end_time": 3276.48
+  },
+  {
+    "timestamp": 3280.0,
+    "frame_path": "data\\keyframes\\frame_3280.00.jpg",
+    "associated_text": " Well, that's definitely going to change the complexity in, at least,",
+    "start_time": 3278.4,
+    "end_time": 3282.32
+  },
+  {
+    "timestamp": 3285.0,
+    "frame_path": "data\\keyframes\\frame_3285.00.jpg",
+    "associated_text": " Because now you're saying maybe it will, if you're bounding that by a constant,",
+    "start_time": 3284.72,
+    "end_time": 3289.8399999999997
+  },
+  {
+    "timestamp": 3290.0,
+    "frame_path": "data\\keyframes\\frame_3290.00.jpg",
+    "associated_text": " then you might be saying that I'm not allowing exponentially large sequences anymore.",
+    "start_time": 3289.8399999999997,
+    "end_time": 3294.9599999999996
+  },
+  {
+    "timestamp": 3295.0,
+    "frame_path": "data\\keyframes\\frame_3295.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3300.0,
+    "frame_path": "data\\keyframes\\frame_3300.00.jpg",
+    "associated_text": " But in terms of exactly how the complexity changes, I don't have answers.",
+    "start_time": 3295.4399999999996,
+    "end_time": 3300.3999999999996
+  },
+  {
+    "timestamp": 3305.0,
+    "frame_path": "data\\keyframes\\frame_3305.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3310.0,
+    "frame_path": "data\\keyframes\\frame_3310.00.jpg",
+    "associated_text": " Even in terms of a non-parameterized complexity standard complexity, I think that that would be",
+    "start_time": 3305.52,
+    "end_time": 3310.56
+  },
+  {
+    "timestamp": 3315.0,
+    "frame_path": "data\\keyframes\\frame_3315.00.jpg",
+    "associated_text": " a very interesting question because it will definitely affect the behavior.",
+    "start_time": 3310.56,
+    "end_time": 3315.52
+  },
+  {
+    "timestamp": 3320.0,
+    "frame_path": "data\\keyframes\\frame_3320.00.jpg",
+    "associated_text": " I don't know of any results that ask this particular question.",
+    "start_time": 3318.56,
+    "end_time": 3322.72
+  },
+  {
+    "timestamp": 3325.0,
+    "frame_path": "data\\keyframes\\frame_3325.00.jpg",
+    "associated_text": " Okay, so I had one more question in the W. Harnes Reserve that you presented.",
+    "start_time": 3323.84,
+    "end_time": 3329.04
+  },
+  {
+    "timestamp": 3330.0,
+    "frame_path": "data\\keyframes\\frame_3330.00.jpg",
+    "associated_text": " So do you know what is the length of the, the length of the changes?",
+    "start_time": 3329.04,
+    "end_time": 3336.56
+  },
+  {
+    "timestamp": 3335.0,
+    "frame_path": "data\\keyframes\\frame_3335.00.jpg",
+    "associated_text": " So do you know what is the length of the, the length of the changes?",
+    "start_time": 3329.04,
+    "end_time": 3336.56
+  },
+  {
+    "timestamp": 3340.0,
+    "frame_path": "data\\keyframes\\frame_3340.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3345.0,
+    "frame_path": "data\\keyframes\\frame_3345.00.jpg",
+    "associated_text": " This is just, yes, yes, yes, we do.",
+    "start_time": 3341.2799999999997,
+    "end_time": 3346.08
+  },
+  {
+    "timestamp": 3350.0,
+    "frame_path": "data\\keyframes\\frame_3350.00.jpg",
+    "associated_text": " So here the number of changes is going to be where it's basically going to be the shortest possible",
+    "start_time": 3346.08,
+    "end_time": 3350.88
+  },
+  {
+    "timestamp": 3355.0,
+    "frame_path": "data\\keyframes\\frame_3355.00.jpg",
+    "associated_text": " sequence. So it's going to, it's basically going to be, so if you think about the simple construction,",
+    "start_time": 3350.88,
+    "end_time": 3359.52
+  },
+  {
+    "timestamp": 3360.0,
+    "frame_path": "data\\keyframes\\frame_3360.00.jpg",
+    "associated_text": " this one, it's basically literally going to be these guys are going to move here.",
+    "start_time": 3359.52,
+    "end_time": 3367.2
+  },
+  {
+    "timestamp": 3365.0,
+    "frame_path": "data\\keyframes\\frame_3365.00.jpg",
+    "associated_text": " this one, it's basically literally going to be these guys are going to move here.",
+    "start_time": 3359.52,
+    "end_time": 3367.2
+  },
+  {
+    "timestamp": 3370.0,
+    "frame_path": "data\\keyframes\\frame_3370.00.jpg",
+    "associated_text": " So each is going to cost me one slide and then they're all going to, and now this guy is going to move",
+    "start_time": 3368.0,
+    "end_time": 3373.8399999999997
+  },
+  {
+    "timestamp": 3375.0,
+    "frame_path": "data\\keyframes\\frame_3375.00.jpg",
+    "associated_text": " here and now I will pay one slide for each one here. Now this is the simplified version of it.",
+    "start_time": 3373.8399999999997,
+    "end_time": 3381.3599999999997
+  },
+  {
+    "timestamp": 3380.0,
+    "frame_path": "data\\keyframes\\frame_3380.00.jpg",
+    "associated_text": " here and now I will pay one slide for each one here. Now this is the simplified version of it.",
+    "start_time": 3373.8399999999997,
+    "end_time": 3381.3599999999997
+  },
+  {
+    "timestamp": 3385.0,
+    "frame_path": "data\\keyframes\\frame_3385.00.jpg",
+    "associated_text": " Once you go to the complete version of it, you have some extra slides within the path,",
+    "start_time": 3381.3599999999997,
+    "end_time": 3386.24
+  },
+  {
+    "timestamp": 3390.0,
+    "frame_path": "data\\keyframes\\frame_3390.00.jpg",
+    "associated_text": " Okay, so, but does this mean that, so does this mean that at a particular vertex,",
+    "start_time": 3389.52,
+    "end_time": 3396.8799999999997
+  },
+  {
+    "timestamp": 3395.0,
+    "frame_path": "data\\keyframes\\frame_3395.00.jpg",
+    "associated_text": " Okay, so, but does this mean that, so does this mean that at a particular vertex,",
+    "start_time": 3389.52,
+    "end_time": 3396.8799999999997
+  },
+  {
+    "timestamp": 3400.0,
+    "frame_path": "data\\keyframes\\frame_3400.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3405.0,
+    "frame_path": "data\\keyframes\\frame_3405.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3410.0,
+    "frame_path": "data\\keyframes\\frame_3410.00.jpg",
+    "associated_text": " Okay, so this problem should be hard even if we bound the number of times tokens can be moved to",
+    "start_time": 3405.92,
+    "end_time": 3412.0
+  },
+  {
+    "timestamp": 3415.0,
+    "frame_path": "data\\keyframes\\frame_3415.00.jpg",
+    "associated_text": " a vertex, right? Yes. Okay. So here in this case, yes, absolutely.",
+    "start_time": 3412.0,
+    "end_time": 3420.6400000000003
+  },
+  {
+    "timestamp": 3420.0,
+    "frame_path": "data\\keyframes\\frame_3420.00.jpg",
+    "associated_text": " a vertex, right? Yes. Okay. So here in this case, yes, absolutely.",
+    "start_time": 3412.0,
+    "end_time": 3420.6400000000003
+  },
+  {
+    "timestamp": 3425.0,
+    "frame_path": "data\\keyframes\\frame_3425.00.jpg",
+    "associated_text": " So, Akansha, I have a remark about your question. So if a vertex, if a vertex cannot get a token to",
+    "start_time": 3424.48,
+    "end_time": 3433.04
+  },
+  {
+    "timestamp": 3430.0,
+    "frame_path": "data\\keyframes\\frame_3430.00.jpg",
+    "associated_text": " So, Akansha, I have a remark about your question. So if a vertex, if a vertex cannot get a token to",
+    "start_time": 3424.48,
+    "end_time": 3433.04
+  },
+  {
+    "timestamp": 3435.0,
+    "frame_path": "data\\keyframes\\frame_3435.00.jpg",
+    "associated_text": " eyes, then it somehow seems to be selecting disjoint independent sets, a sequence of them,",
+    "start_time": 3433.04,
+    "end_time": 3441.7599999999998
+  },
+  {
+    "timestamp": 3440.0,
+    "frame_path": "data\\keyframes\\frame_3440.00.jpg",
+    "associated_text": " eyes, then it somehow seems to be selecting disjoint independent sets, a sequence of them,",
+    "start_time": 3433.04,
+    "end_time": 3441.7599999999998
+  },
+  {
+    "timestamp": 3445.0,
+    "frame_path": "data\\keyframes\\frame_3445.00.jpg",
+    "associated_text": " and that may have some bearing on coloring. Just a top level top.",
+    "start_time": 3441.7599999999998,
+    "end_time": 3445.7599999999998
+  },
+  {
+    "timestamp": 3450.0,
+    "frame_path": "data\\keyframes\\frame_3450.00.jpg",
+    "associated_text": " So actually for the list, the W hardness case that Amit presented, it is exactly the case,",
+    "start_time": 3449.92,
+    "end_time": 3456.0
+  },
+  {
+    "timestamp": 3455.0,
+    "frame_path": "data\\keyframes\\frame_3455.00.jpg",
+    "associated_text": " So actually for the list, the W hardness case that Amit presented, it is exactly the case,",
+    "start_time": 3449.92,
+    "end_time": 3456.0
+  },
+  {
+    "timestamp": 3460.0,
+    "frame_path": "data\\keyframes\\frame_3460.00.jpg",
+    "associated_text": " right? So we are not allowed to move the token like twice on the same vertex.",
+    "start_time": 3456.0,
+    "end_time": 3461.36
+  },
+  {
+    "timestamp": 3465.0,
+    "frame_path": "data\\keyframes\\frame_3465.00.jpg",
+    "associated_text": " So I didn't get your point of being, so getting this disjoint independence, it's actually.",
+    "start_time": 3464.1600000000003,
+    "end_time": 3469.44
+  },
+  {
+    "timestamp": 3470.0,
+    "frame_path": "data\\keyframes\\frame_3470.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3475.0,
+    "frame_path": "data\\keyframes\\frame_3475.00.jpg",
+    "associated_text": " Because if you say, if you think of it from my, the way I thought about it, right, that you",
+    "start_time": 3470.1600000000003,
+    "end_time": 3475.1200000000003
+  },
+  {
+    "timestamp": 3480.0,
+    "frame_path": "data\\keyframes\\frame_3480.00.jpg",
+    "associated_text": " independent set and you move from one independent set to another. So we can only move from one",
+    "start_time": 3479.6,
+    "end_time": 3487.68
+  },
+  {
+    "timestamp": 3485.0,
+    "frame_path": "data\\keyframes\\frame_3485.00.jpg",
+    "associated_text": " independent set and you move from one independent set to another. So we can only move from one",
+    "start_time": 3479.6,
+    "end_time": 3487.68
+  },
+  {
+    "timestamp": 3490.0,
+    "frame_path": "data\\keyframes\\frame_3490.00.jpg",
+    "associated_text": " independent set to the other if the change is like in case of tokens sliding, it's one probably.",
+    "start_time": 3487.68,
+    "end_time": 3496.64
+  },
+  {
+    "timestamp": 3495.0,
+    "frame_path": "data\\keyframes\\frame_3495.00.jpg",
+    "associated_text": " independent set to the other if the change is like in case of tokens sliding, it's one probably.",
+    "start_time": 3487.68,
+    "end_time": 3496.64
+  },
+  {
+    "timestamp": 3500.0,
+    "frame_path": "data\\keyframes\\frame_3500.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3505.0,
+    "frame_path": "data\\keyframes\\frame_3505.00.jpg",
+    "associated_text": " So it looks to be that you're asking for a collection of independent sets which are vertex disjoint.",
+    "start_time": 3502.1600000000003,
+    "end_time": 3510.48
+  },
+  {
+    "timestamp": 3510.0,
+    "frame_path": "data\\keyframes\\frame_3510.00.jpg",
+    "associated_text": " So it looks to be that you're asking for a collection of independent sets which are vertex disjoint.",
+    "start_time": 3502.1600000000003,
+    "end_time": 3510.48
+  },
+  {
+    "timestamp": 3515.0,
+    "frame_path": "data\\keyframes\\frame_3515.00.jpg",
+    "associated_text": " Now, so if I may, I think I think a conscious question would be more relevant in a place where we",
+    "start_time": 3514.96,
+    "end_time": 3521.76
+  },
+  {
+    "timestamp": 3520.0,
+    "frame_path": "data\\keyframes\\frame_3520.00.jpg",
+    "associated_text": " Now, so if I may, I think I think a conscious question would be more relevant in a place where we",
+    "start_time": 3514.96,
+    "end_time": 3521.76
+  },
+  {
+    "timestamp": 3525.0,
+    "frame_path": "data\\keyframes\\frame_3525.00.jpg",
+    "associated_text": " don't have a monotone sequence, meaning a sequence. So we need a version of the problem or some",
+    "start_time": 3521.76,
+    "end_time": 3528.2400000000002
+  },
+  {
+    "timestamp": 3530.0,
+    "frame_path": "data\\keyframes\\frame_3530.00.jpg",
+    "associated_text": " cases of the problem where a vertex has to be visited multiple times to find solutions. And that",
+    "start_time": 3528.2400000000002,
+    "end_time": 3535.1200000000003
+  },
+  {
+    "timestamp": 3535.0,
+    "frame_path": "data\\keyframes\\frame_3535.00.jpg",
+    "associated_text": " cases of the problem where a vertex has to be visited multiple times to find solutions. And that",
+    "start_time": 3528.2400000000002,
+    "end_time": 3535.1200000000003
+  },
+  {
+    "timestamp": 3540.0,
+    "frame_path": "data\\keyframes\\frame_3540.00.jpg",
+    "associated_text": " is known to be the case for some versions or some statements of the problem. And in fact,",
+    "start_time": 3535.1200000000003,
+    "end_time": 3541.28
+  },
+  {
+    "timestamp": 3545.0,
+    "frame_path": "data\\keyframes\\frame_3545.00.jpg",
+    "associated_text": " the conscious also, this was the crucial difference between piece-based completeness and NP",
+    "start_time": 3541.28,
+    "end_time": 3546.32
+  },
+  {
+    "timestamp": 3550.0,
+    "frame_path": "data\\keyframes\\frame_3550.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3555.0,
+    "frame_path": "data\\keyframes\\frame_3555.00.jpg",
+    "associated_text": " So it was because we were able to show that no vertex will be visited more than once.",
+    "start_time": 3550.96,
+    "end_time": 3555.76
+  },
+  {
+    "timestamp": 3560.0,
+    "frame_path": "data\\keyframes\\frame_3560.00.jpg",
+    "associated_text": " And the other problem. So that's why it's definitely an interesting question to pose, but you have",
+    "start_time": 3558.0,
+    "end_time": 3562.96
+  },
+  {
+    "timestamp": 3565.0,
+    "frame_path": "data\\keyframes\\frame_3565.00.jpg",
+    "associated_text": " to be careful in what context you pose it. Great.",
+    "start_time": 3562.96,
+    "end_time": 3566.4
+  },
+  {
+    "timestamp": 3570.0,
+    "frame_path": "data\\keyframes\\frame_3570.00.jpg",
+    "associated_text": " I don't know if that kind of settles. Answer is your question.",
+    "start_time": 3569.04,
+    "end_time": 3573.68
+  },
+  {
+    "timestamp": 3575.0,
+    "frame_path": "data\\keyframes\\frame_3575.00.jpg",
+    "associated_text": " Yes, yes, it does.",
+    "start_time": 3574.56,
+    "end_time": 3575.52
+  },
+  {
+    "timestamp": 3580.0,
+    "frame_path": "data\\keyframes\\frame_3580.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3585.0,
+    "frame_path": "data\\keyframes\\frame_3585.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3590.0,
+    "frame_path": "data\\keyframes\\frame_3590.00.jpg",
+    "associated_text": " Any more questions?",
+    "start_time": 3587.04,
+    "end_time": 3594.48
+  },
+  {
+    "timestamp": 3595.0,
+    "frame_path": "data\\keyframes\\frame_3595.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3600.0,
+    "frame_path": "data\\keyframes\\frame_3600.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3605.0,
+    "frame_path": "data\\keyframes\\frame_3605.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3610.0,
+    "frame_path": "data\\keyframes\\frame_3610.00.jpg",
+    "associated_text": " I guess not.",
+    "start_time": 3608.3999999999996,
+    "end_time": 3617.12
+  },
+  {
+    "timestamp": 3615.0,
+    "frame_path": "data\\keyframes\\frame_3615.00.jpg",
+    "associated_text": " I guess not.",
+    "start_time": 3608.3999999999996,
+    "end_time": 3617.12
+  },
+  {
+    "timestamp": 3620.0,
+    "frame_path": "data\\keyframes\\frame_3620.00.jpg",
+    "associated_text": " Yeah, I don't think that I'm going to go. So I'll just once again announce the parameterized",
+    "start_time": 3617.12,
+    "end_time": 3627.2799999999997
+  },
+  {
+    "timestamp": 3625.0,
+    "frame_path": "data\\keyframes\\frame_3625.00.jpg",
+    "associated_text": " Yeah, I don't think that I'm going to go. So I'll just once again announce the parameterized",
+    "start_time": 3617.12,
+    "end_time": 3627.2799999999997
+  },
+  {
+    "timestamp": 3630.0,
+    "frame_path": "data\\keyframes\\frame_3630.00.jpg",
+    "associated_text": " and go to them to 301 workshop, which is going to happen in December in the link has been posted",
+    "start_time": 3627.2799999999997,
+    "end_time": 3632.7999999999997
+  },
+  {
+    "timestamp": 3635.0,
+    "frame_path": "data\\keyframes\\frame_3635.00.jpg",
+    "associated_text": " once again in the chat. Some advanced topics in parameterized complexity will be discussed.",
+    "start_time": 3632.8,
+    "end_time": 3638.7200000000003
+  },
+  {
+    "timestamp": 3640.0,
+    "frame_path": "data\\keyframes\\frame_3640.00.jpg",
+    "associated_text": " Those interested can have a look and register for it.",
+    "start_time": 3638.7200000000003,
+    "end_time": 3641.6000000000004
+  },
+  {
+    "timestamp": 3645.0,
+    "frame_path": "data\\keyframes\\frame_3645.00.jpg",
+    "associated_text": " And yeah, if there are some more questions, please ask away.",
+    "start_time": 3643.76,
+    "end_time": 3654.32
+  },
+  {
+    "timestamp": 3650.0,
+    "frame_path": "data\\keyframes\\frame_3650.00.jpg",
+    "associated_text": " And yeah, if there are some more questions, please ask away.",
+    "start_time": 3643.76,
+    "end_time": 3654.32
+  },
+  {
+    "timestamp": 3655.0,
+    "frame_path": "data\\keyframes\\frame_3655.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3660.0,
+    "frame_path": "data\\keyframes\\frame_3660.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3665.0,
+    "frame_path": "data\\keyframes\\frame_3665.00.jpg",
+    "associated_text": " So anyone can register for the school?",
+    "start_time": 3662.8,
+    "end_time": 3678.8
+  },
+  {
+    "timestamp": 3670.0,
+    "frame_path": "data\\keyframes\\frame_3670.00.jpg",
+    "associated_text": " So anyone can register for the school?",
+    "start_time": 3662.8,
+    "end_time": 3678.8
+  },
+  {
+    "timestamp": 3675.0,
+    "frame_path": "data\\keyframes\\frame_3675.00.jpg",
+    "associated_text": " So anyone can register for the school?",
+    "start_time": 3662.8,
+    "end_time": 3678.8
+  },
+  {
+    "timestamp": 3680.0,
+    "frame_path": "data\\keyframes\\frame_3680.00.jpg",
+    "associated_text": " Yes, here's anyone can.",
+    "start_time": 3678.8,
+    "end_time": 3680.48
+  },
+  {
+    "timestamp": 3685.0,
+    "frame_path": "data\\keyframes\\frame_3685.00.jpg",
+    "associated_text": " Yeah, it's free and it's online and yeah, it's open to everyone.",
+    "start_time": 3682.48,
+    "end_time": 3687.2000000000003
+  },
+  {
+    "timestamp": 3690.0,
+    "frame_path": "data\\keyframes\\frame_3690.00.jpg",
+    "associated_text": " Awesome. So I can share it with my students as well.",
+    "start_time": 3687.2000000000003,
+    "end_time": 3690.32
+  },
+  {
+    "timestamp": 3695.0,
+    "frame_path": "data\\keyframes\\frame_3695.00.jpg",
+    "associated_text": " Yeah, that was good. And we assume some basic understanding of parameterized algorithms,",
+    "start_time": 3691.6000000000004,
+    "end_time": 3696.96
+  },
+  {
+    "timestamp": 3700.0,
+    "frame_path": "data\\keyframes\\frame_3700.00.jpg",
+    "associated_text": " but we have already shared a link on the page where students can go and go through some",
+    "start_time": 3696.96,
+    "end_time": 3704.2400000000002
+  },
+  {
+    "timestamp": 3705.0,
+    "frame_path": "data\\keyframes\\frame_3705.00.jpg",
+    "associated_text": " previous lectures in parameterized algorithms if they wish to just brace up or revise stuff.",
+    "start_time": 3704.2400000000002,
+    "end_time": 3710.4
+  },
+  {
+    "timestamp": 3710.0,
+    "frame_path": "data\\keyframes\\frame_3710.00.jpg",
+    "associated_text": " previous lectures in parameterized algorithms if they wish to just brace up or revise stuff.",
+    "start_time": 3704.2400000000002,
+    "end_time": 3710.4
+  },
+  {
+    "timestamp": 3715.0,
+    "frame_path": "data\\keyframes\\frame_3715.00.jpg",
+    "associated_text": null,
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "timestamp": 3720.0,
+    "frame_path": "data\\keyframes\\frame_3720.00.jpg",
+    "associated_text": " So I guess, okay, I don't think there are any more questions.",
+    "start_time": 3718.24,
+    "end_time": 3723.7599999999998
+  },
+  {
+    "timestamp": 3725.0,
+    "frame_path": "data\\keyframes\\frame_3725.00.jpg",
+    "associated_text": " So I give this a good time to wrapper. So thank you once in a",
+    "start_time": 3724.3999999999996,
+    "end_time": 3728.9599999999996
+  },
+  {
+    "timestamp": 3730.0,
+    "frame_path": "data\\keyframes\\frame_3730.00.jpg",
+    "associated_text": " professional for agreeing to give the talk. It was really nice to have you and",
+    "start_time": 3728.9599999999996,
+    "end_time": 3733.7599999999998
+  },
+  {
+    "timestamp": 3735.0,
+    "frame_path": "data\\keyframes\\frame_3735.00.jpg",
+    "associated_text": " it was really good to have something different than what we usually hear in every",
+    "start_time": 3733.7599999999998,
+    "end_time": 3737.68
+  },
+  {
+    "timestamp": 3740.0,
+    "frame_path": "data\\keyframes\\frame_3740.00.jpg",
+    "associated_text": " parent-based complexity talk, at least most of them.",
+    "start_time": 3737.68,
+    "end_time": 3740.8799999999997
+  },
+  {
+    "timestamp": 3745.0,
+    "frame_path": "data\\keyframes\\frame_3745.00.jpg",
+    "associated_text": " So and yeah, these are really interesting problems to think of on.",
+    "start_time": 3740.8799999999997,
+    "end_time": 3745.2
+  },
+  {
+    "timestamp": 3750.0,
+    "frame_path": "data\\keyframes\\frame_3750.00.jpg",
+    "associated_text": " And that's it for today's wrap up.",
+    "start_time": 3748.56,
+    "end_time": 3750.7999999999997
+  },
+  {
+    "timestamp": 3755.0,
+    "frame_path": "data\\keyframes\\frame_3755.00.jpg",
+    "associated_text": " Thank you. Bye.",
+    "start_time": 3754.16,
+    "end_time": 3755.3599999999997
+  }
+]

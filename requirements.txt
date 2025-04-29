@@ -1,0 +1,22 @@
+# Processing
+yt-dlp
+opencv-python
+openai-whisper
+moviepy
+
+# Embedding
+faiss-cpu
+transformers
+torch
+
+# Search
+psycopg2-binary
+rank_bm25
+scikit-learn
+nltk
+
+# Image Transformations
+torchvision
+
+# Web UI
+streamlit
