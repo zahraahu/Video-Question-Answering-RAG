@@ -1,5 +1,5 @@
-from utils.paths import TEXT_EMBEDDINGS_JSON, IMAGE_EMBEDDINGS_JSON, TEXT_FAISS_INDEX_PATH, IMAGE_FAISS_INDEX_PATH
-from utils.utils import load_json, build_faiss_index
+from utils.paths import TEXT_EMBEDDINGS_JSON, IMAGE_EMBEDDINGS_JSON
+from utils.utils import load_json
 from utils.postgresql_utils import save_text_embeddings_to_postgres, save_image_embeddings_to_postgres, create_index_on_embeddings
 from utils.postgresql_utils import create_text_embeddings_table, create_image_embeddings_table
 import numpy as np
@@ -17,13 +17,6 @@ def main():
     filenames = [entry["filename"] for entry in image_data]
     image_embeddings = np.array([entry["embedding"] for entry in image_data], dtype=np.float32)
 
-    # Create FAISS indexes
-    print("Building FAISS index for text embeddings...")
-    build_faiss_index(text_embeddings, text_embeddings.shape[1], TEXT_FAISS_INDEX_PATH)
-
-    print("Building FAISS index for image embeddings...")
-    build_faiss_index(image_embeddings, image_embeddings.shape[1], IMAGE_FAISS_INDEX_PATH)
-
     # Save text and image embeddings to Postgres
     print("Saving text embeddings to Postgres...")
     create_text_embeddings_table()
@@ -38,7 +31,7 @@ def main():
     create_index_on_embeddings()
     print("Postgres indexes created.")
 
-    print("Finished indexing process!")
+    print("Finished postgres indexing process!")
 
 
 if __name__ == "__main__":
